@@ -1,29 +1,29 @@
 {
   "package": "EnergyWave Due Diligence",
-  "version": "DD-2026-10-14-r1-draft",
-  "generated_utc": "2026-10-14T22:50:36Z",
+  "version": "DD-2026-10-14-r2-draft",
+  "generated_utc": "2026-10-14T23:34:51Z",
   "lint": "OK",
   "file_count": 14,
   "files": [
     {
       "path": "DECISIONS.md",
-      "bytes": 5459,
-      "sha256": "37c14877dd066325d52c48aeedd61e9beb03dda182096646c7be08f6bf17d1f5"
+      "bytes": 8368,
+      "sha256": "e55dcd4fa9f0c6468cdbbc074eced47d000f411610ac00cad0d5664da53c90f0"
     },
     {
       "path": "README.md",
-      "bytes": 4972,
-      "sha256": "f0548e2bb284835a3042736ccd3616d4562cff59353803962a85c2fa3818d302"
+      "bytes": 6685,
+      "sha256": "89c3e6eb40b6ddd04749f206a47de62036a4257b0280d260bda10ae528315900"
     },
     {
       "path": "REVIEW_PROTOCOL.md",
-      "bytes": 2210,
-      "sha256": "a3c79a6ecf1e97b5080366e0e1b754990320a67c95b7133d9144e5e608c99605"
+      "bytes": 3239,
+      "sha256": "9c32aef47d616f2fa51eba063d3e369ecc0a42a5a7c37202351fb6ba9039c73b"
     },
     {
       "path": "SOURCE_LEDGER.md",
-      "bytes": 9863,
-      "sha256": "291af257f7085a164ca4e074cc7d4028c04349f71260cd9999bb56fa226d49a7"
+      "bytes": 21760,
+      "sha256": "9f371bab74b62cfd8d63ce1b4ab2d5cf8ca3843c702f4690fcb89c2e8bcca104"
     },
     {
       "path": "01_Investor/01_Capital_Readiness/EnergyWave_Deck_2026-10-13.pdf",
@@ -37,43 +37,71 @@
     },
     {
       "path": "01_Investor/01_Capital_Readiness/README.md",
-      "bytes": 1606,
-      "sha256": "c0090917cb5136a627ae77c50b9217542d88f7326975f34d515b244dd5141a6d"
+      "bytes": 2042,
+      "sha256": "be187ae7e4e8df4a64c261a3a54dd9f3336aa81b0a4e419c28f6a8b6e3ede6c3"
     },
     {
       "path": "01_Investor/02_Seed_Round/README.md",
-      "bytes": 1054,
-      "sha256": "fdd189c3829574862e58ad079010e6a7508934e42eb4e782bef530806ff0ad7e"
+      "bytes": 1437,
+      "sha256": "dcc362aebea58019a1b04c3c1940504a4a88e450a2e5d274beeb85deab72f1a4"
     },
     {
       "path": "01_Investor/03_Series_A/README.md",
-      "bytes": 879,
-      "sha256": "2dc6dfb4811b2c5730cb362720c3edd203477e2729775fcc4af445410010df64"
+      "bytes": 1241,
+      "sha256": "f00611a74e0890f4b9afc09eb99303d06bfad64e229e7af0def83523134bcd34"
     },
     {
       "path": "02_DoW/README.md",
-      "bytes": 1696,
-      "sha256": "263cce5616e01d83ca1bfd6cdda8139d71f0f3886996c4974af43709d8db59ff"
+      "bytes": 3597,
+      "sha256": "85c4ae9407d003c9ba798dced96a43b39012f9464305810e4b2e5eaaa2e0555b"
     },
     {
       "path": "03_Technical_Documents/README.md",
-      "bytes": 1756,
-      "sha256": "9f042b08ffe9ed50426c09f009a1bbe5edc90424b8bd4fab20534c75b32ea6e5"
+      "bytes": 2729,
+      "sha256": "729569d1dce37fdcd68a8d0782f307d7d55338c248be4dd69abc41ed014867df"
     },
     {
       "path": "04_Legal_and_IP/README.md",
-      "bytes": 1651,
-      "sha256": "f8494ea92150a8e93dfe9dd8b589c1043b389fb0f0da210698d9b27b8a43243d"
+      "bytes": 4086,
+      "sha256": "f293707bbea47f7eb6e424e2d6661396dcda0de0a110938f77a54a5a7364b46d"
     },
     {
       "path": "05_Team/README.md",
-      "bytes": 1667,
-      "sha256": "dcda8b9610a6153bfd9f898854c80954793c3039b4db5667f65c491c91cf964f"
+      "bytes": 2961,
+      "sha256": "43da49ae088305d860d1c618d24c7eb4aa77d4b6ce4ee4a48ef39e6c4dd0fd1b"
     },
     {
       "path": "99_Source_Archive/README.md",
-      "bytes": 781,
-      "sha256": "4bed968bed96e39b29195beb55f21523102998f429c6c433df12754d0e5668ca"
+      "bytes": 1102,
+      "sha256": "abb9f128bb94cd8e3fd5f568ed38d479d2caf3e4adcea7289f13726f91e69f8b"
     }
-  ]
+  ],
+  "controls": [
+    {
+      "path": "tools/lint.py",
+      "bytes": 13912,
+      "sha256": "9afd392b9b0a65fee16d2f7be6a61d8526e26a6f453a0d266b7ceb6ba42e8858"
+    },
+    {
+      "path": "tools/lint.sh",
+      "bytes": 263,
+      "sha256": "d9cd2676a8f8cdb6cc903f1d80520c458792f2744a9c5cfac24216a155615621"
+    },
+    {
+      "path": "tools/build_manifest.py",
+      "bytes": 4070,
+      "sha256": "2a744cc9942a3a71d9b4a7fb8b039db14cc90351202d339686d03385c91fda93"
+    },
+    {
+      "path": "tools/verify_manifest.py",
+      "bytes": 4584,
+      "sha256": "ff47ca15a4ce5bf6f7d752a57b26bc3635357ddec004a146356604b061ae8bb9"
+    },
+    {
+      "path": "tools/tests/run_probes.py",
+      "bytes": 10796,
+      "sha256": "9e05023b779d9e0b78553ab8b23f8bc910f3f33827d60fe770818fc1b982ca47"
+    }
+  ],
+  "verify": "python3 tools/verify_manifest.py --manifest <trusted manifest.json> --root <mirror> --expect-manifest-sha256 <pinned hash>"
 }
