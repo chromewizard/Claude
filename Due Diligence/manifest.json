@@ -1,0 +1,79 @@
+{
+  "package": "EnergyWave Due Diligence",
+  "version": "DD-2026-10-14-r1-draft",
+  "generated_utc": "2026-10-14T22:50:36Z",
+  "lint": "OK",
+  "file_count": 14,
+  "files": [
+    {
+      "path": "DECISIONS.md",
+      "bytes": 5459,
+      "sha256": "37c14877dd066325d52c48aeedd61e9beb03dda182096646c7be08f6bf17d1f5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4972,
+      "sha256": "f0548e2bb284835a3042736ccd3616d4562cff59353803962a85c2fa3818d302"
+    },
+    {
+      "path": "REVIEW_PROTOCOL.md",
+      "bytes": 2210,
+      "sha256": "a3c79a6ecf1e97b5080366e0e1b754990320a67c95b7133d9144e5e608c99605"
+    },
+    {
+      "path": "SOURCE_LEDGER.md",
+      "bytes": 9863,
+      "sha256": "291af257f7085a164ca4e074cc7d4028c04349f71260cd9999bb56fa226d49a7"
+    },
+    {
+      "path": "01_Investor/01_Capital_Readiness/EnergyWave_Deck_2026-10-13.pdf",
+      "bytes": 814236,
+      "sha256": "3446357c59b344fa4825bfcadd324c381c7c1ee41f320571301f11e621160b83"
+    },
+    {
+      "path": "01_Investor/01_Capital_Readiness/EnergyWave_OnePager_2026-10-13.pdf",
+      "bytes": 132996,
+      "sha256": "dda97ba0224a842b6291ba2aacb1014d758745658e216f113ffe7d9ab179e570"
+    },
+    {
+      "path": "01_Investor/01_Capital_Readiness/README.md",
+      "bytes": 1606,
+      "sha256": "c0090917cb5136a627ae77c50b9217542d88f7326975f34d515b244dd5141a6d"
+    },
+    {
+      "path": "01_Investor/02_Seed_Round/README.md",
+      "bytes": 1054,
+      "sha256": "fdd189c3829574862e58ad079010e6a7508934e42eb4e782bef530806ff0ad7e"
+    },
+    {
+      "path": "01_Investor/03_Series_A/README.md",
+      "bytes": 879,
+      "sha256": "2dc6dfb4811b2c5730cb362720c3edd203477e2729775fcc4af445410010df64"
+    },
+    {
+      "path": "02_DoW/README.md",
+      "bytes": 1696,
+      "sha256": "263cce5616e01d83ca1bfd6cdda8139d71f0f3886996c4974af43709d8db59ff"
+    },
+    {
+      "path": "03_Technical_Documents/README.md",
+      "bytes": 1756,
+      "sha256": "9f042b08ffe9ed50426c09f009a1bbe5edc90424b8bd4fab20534c75b32ea6e5"
+    },
+    {
+      "path": "04_Legal_and_IP/README.md",
+      "bytes": 1651,
+      "sha256": "f8494ea92150a8e93dfe9dd8b589c1043b389fb0f0da210698d9b27b8a43243d"
+    },
+    {
+      "path": "05_Team/README.md",
+      "bytes": 1667,
+      "sha256": "dcda8b9610a6153bfd9f898854c80954793c3039b4db5667f65c491c91cf964f"
+    },
+    {
+      "path": "99_Source_Archive/README.md",
+      "bytes": 781,
+      "sha256": "4bed968bed96e39b29195beb55f21523102998f429c6c433df12754d0e5668ca"
+    }
+  ]
+}
