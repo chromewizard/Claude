@@ -2,7 +2,7 @@
 
 **What this is.** The later-stage package: the raise model Ian built, the cap table and the Series A deck.
 
-**Status (r5).** The Raise Model is placed as a **corrected copy**, its reading note is drafted, and the Series A Readiness Outline lists what a Series A reader expects, what exists, and what closes each gap. Raise Model v2, cap table v1.1 and a Series-A-specific deck are referenced by the September manifest but **not located** (M-08); the outline tags them `[Needs Input from Ian or Chip: …]` (register B-3).
+**Status (r5).** The Raise Model is placed as a **corrected copy**, its reading note is drafted, and the Series A Readiness Outline lists what a Series A reader expects, what exists, and what closes each gap. Raise Model v2, cap table v1.1 and a Series-A-specific deck are referenced by the September manifest but **not located** (M-08); the outline marks them `[TBD] — …` (orange ink) (register B-3). Founder's Series A example audience: groups such as Sequoia Capital — a target, not a relationship (15 Oct 2026).
 
 ## Contents
 
@@ -16,7 +16,7 @@
 
 | Item | Note |
 |---|---|
-| Raise Model v2 (11 Sept 2026) | Headline figures known from the Financial Status note ($19.68M base / $23.40M with the full engineering band); the file is not in the inventory — ask Ian whether it exists as a file. |
+| Raise Model v2 (11 Sept 2026) | Headline figures known from the Financial Status note ($19.68M base / $23.40M with the full engineering band); the file is not in the inventory — TBD; not asked again. |
 | Cap table v1.1 DRAFT (11 Sept 2026) | Founder ≈ 29.5% fully diluted after Series A on placeholder inputs (Financial Status note); file not located. |
 | Series A deck (13 slides, 11 Sept 2026) | Not located. |
 

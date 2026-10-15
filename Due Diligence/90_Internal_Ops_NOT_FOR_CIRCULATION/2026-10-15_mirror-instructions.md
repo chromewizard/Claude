@@ -14,7 +14,7 @@ git checkout <COMMIT FROM THE HANDOFF>
 ## 2. Place the release in the collection (Mac copy)
 
 ```
-REL=DD-2026-10-15-r5.4-draft
+REL=DD-2026-10-15-r5.6-draft
 rsync -a --exclude .git "EnergyWave-DD-src/Due Diligence/" "$HOME/Documents/EnergyWave Final/Due Diligence/$REL/"
 ```
 
@@ -43,4 +43,4 @@ GPT/Lyra assembles the nine audience folders (`Capital Readiness` / `Seed Round`
 
 ## 6. Claude Project
 
-Upload `manifest.json`, `MANIFEST.md` and the twenty rendered documents to the *EnergyWave Ops* project knowledge, and link the repository. [Needs Input from Ian or Chip: do this, or give the assistant project-knowledge access]
+Ian or Antigravity: upload `manifest.json`, `MANIFEST.md` and the twenty-one rendered documents to the *EnergyWave Ops* project knowledge, and link the repository — an action item, not a question.

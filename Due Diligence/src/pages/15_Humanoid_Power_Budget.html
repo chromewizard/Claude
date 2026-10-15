@@ -1,14 +1,14 @@
 <!doctype html><html><head><meta charset="utf-8">
 <meta name="dd-output" content="03_Technical_Documents/EnergyWave_Humanoid_Power_Budget_Specification_DRAFT_2026-10-15.pdf">
 <meta name="dd-title" content="Humanoid Power-Budget Specification (draft)">
-<meta name="dd-version" content="DD-2026-10-15-r5.5-draft">
+<meta name="dd-version" content="DD-2026-10-15-r5.6-draft">
 <link rel="stylesheet" href="_style.css"></head><body class="compact">
 <div class="masthead"><img src="../assets/wordmark_blue.png" alt="Energy Wave">
-<div class="meta"><b>energywave.ai</b> • Humanoid power-budget specification — the load the power supply must meet<br>15 October 2026 · DD-2026-10-15-r5.5-draft</div></div>
-<div class="status">Confidential — Draft — For Discussion · <span class="flag">every subsystem load is an input, not an assertion</span></div>
+<div class="meta"><b>energywave.ai</b> • Humanoid power-budget specification — the load the power supply must meet<br>15 October 2026 · DD-2026-10-15-r5.6-draft</div></div>
+<div class="status">Confidential — Draft — For Discussion · <span class="flag">every subsystem load is an input, not an assertion — platform inputs TBD</span></div>
 
 <h1>The load, computed, not asserted. <span class="sub">Three-month objective #2, as a worksheet.</span></h1>
-<p class="lead">The deck’s claim is specific: a humanoid that runs human-grade sight and sound, smell and taste, touch and motion at once draws more than a lithium battery delivers. This specification turns that claim into numbers that can be checked. It defines the method, lists the published benchmarks with their sources, and leaves every subsystem load as an input to be measured or taken from a datasheet. No figure here is an EnergyWave measurement.</p>
+<p class="lead">The deck’s claim is specific: a humanoid that runs human-grade sight and sound, smell and taste, touch and motion at once draws more than a lithium battery delivers. This specification turns that claim into numbers that can be checked. It defines the method, lists the published benchmarks with their sources, and leaves every subsystem load as an input to be measured or taken from a datasheet — marked TBD until supplied. No figure here is an EnergyWave measurement, and no platform, effect size or power result is supplied by the founder’s decisions of 15 Oct 2026.</p>
 
 <div class="label">1 · Method</div>
 <table>
@@ -43,12 +43,12 @@
 <table>
 <thead><tr><th style="width:17%">Subsystem (deck slide 4)</th><th style="width:28%">Components</th><th style="width:13%">Average load W</th><th style="width:11%">Duty cycle</th><th>Basis to be recorded</th></tr></thead>
 <tbody>
-<tr><td>Sight &amp; sound</td><td>Cameras and microphones (sensor draw only; vision and audio processing is counted once, under compute)</td><td><span class="need">[Needs Input from Ian or Chip]</span></td><td><span class="need">[Needs Input]</span></td><td>Datasheet or measured draw of the chosen sensor set and the processing it requires.</td></tr>
-<tr><td>Smell &amp; taste</td><td>Gas-sensor and electrochemical arrays — electronic nose and tongue, including heaters where the sensor needs them</td><td><span class="need">[Needs Input from Ian or Chip]</span></td><td><span class="need">[Needs Input]</span></td><td>Datasheet; metal-oxide gas sensors are heater-dominated and must be counted at their heater draw.</td></tr>
-<tr><td>Touch</td><td>Tactile arrays and electronic skin at nerve-level granularity; readout electronics</td><td><span class="need">[Needs Input from Ian or Chip]</span></td><td><span class="need">[Needs Input]</span></td><td>Energy per scan (J) × scans per second × taxel count, or mean power per taxel (W) × count with the duty cycle applied once; readout multiplexing counted in the readout electronics, not per taxel.</td></tr>
-<tr><td>Motion</td><td>Dense actuators at muscle-level granularity — body and hand; holding a position under gravity draws power unless the actuator or transmission cancels or locks the load (design-dependent)</td><td><span class="need">[Needs Input from Ian or Chip]</span></td><td><span class="need">[Needs Input]</span></td><td>Actuator count × average electrical-input power by task profile, measured at the drive input so that motor and drive losses are included once; a potentially major, task-dependent load.</td></tr>
-<tr><td>Compute and communications</td><td>Perception, planning, control, radios</td><td><span class="need">[Needs Input from Ian or Chip]</span></td><td>≈ 1</td><td>Datasheet of the chosen compute module at the intended utilization.</td></tr>
-<tr><td>Thermal management and conversion losses</td><td>Fans, pumps, DC–DC conversion</td><td><span class="need">[Needs Input from Ian or Chip]</span></td><td>≈ 1</td><td>Only losses outside the measured-input boundaries above: DC–DC conversion and thermal management. Kashiri et al. 2018 report ≈ 80 % for a motor example but ≈ 40 % with a typical gearbox and 40–50 % actuator efficiency (their Table 1) — use measured or datasheet efficiencies for the selected architecture, with the electrical / mechanical boundary stated.</td></tr>
+<tr><td>Sight &amp; sound</td><td>Cameras and microphones (sensor draw only; vision and audio processing is counted once, under compute)</td><td><span class="need"><b>[TBD]</b></span></td><td><span class="need"><b>[TBD]</b></span></td><td>Datasheet or measured draw of the chosen sensor set and the processing it requires.</td></tr>
+<tr><td>Smell &amp; taste</td><td>Gas-sensor and electrochemical arrays — electronic nose and tongue, including heaters where the sensor needs them</td><td><span class="need"><b>[TBD]</b></span></td><td><span class="need"><b>[TBD]</b></span></td><td>Datasheet; metal-oxide gas sensors are heater-dominated and must be counted at their heater draw.</td></tr>
+<tr><td>Touch</td><td>Tactile arrays and electronic skin at nerve-level granularity; readout electronics</td><td><span class="need"><b>[TBD]</b></span></td><td><span class="need"><b>[TBD]</b></span></td><td>Energy per scan (J) × scans per second × taxel count, or mean power per taxel (W) × count with the duty cycle applied once; readout multiplexing counted in the readout electronics, not per taxel.</td></tr>
+<tr><td>Motion</td><td>Dense actuators at muscle-level granularity — body and hand; holding a position under gravity draws power unless the actuator or transmission cancels or locks the load (design-dependent)</td><td><span class="need"><b>[TBD]</b></span></td><td><span class="need"><b>[TBD]</b></span></td><td>Actuator count × average electrical-input power by task profile, measured at the drive input so that motor and drive losses are included once; a potentially major, task-dependent load.</td></tr>
+<tr><td>Compute and communications</td><td>Perception, planning, control, radios</td><td><span class="need"><b>[TBD]</b></span></td><td>≈ 1</td><td>Datasheet of the chosen compute module at the intended utilization.</td></tr>
+<tr><td>Thermal management and conversion losses</td><td>Fans, pumps, DC–DC conversion</td><td><span class="need"><b>[TBD]</b></span></td><td>≈ 1</td><td>Only losses outside the measured-input boundaries above: DC–DC conversion and thermal management. Kashiri et al. 2018 report ≈ 80 % for a motor example but ≈ 40 % with a typical gearbox and 40–50 % actuator efficiency (their Table 1) — use measured or datasheet efficiencies for the selected architecture, with the electrical / mechanical boundary stated.</td></tr>
 <tr><td><b>Total average load P̄</b></td><td colspan="4">Σ of the rows above. <b>Anchor for sanity:</b> the worked manufacturer benchmark — Figure 03’s stated 2.3 kWh and 5 h (17 July 2025) — implies ≈ 460 W average, a calculation on a manufacturer’s claim; humanoids drew 150–400 W at rest in the 2017-era systems compared by Kashiri et al. 2018 (a dated example, not a contemporary specification).</td></tr>
 </tbody></table>
 
@@ -56,7 +56,7 @@
 <table>
 <thead><tr><th style="width:30%">Step</th><th style="width:34%">Using the Figure 03 anchor (≈ 460 W)</th><th>With EnergyWave’s inputs</th></tr></thead>
 <tbody>
-<tr><td>Energy per 8-h shift</td><td>≈ 3.7 kWh</td><td>P̄ × 8 h <span class="need">[Needs Input: P̄]</span></td></tr>
+<tr><td>Energy per 8-h shift</td><td>≈ 3.7 kWh</td><td>P̄ × 8 h <span class="need"><b>[TBD]</b> — P̄</span></td></tr>
 <tr><td>Pack mass at 160 Wh/kg (pack level)</td><td>≈ 23 kg</td><td>E ÷ 160 Wh/kg</td></tr>
 <tr><td>Pack mass at 250 Wh/kg (cell level, no housing)</td><td>≈ 15 kg</td><td>E ÷ 250 Wh/kg</td></tr>
 <tr><td>Runtime of a 2.3-kWh pack</td><td>≈ 5 h, as the manufacturer states</td><td>2.3 kWh ÷ P̄</td></tr>
@@ -68,16 +68,16 @@
 <table>
 <thead><tr><th style="width:30%">Requirement</th><th style="width:30%">Value</th><th>Derivation</th></tr></thead>
 <tbody>
-<tr><td>Continuous electrical output</td><td><span class="need">[Needs Input from Ian or Chip: P̄ from §3]</span></td><td>Average load including housekeeping.</td></tr>
-<tr><td>Peak output and ramp</td><td><span class="need">[Needs Input from Ian or Chip: P<sub>peak</sub>, ramp rate]</span></td><td>Coincident actuator peak; fixed in hardware under the control architecture (white paper §4).</td></tr>
-<tr><td>Energy per shift</td><td><span class="need">[Needs Input: E]</span></td><td>P̄ × shift length <span class="need">[Needs Input from Ian or Chip: shift length and duty profile]</span></td></tr>
-<tr><td>Mass and volume budget</td><td><span class="need">[Needs Input from Ian or Chip: target platform mass and bay volume]</span></td><td>Set by the platform; today’s packs occupy the torso.</td></tr>
-<tr><td>Thermal limit</td><td><span class="need">[Needs Input from Ian or Chip: allowable heat rejection]</span></td><td>Conversion losses at the stated efficiency.</td></tr>
-<tr><td>Target platform</td><td><span class="need">[Needs Input from Ian or Chip: which humanoid, or a generic class]</span></td><td>Every row above depends on it.</td></tr>
+<tr><td>Continuous electrical output</td><td><span class="need"><b>[TBD]</b> — P̄ from §3</span></td><td>Average load including housekeeping.</td></tr>
+<tr><td>Peak output and ramp</td><td><span class="need"><b>[TBD]</b> — P<sub>peak</sub>, ramp rate</span></td><td>Coincident actuator peak; fixed in hardware under the control architecture (white paper §4).</td></tr>
+<tr><td>Energy per shift</td><td><span class="need"><b>[TBD]</b> — E</span></td><td>P̄ × shift length <span class="need"><b>[TBD]</b> — shift length and duty profile</span></td></tr>
+<tr><td>Mass and volume budget</td><td><span class="need"><b>[TBD]</b> — target platform mass and bay volume</span></td><td>Set by the platform; today’s packs occupy the torso.</td></tr>
+<tr><td>Thermal limit</td><td><span class="need"><b>[TBD]</b> — allowable heat rejection</span></td><td>Conversion losses at the stated efficiency.</td></tr>
+<tr><td>Target platform</td><td><span class="need"><b>[TBD]</b> — target platform — which humanoid, or a generic class</span></td><td>Every row above depends on it.</td></tr>
 </tbody></table>
 
 <div class="label">6 · What this specification is not</div>
 <p>It does not say that any EnergyWave device meets any row of §5, and it does not describe one. It states the load. Whether a non-chemical source can meet it is the research question the gates exist to answer, and the fourteen orders of magnitude between the picowatt-scale maximum load power inferred from Moddel et al.’s measurements (one laboratory; independent net-cycle validation not established in the reviewed evidence) and the hundreds of watts in §4 are the honest measure of the distance.</p>
 
-<div class="sources">Sources: Oct-13 deck slides 3–4 (S-01); Technical Prospectus v1 §§3.1–3.4 and Appendix A refs 32–36 (M-05); Investor Overview slides 3–4 (M-04); DoD white paper v2.0 §§1.1–1.3 (M-07); Physical Architecture &amp; Baseline Model v1.3 (M-14) for the conversion-loss treatment.</div>
+<div class="sources">Sources: Oct-13 deck slides 3–4 (S-01); Technical Prospectus v1 §§3.1–3.4 and Appendix A refs 32–36 (M-05); Investor Overview slides 3–4 (M-04); DoD white paper v2.0 §§1.1–1.3 (M-07); Physical Architecture &amp; Baseline Model v1.3 (M-14) for the conversion-loss treatment; founder decisions of 15 Oct 2026 (S-44 — no platform supplied).</div>
 </body></html>

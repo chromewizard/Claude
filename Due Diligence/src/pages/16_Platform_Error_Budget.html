@@ -1,17 +1,17 @@
 <!doctype html><html><head><meta charset="utf-8">
 <meta name="dd-output" content="03_Technical_Documents/EnergyWave_Measurement_Platform_Error_Budget_DRAFT_2026-10-15.pdf">
 <meta name="dd-title" content="Measurement Platform Error Budget (draft)">
-<meta name="dd-version" content="DD-2026-10-15-r5.5-draft">
+<meta name="dd-version" content="DD-2026-10-15-r5.6-draft">
 <link rel="stylesheet" href="_style.css"></head><body class="compact">
 <div class="masthead"><img src="../assets/wordmark_blue.png" alt="Energy Wave">
-<div class="meta"><b>energywave.ai</b> • Thread C — measurement platform error budget, as a template for commissioning<br>15 October 2026 · DD-2026-10-15-r5.5-draft</div></div>
+<div class="meta"><b>energywave.ai</b> • Thread C — measurement platform error budget, as a template for commissioning<br>15 October 2026 · DD-2026-10-15-r5.6-draft</div></div>
 <div class="status">Confidential — Draft — For Discussion · <span class="flag">bounds are measured at commissioning, not modelled here</span></div>
 
 <h1>The platform is the asset whatever the gates find. <span class="sub">Its error budget is a table of measured upper bounds.</span></h1>
 <p class="lead">The September prospectus commits the company to publish the measurement platform’s design and its error budget as a methods paper before any result is claimed. The budget assigns to every known way of manufacturing a picowatt-level signal a <i>measured</i> upper bound on the spurious output it could produce in the platform as built. The artifact floor is the conservative sum of those bounds, with a separately reported combined standard uncertainty for the statistical part; the platform is not commissioned until the floor is at least a factor of ten below the effect it is built to test. This page is that table with the method for each row and the bounds left to be measured.</p>
 
 <div class="label">1 · The commissioning criterion</div>
-<div class="box"><b>Measurand.</b> Electrical output power delivered to a defined load under stated operating conditions (bias, temperature, shielding, load impedance). Every row of §2 is expressed in that measurand: a bound on a current or a voltage is converted to power through the load model before it enters the budget. <b>Artifact floor</b> = Σ |bound<sub>i</sub>| over the numerical rows of §2 — the conservative arithmetic sum of absolute bounds, because systematic artifacts can add with the same sign; root-sum-square is used only for components shown to be independent, and the combined standard uncertainty u<sub>c</sub> (standard uncertainties with stated distributions, coverage and covariance, per the NIST guidance) is reported beside the floor, never in place of it. Procedural rows are controls and are excluded from the arithmetic. Each bound is measured on dead devices, twins and fixture-only runs in the platform as built. <b>Commissioned</b> when floor ≤ (reported effect) ÷ 10 — the September prospectus §6.3 rule, inherited and tightened here. For thread B the reported effect is 1.4 pW (Moddel et al. 2021 — inferred load power, one laboratory, not independently replicated in the reviewed evidence), so the plan proposes a floor at or below 0.14 pW — a commissioning target set by this plan, not an established requirement; the thread C lead and the advisory board ratify it at commissioning. For thread A the effect is the smallest conditioning-dependent change the pre-registration declares meaningful. <span class="need">[Needs Input from Ian or Chip: the thread A effect size the plan must resolve]</span></div>
+<div class="box"><b>Measurand.</b> Electrical output power delivered to a defined load under stated operating conditions (bias, temperature, shielding, load impedance). Every row of §2 is expressed in that measurand: a bound on a current or a voltage is converted to power through the load model before it enters the budget. <b>Artifact floor</b> = Σ |bound<sub>i</sub>| over the numerical rows of §2 — the conservative arithmetic sum of absolute bounds, because systematic artifacts can add with the same sign; root-sum-square is used only for components shown to be independent, and the combined standard uncertainty u<sub>c</sub> (standard uncertainties with stated distributions, coverage and covariance, per the NIST guidance) is reported beside the floor, never in place of it. Procedural rows are controls and are excluded from the arithmetic. Each bound is measured on dead devices, twins and fixture-only runs in the platform as built. <b>Commissioned</b> when floor ≤ (reported effect) ÷ 10 — the September prospectus §6.3 rule, inherited and tightened here. For thread B the reported effect is 1.4 pW (Moddel et al. 2021 — inferred load power, one laboratory, not independently replicated in the reviewed evidence), so the plan proposes a floor at or below 0.14 pW — a commissioning target set by this plan, not an established requirement; the thread C lead and the advisory board ratify it at commissioning. For thread A the effect is the smallest conditioning-dependent change the pre-registration declares meaningful. <span class="need"><b>[TBD]</b> — the thread A effect size the plan must resolve</span></div>
 
 <div class="label">2 · The error-budget table</div>
 <table>
@@ -40,16 +40,16 @@
 </ol>
 
 <div class="label">4 · Calorimetry — commissioned in Gate 1, decisive in Gate 2</div>
-<p>A differential calorimeter with a reference cell alongside the device cell, so that heat flow into the device can be measured while output is drawn. Its resolution sets what Gate 2 can say: if output is too small to resolve calorimetrically, Gate 2 requires the device count and integration time needed to resolve it before any conclusion is drawn. Resolution target <span class="need">[Needs Input from Ian or Chip: the calorimetric resolution the program will fund]</span>.</p>
+<p>A differential calorimeter with a reference cell alongside the device cell, so that heat flow into the device can be measured while output is drawn. Its resolution sets what Gate 2 can say: if output is too small to resolve calorimetrically, Gate 2 requires the device count and integration time needed to resolve it before any conclusion is drawn. Resolution target <span class="need"><b>[TBD]</b> — the calorimetric resolution the program will fund</span>.</p>
 
 <div class="label">5 · Sign-off</div>
 <table>
 <thead><tr><th style="width:30%">Role</th><th>Responsibility</th><th style="width:26%">Named</th></tr></thead>
 <tbody>
-<tr><td>Measurement and instrumentation lead (thread C)</td><td>Owns the table, the commissioning runs and the methods paper.</td><td><span class="need">[Needs Input from Ian or Chip: name, or “to hire — a Tranche A condition”]</span></td></tr>
-<tr><td>Principal investigator</td><td>Signs the pre-registration; certifies the floor before live devices.</td><td><span class="need">[Needs Input from Ian or Chip: name, or “to hire”]</span></td></tr>
+<tr><td>Measurement and instrumentation lead (thread C)</td><td>Owns the table, the commissioning runs and the methods paper.</td><td><span class="need"><b>[TBD]</b> — thread C lead — to hire, a Tranche A condition; no appointment is supplied by the founder’s decisions of 15 Oct 2026</span></td></tr>
+<tr><td>Principal investigator</td><td>Signs the pre-registration; certifies the floor before live devices.</td><td><span class="need"><b>[TBD]</b> — principal investigator — to hire</span></td></tr>
 <tr><td>External scientific advisory board</td><td>Reviews the table before publication; holds the veto over performance statements.</td><td>To recruit — at least one declared critic</td></tr>
 </tbody></table>
 
-<div class="sources">Sources: Technical Prospectus v1 §§6.3–6.4, 7.1, Appendix B (M-05); Physical Architecture &amp; Baseline Model v1.3 §3 (M-14); Investor Overview slides 10, 12 (M-04); Research Program and Gates page; Thread A plan §5.</div>
+<div class="sources">Sources: Technical Prospectus v1 §§6.3–6.4, 7.1, Appendix B (M-05); Physical Architecture &amp; Baseline Model v1.3 §3 (M-14); Investor Overview slides 10, 12 (M-04); Research Program and Gates page; Thread A plan §5; founder decisions of 15 Oct 2026 (S-44 — no lead or resolution supplied).</div>
 </body></html>

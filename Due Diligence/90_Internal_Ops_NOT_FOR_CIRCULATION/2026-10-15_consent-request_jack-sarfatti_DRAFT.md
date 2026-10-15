@@ -1,14 +1,14 @@
-# DRAFT — consent request to Jack Sarfatti — NOT SENT
+# HOLD — consent request to Jack Sarfatti — NOT SENT · no outreach authorized (founder, 15 Oct 2026)
 
-**From:** Ian McLean, from the mailbox he uses, with reply-to ian@energywave.ai (incoming forwarding to ian@mcleancompanies.com confirmed by the founder, 14 Oct 2026; outbound Send As not confirmed)
-**To:** Jack Sarfatti [Needs Input from Ian or Chip: address on file]
+**From:** Ian McLean, ian@energywave.ai (fully configured in Outlook — founder report, 15 Oct 2026)
+**To:** Jack Sarfatti — the address on file in the ledger, only if and when Ian expressly authorizes outreach; no lookup requested
 **Subject:** EnergyWave — your title and bio line, for written consent
 
 Jack,
 
 EnergyWave's diligence package names you, and I want your written yes before it goes to anyone outside the team.
 
-**Title.** Earlier documents called you a co-founder; the 13 October deck prints **Physics advisor**. I don't need to describe you as an advisor at all — you are a physicist who takes part in the discussion. Tell me the wording you want printed, if any, and I will use exactly that.
+**Title.** Earlier documents called you a co-founder; the 13 October deck prints **Physics advisor**, and the package now describes you as a team member — theoretical physicist, as you consented through Ian (15 Oct). Tell me the wording you want printed, and I will use exactly that.
 
 **Bio line, as printed on the deck:**
 
@@ -23,4 +23,4 @@ A one-line reply — the title you want (or none), and yes or an edit to the bio
 Ian
 
 ---
-Grok per-email review: Compliance (22:12:52 PT) and Architect (completed after 22:14 PT), 14 Oct 2026 — “Needs correction”; this r5.2 revision follows the founder's direction on the title, asks permission for the wording, removes the unsourced “on-record” phrase and describes the board as planned; not re-reviewed. Sent: [no].
+Grok per-email review: Compliance (22:12:52 PT) and Architect (completed after 22:14 PT), 14 Oct 2026 — “Needs correction”; this r5.2 revision follows the founder's direction on the title, asks permission for the wording, removes the unsourced “on-record” phrase and describes the board as planned; r5.6 follows the founder's 15 Oct confirmation that Jack consented as a team member, not advisor (S-46); not re-reviewed. Sent: [no]. **HOLD (15 Oct 2026, S-44): do not send unless Ian later expressly authorizes outreach; the Grok reviews above and the r5.3 “Ready for Ian once the inputs are in” verdict (S-41) are dated records of exact drafts, not send authority.**

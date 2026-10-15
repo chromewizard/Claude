@@ -13,7 +13,7 @@
    shasum -a 256 ~/Downloads/McLeanCapitalDevelopmentLLC_xTech_Search10_White_Paper.pdf
    ```
    Expected: `90823d623fb4194eda74ca3560862004254c47a3af851f87987314aa8ca4fea1` (123,643 bytes).
-4. Open the PDF. Page 1 must show no "PRIVATE REVIEW - NOT FOR SUBMISSION" banner, no "TBD" fields, and Capital Raised Total ≈ USD 10,000 including founder contributions.
+4. Open the PDF. Page 1 must show no "PRIVATE REVIEW - NOT FOR SUBMISSION" banner, no "TBD" fields, and Capital Raised Total ≈ USD 10,000 including founder contributions. (That cover value is the 9 October record as approved and submitted; the founder's 15 Oct statement that no funding has been raised is recorded separately in the package and does not change the submitted record — do not alter it.)
 5. If the hash matches and the cover is right: D7 is closed. Tell me the hash you saw and the time; the ledger records it as your observation.
 6. If the hash differs or the cover is wrong: replace the attachment with the approved file from `/Users/ian/Documents/Codex/2026-10-08/task/xtechsearch10/McLean Capital Development LLC_xTech_Search10_White_Paper.pdf` (same hash as above), save, and repeat steps 2–4. Do not change any other field.
 7. Either way, note who made the 9–14 October changes and when, if you know.

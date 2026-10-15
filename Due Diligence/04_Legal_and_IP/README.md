@@ -2,7 +2,7 @@
 
 **What this is.** The IP and entity record in the order a diligence reader asks: what is formed, what was filed, what counsel actually said, what agreements bear on ownership, what is open. Recorded facts and counsel's dated statements are kept in separate tables and never merged.
 
-**Status (r4).** The original counsel messages (Majewski 29 Sept and 5 Oct 2026; Truong 5 Oct 2026) have been read in full from Lyra's legal-originals relay and are quoted verbatim on the page (M-19 resolved). The ALG agreements and the GovThink package have been read (M-17). Formation of EnergyWave, Inc. still has no primary evidence. Nothing here is legal advice.
+**Status (r4).** The original counsel messages (Majewski 29 Sept and 5 Oct 2026; Truong 5 Oct 2026) have been read in full from Lyra's legal-originals relay and are quoted verbatim on the page (M-19 resolved). The ALG agreements and the GovThink package have been read (M-17). Formation of EnergyWave, Inc. still has no primary evidence; K&L Gates is handling the entity work (founder, 15 Oct 2026, S-44). No SAFE has been executed and no funding raised (founder, 15 Oct). Nothing here is legal advice.
 
 ## Contents
 
@@ -24,11 +24,11 @@ Counsel emails live in Outlook (locators in `SOURCE_LEDGER.md` M-19); the ALG ag
 
 | Item | Owner |
 |---|---|
-| EnergyWave, Inc. certificate of incorporation and Delaware file number — not formed as of 14 Oct 2026 (founder, S-38); counsel's four confirmations | Ian + K&L Gates |
+| EnergyWave, Inc. certificate of incorporation and Delaware file number — not formed as of 14 Oct 2026 (founder, S-38); K&L Gates handling (15 Oct, S-44); counsel's four confirmations | K&L Gates (pending) |
 | Current Patent Center docket for 63/763,998; invention record for a coversheet provisional | counsel |
 | ALG IP Assignment, Exhibit A and the rider reviewed against the EnergyWave work; whether the contractor copy was ever countersigned | Ian; counsel |
 | 1988 Delaware "EnergyWave Inc." #2149394 — connection investigated; ownership not asserted | counsel |
 | GovThink 501(c)(3) — not filed, no formal tie (founder, 14 Oct, S-38); formation vs exemption application; EIN | Ian |
 | AT memo §8 answers | counsel |
-| The October 2024 Rossi scope-of-work proposal (ledger L-09) and the August 2025 paper that named him business partner (L-14): any agreement, payment or IP claim; the founder's resignation from the ALG team is dated 13 Nov 2025 (L-13, personal, not placed) | Ian; counsel (D11) |
+| The October 2024 Rossi scope-of-work proposal (ledger L-09) and the August 2025 paper that named him business partner (L-14): any agreement, payment or IP claim; the founder's resignation from the ALG team is dated 13 Nov 2025 (L-13, personal, not placed) | TBD; counsel (D11) |
 | Freedom-to-operate note on the Haisch–Moddel / Jovion patents, given the 2024 positioning text (L-04) and thread B | counsel |
