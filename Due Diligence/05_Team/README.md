@@ -8,14 +8,14 @@
 
 | File | Status | What it is |
 |---|---|---|
-| `EnergyWave_Team_and_Counsel_2026-10-15.pdf` | DRAFT — 3 pages (r4) | Ian McLean (degree wording Open; DoD white-paper authorship Verified; LLC role Verified; other career items Open). Kenneth "Chip" Story (co-founder terms and degrees Open). Jack Sarfatti (bio line Verified 11 Sept; title consent Open). Alan Crunkleton (MIT Ph.D. 1987, Boreas, R&D 100 Verified from MIT sources; M.D., Hardesty, "CEO eight years" Open). K&L Gates (correspondence on file; no signed engagement letter or fee-authorization evidence in the package; titles Open). Named-role consents Open. Source: `../src/pages/04_Team_and_Counsel.html`. |
+| `EnergyWave_Team_and_Counsel_2026-10-15.pdf` | DRAFT — 3 pages (r4) | Ian McLean (degree wording Open; DoD white-paper authorship Verified; LLC role Verified; other career items Open). Chip Story (co-founder terms Open; degrees and ZPEPG Director role consistent with ZPEPG's public leaders page and his LinkedIn, Partial; the "R&T Team Leader" / 80-and-five / "Physicist" wording Open). Jack Sarfatti (bio line Verified 11 Sept; title consent Open). Alan Crunkleton (MIT Ph.D. 1987, Boreas, R&D 100 Verified from MIT sources; M.D., Hardesty, "CEO eight years" Open). K&L Gates (correspondence on file; no signed engagement letter or fee-authorization evidence in the package; titles Open). Named-role consents Open. Source: `../src/pages/04_Team_and_Counsel.html`. |
 
 ## Verification ledger (summary — the page is authoritative)
 
 | Person | Role (deck) | Verified | Open |
 |---|---|---|---|
 | Ian McLean | Founder & CEO | LLC ownership (M-18); white-paper authorship (M-07) | degree wording; Statpedia, FDIC, Wolfram, Avnet, NDA consulting — dated records |
-| Kenneth "Chip" Story | Co-Founder | — | consent and terms; degrees; ZPEPG role and IP boundary |
+| Chip Story (printed Kenneth "Chip" Story on the deck and on zpepg.org) | Co-Founder | ZPEPG Director, B.S. geological engineering (South Dakota School of Mines), M.S. geophysics (Colorado School of Mines), 50+ years — as stated on ZPEPG's public leaders page and his LinkedIn (S-33, S-34); not registrar-checked | consent and terms; "R&T Team Leader", "80 technical minds, five project subsets", "Physicist" wording; IP boundary |
 | Jack Sarfatti | Physics advisor | bio line (ledger E2, 11 Sept) | consent to the current title |
 | Alan Crunkleton | Technical & financial advisor | MIT Ph.D. 1987; Boreas; R&D 100 (MIT primary sources) | M.D. UMass; Hardesty partnership; "CEO eight years, through acquisition" |
 | K&L Gates — Novak, Majewski | Patent counsel | correspondence (M-19) | engagement letter; Novak's title and Ph.D.; consent to be named |

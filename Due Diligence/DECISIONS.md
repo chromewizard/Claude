@@ -36,6 +36,7 @@ Ian permitted a **separate Seed Round folder** while **preserving the Capital Re
 - **Crunkleton:** MIT Ph.D. 1987, Boreas founding, R&D 100 award verified from MIT primary sources (Sept); **M.D. (UMass), Hardesty partnership, "CEO eight years, through acquisition"** not verified — all three are on the deck.
 - **Sarfatti:** bio line verified 11 Sept; wording rule "trained under Hans Bethe at Cornell; Ph.D. UC Riverside" — the deck complies. Title changed from co-founder (earlier documents) to Physics advisor (deck): consent to the current title not on file.
 - **Ian:** the Oct-8 review flagged the website's earned-degree claim as unsupported; the deck says "M.S. CS, UC Irvine (quantum coursework)". **Needed:** exact wording from a diploma or transcript (conferred vs. coursework; year).
+- **Chip Story:** that is the name he uses (Ian, 15 Oct); the deck, the one-pager and zpepg.org print "Kenneth “Chip” Story". His ZPEPG Director role and degrees (B.S. geological engineering, South Dakota School of Mines; M.S. geophysics, Colorado School of Mines; 50+ years) are stated on ZPEPG's public leaders page and on his LinkedIn profile (S-33, S-34), consistent with the deck; not checked against a registrar. **Still open:** the deck's "R&T Team Leader", "80 technical minds, five project subsets" and "Physicist" wording (his training is geological engineering and geophysics); co-founder terms; written consent.
 - **Consents:** none on file for Story, Sarfatti, Crunkleton, Novak, Majewski; the September ledger recorded permission to name advisors as BLOCKED.
 
 **Default until answered:** `05_Team/` carries the verification-status page and nothing is circulated.
@@ -43,7 +44,7 @@ Ian permitted a **separate Seed Round folder** while **preserving the Capital Re
 ## D5 — Spelling, names, contact addresses
 
 - Folder: **"Due Diligence"** (one *l*). **DoW** in narrative; a government form's own agency name where a field must match it.
-- **Contact addresses are not normalized.** New outward-facing documents use the contact Ian designates (expected `ian@energywave.ai`); historical and submitted records are quoted exactly as they stand (`ian@mcleancompanies.com` on the xTech record). No deliverability is assumed. The founder is **Ian McLean** (Ian Franklin McLean on legal records).
+- **Contact addresses are not normalized.** New outward-facing documents use the contact Ian designates (expected `ian@energywave.ai`); historical and submitted records are quoted exactly as they stand (`ian@mcleancompanies.com` on the xTech record). No deliverability is assumed. The founder is **Ian McLean** (Ian Franklin McLean on legal records). The co-founder is **Chip Story** in new documents; the Oct-13 originals print "Kenneth “Chip” Story" and are quoted as printed.
 
 ## D6 — Where the Drive mirror lives
 
