@@ -1,12 +1,12 @@
 <!doctype html><html><head><meta charset="utf-8">
 <meta name="dd-output" content="02_DoW/EnergyWave_Safe_Release_Posture_DRAFT_2026-10-15.pdf">
 <meta name="dd-title" content="Safe Release Posture (draft)">
-<meta name="dd-version" content="DD-2026-10-15-r5.1-draft">
+<meta name="dd-version" content="DD-2026-10-15-r5.2-draft">
 <link rel="stylesheet" href="_style.css">
 <style>.lh { margin-top: 12pt; border-top: 2.5px solid #5B9BE0; padding-top: 6pt; font-size: 8.6pt; color: #334155; line-height: 1.5; } .lh b { color: #0066FF; }</style>
 </head><body class="compact">
 <div class="masthead"><img src="../assets/wordmark_blue.png" alt="Energy Wave">
-<div class="meta"><b>energywave.ai</b> • Safely powering AI-driven humanoid robots — a controlled-release posture<br>15 October 2026 · DD-2026-10-15-r5.1-draft</div></div>
+<div class="meta"><b>energywave.ai</b> • Safely powering AI-driven humanoid robots — a controlled-release posture<br>15 October 2026 · DD-2026-10-15-r5.2-draft</div></div>
 <div class="status">Confidential — Draft — For Discussion · <span class="flag">supersedes the August 2025 paper · not for circulation until the tagged inputs close</span></div>
 
 <h1>Safe release by design. <span class="sub">If a high-density power source for humanoid robots ever exists, this is how it ships.</span></h1>
@@ -21,10 +21,10 @@
 <table>
 <thead><tr><th style="width:34%">Statement</th><th>Figure</th><th style="width:26%">Origin</th></tr></thead>
 <tbody>
-<tr><td>Production humanoid battery pack</td><td>≈ 2.3 kWh lithium-ion at ≈ 52 V; next generation keeps the pack and targets efficiency instead</td><td>Attributed — manufacturer framing as cited in the v2.0 paper [1][2]</td></tr>
+<tr><td>Production humanoid battery pack</td><td>≈ 2.3 kWh lithium-ion at ≈ 52 V; next generation keeps the pack and targets efficiency instead</td><td>Manufacturer statement via secondary coverage, as cited in v2.0 [1][2]; the dated primary statements are tabulated in v2.1 §1.1</td></tr>
 <tr><td>Field runtime under working load</td><td>Two to five hours per charge; ninety minutes to two hours in high-activity use on some platforms</td><td>Attributed — sector reporting cited in the v2.0 paper [3][4]</td></tr>
-<tr><td>Where the load is</td><td>Actuators ≈ 56 % of bill-of-materials cost; 28 body plus 50 hand actuators on a current platform; holding a position draws power continuously</td><td>Attributed — [2]</td></tr>
-<tr><td>Chemistry ceiling</td><td>Lithium-ion practical 150–250 Wh/kg against a 400–500 Wh/kg theoretical range; industry planning ≈ 4 % per year, a doubling in about eighteen years</td><td>Attributed — [5][6]</td></tr>
+<tr><td>Where the load is</td><td>Actuation — a potentially major, task-dependent load; holding a position under gravity draws power unless the actuator or transmission cancels or locks the load. Secondary coverage cited by v2.0 puts actuators at ≈ 56 % of one platform’s bill-of-materials cost (28 body plus 50 hand actuators) — a cost share, not a power share <span class="need">[Needs Input from Ian or Chip: primary source for the actuator figures, or omit]</span></td><td>Secondary coverage — [2]; qualified as in v2.1 §1.2</td></tr>
+<tr><td>Chemistry ceiling</td><td>Production cells ≈ 220–271 Wh/kg and packs ≈ 120–200 Wh/kg once housing, cooling and electronics are added, against a cited 500 Wh/kg development goal — a program target, not a physical ceiling; industry planning ≈ 4 % per year, a doubling in about eighteen years</td><td>Attributed — as tabulated in DoW White Paper v2.1 §1.3 [13][14][6]</td></tr>
 <tr><td>Industry response</td><td>Autonomous charging stations; inductive charging coils in the feet delivering ≈ 2 kW; high-nickel chemistries accepted with their cost and thermal penalties</td><td>Attributed — [7]</td></tr>
 <tr><td>Energy EnergyWave can deliver today</td><td><b>None.</b></td><td>Company statement</td></tr>
 </tbody></table>

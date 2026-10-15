@@ -1,6 +1,6 @@
 # DRAFT — consent and inputs request to Chip Story — NOT SENT
 
-**From:** Ian McLean, ian@energywave.ai (forwards to ian@mcleancompanies.com — founder, 14 Oct 2026)
+**From:** Ian McLean, from the mailbox he uses, with reply-to ian@energywave.ai (incoming forwarding to ian@mcleancompanies.com confirmed by the founder, 14 Oct 2026; outbound Send As not confirmed)
 **To:** Chip Story — crstory@sbcglobal.net (the address on the xTech record; confirm before sending)
 **Subject:** EnergyWave — three things only you can settle before the diligence package goes out
 
@@ -13,10 +13,10 @@ The October deck prints "Kenneth "Chip" Story — Co-Founder", and so does ZPEPG
 
 > Physicist. B.S. geological engineering (South Dakota School of Mines); M.S. geophysics (Colorado School of Mines); 50+ years in energy exploration — published researcher. Director & R&T Team Leader, Zero Point Energy Project Group (80 technical minds, five project subsets).
 
-ZPEPG's page supports the Director role, the two degrees and the fifty years in oil and gas. It does not show "R&T Team Leader", the "80 technical minds, five project subsets" figures, or the word "Physicist" — your training is geological engineering and geophysics. Please confirm or correct each of those, and tell me if you want "geophysicist" instead. Your LinkedIn is the second source we cite; if there is anything on it you would rather we not use, say so.
+ZPEPG's leaders page (captured 15 Oct) publishes the Director role, the two degrees and the fifty years in oil and gas. It does not show "R&T Team Leader", the "80 technical minds, five project subsets" figures, or the word "Physicist" — your training is geological engineering and geophysics. Please confirm or correct each of those, and tell me if you want "geophysicist" instead. Your LinkedIn profile is the second source Ian points to; we could not retrieve it, so if you want it cited, send me a PDF export of it.
 
 **2. Written consent to be named as Co-Founder — and the terms behind the title.**
-A reply saying "yes, name me as Co-Founder of EnergyWave in investor and government materials" is the consent the package records. Separately, the September roster still reads "Co-founder; confirm terms": we have no co-founder agreement, no vesting schedule, and no written line between your ZPEPG work and EnergyWave's IP. Counsel will draft those; I need to know what you expect them to say. [Needs Input from Ian or Chip: proposed terms, or "counsel to propose"]
+A reply saying "yes, name me as Co-Founder of EnergyWave in investor and government materials" is the consent the package records. Separately, the September roster still reads "Co-founder; confirm terms": we have no co-founder agreement, no vesting schedule, and no written line between your ZPEPG work and EnergyWave's IP. I expect to ask counsel for the scope and cost of drafting those — nothing is engaged yet — and before I do, I need to know what you expect them to say. Title, equity and any confidentiality terms are for us to settle with counsel, not conclusions anyone has reached. [Needs Input from Ian or Chip: proposed terms, or "counsel to propose"]
 
 **3. The research module.**
 The characterization plan for the first module is written up to the point where only the inventor's knowledge can take it further. It needs: the actual core (material, grade, source), its geometry and magnetization, the winding axis relative to magnetization, and the conditioning procedure with the physical change it is meant to produce. Any notes, drawings or prior measurements go into the pre-registration appendix. The plan runs the unconditioned baseline first and treats conditioning as a separate blinded experiment against a sham-treated control; I would like you to read it and tear it apart before a physicist does.
@@ -28,4 +28,4 @@ Reply with whatever you have; partial answers are better than none, and "I don't
 Ian
 
 ---
-Attachments to include when sent: Team and Counsel page (05_Team), Thread A characterization plan (03_Technical_Documents). Grok per-email review: [not yet performed]. Sent: [no].
+Attachments to include when sent: your section of the Team and Counsel page (05_Team, package version DD-2026-10-15-r5.2-draft) and the Thread A characterization plan (03_Technical_Documents, same version) — not the other advisors' sections. Grok per-email review: Compliance (22:12:52 PT) and Architect (22:12:28 PT), 14 Oct 2026 — “Needs correction”; this r5.2 revision applies the source-qualified points (tentative counsel scope, attachment identity, no inference from the blank-signature ALG copy); not re-reviewed. Sent: [no].

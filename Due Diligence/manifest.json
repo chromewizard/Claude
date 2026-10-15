@@ -1,44 +1,44 @@
 {
   "package": "EnergyWave Due Diligence",
-  "version": "DD-2026-10-15-r5.1-draft",
-  "generated_utc": "2026-10-15T05:32:05Z",
+  "version": "DD-2026-10-15-r5.2-draft",
+  "generated_utc": "2026-10-15T05:42:17Z",
   "lint": "OK",
   "file_count": 82,
   "files": [
     {
       "path": "DECISIONS.md",
-      "bytes": 14823,
-      "sha256": "65a64131822427471bd66efc9144b4710ef0b4e0ccd881ffe8fe3655621185f7"
+      "bytes": 14898,
+      "sha256": "8268e7fda8b0ea7115a3821199ce7728aeaf1cc9c704872cfd32cad95de6e770"
     },
     {
       "path": "DELIVERY_MAP.md",
-      "bytes": 9521,
-      "sha256": "692c4564afe192b227bddf6ffb8a70d8e8ba639f520d81335efab506535e5d6c"
+      "bytes": 9727,
+      "sha256": "2a22a3811e2ff864cb19012f34700536c4be18c4bc5c346d1969a25bc5f71801"
     },
     {
       "path": "EnergyWave_Claims_Discipline_2026-10-15.pdf",
-      "bytes": 155182,
-      "sha256": "5644f55873e1680a99e157082f1a68d05bca3004d947e03ca5ab270b58ea0f08"
+      "bytes": 155183,
+      "sha256": "24cae020906d858b7714e8e0cdedfd689a642afa0495719ab33c6baf025772e1"
     },
     {
       "path": "EnergyWave_DD_Reading_Guide_2026-10-15.pdf",
-      "bytes": 216575,
-      "sha256": "f00e8813f193d7c73441836b8a373d2930b7123054d7411a3bd74af3d5abd28c"
+      "bytes": 216358,
+      "sha256": "0aa32773d258c688832f97e818067252900c4b3ee808c8ededc1cf099456679d"
     },
     {
       "path": "EnergyWave_Needs_Input_from_Ian_or_Chip_2026-10-15.pdf",
-      "bytes": 207978,
-      "sha256": "d03589f240e0e83373cdb364f3c730a5c59e3e4cc43f3a76816740522c1a88c2"
+      "bytes": 209195,
+      "sha256": "a7c15f03bac56f254360c8d5b8b60dc7dd28f0db12c1cbd315351c4bf9280216"
     },
     {
       "path": "NEEDS_INPUT.md",
-      "bytes": 16543,
-      "sha256": "3beeb11e736a1eac8d9bc96db01aa934090f283a560a0bdff630adf98d699588"
+      "bytes": 17059,
+      "sha256": "3b6fee7e313f9c2c309bb64edcff3286be3c31e03dd3919eda03eb687a0ff19f"
     },
     {
       "path": "README.md",
-      "bytes": 14847,
-      "sha256": "06d7d09ec71b8e91257b34f3d18df4d4359a3467f74a5a21a0e308dc0465bda2"
+      "bytes": 15729,
+      "sha256": "c36febf728f291653d0b391e1a8a903f1835c4065c82d878a2fa96368a3df6a2"
     },
     {
       "path": "REVIEW_PROTOCOL.md",
@@ -47,13 +47,13 @@
     },
     {
       "path": "SOURCE_LEDGER.md",
-      "bytes": 64929,
-      "sha256": "6c2b7b00d70e02390322d96418f959bbafd657dec4970bdb458bfb48d96e55d8"
+      "bytes": 68035,
+      "sha256": "30f471d255debe1e24896928972ea346e52d9161889dd70eb334cb78f09c9025"
     },
     {
       "path": "01_Investor/01_Capital_Readiness/EnergyWave_Capital_Readiness_Terms_and_Objectives_2026-10-15.pdf",
-      "bytes": 171436,
-      "sha256": "c0abe12919c6e2cea7267e99bcd0159f10b45bc30b50989b1904e6b7f6fec067"
+      "bytes": 171437,
+      "sha256": "f6443d1df9df61a1a57c4cce3e92ac3e6662105dbe0118cbcc3c5c61805219ac"
     },
     {
       "path": "01_Investor/01_Capital_Readiness/EnergyWave_Deck_2026-10-13.pdf",
@@ -67,8 +67,8 @@
     },
     {
       "path": "01_Investor/01_Capital_Readiness/EnergyWave_SAFE_Term_Summary_DRAFT_2026-10-15.pdf",
-      "bytes": 190100,
-      "sha256": "1b9ff82ea41bf16d6bc261b762137e789d2d7883f04065b7e33dd8e89387875f"
+      "bytes": 189739,
+      "sha256": "0e8872689c29bee776331d3b54bff06bbba516214c40335d24c32d112571aef3"
     },
     {
       "path": "01_Investor/01_Capital_Readiness/README.md",
@@ -82,18 +82,18 @@
     },
     {
       "path": "01_Investor/02_Seed_Round/EnergyWave_Seed_Deck_DRAFT_2026-10-15.pdf",
-      "bytes": 594808,
-      "sha256": "91cef0beed186a0aafd5ac65e3fdf33fae1c8a5609979d832c8c7418f0297705"
+      "bytes": 596963,
+      "sha256": "e0b1786245da7320a4157ae9764bce128d09dcc72115572fc3486d3d050314c0"
     },
     {
       "path": "01_Investor/02_Seed_Round/EnergyWave_Seed_OnePager_DRAFT_2026-10-15.pdf",
-      "bytes": 184782,
-      "sha256": "3ef0ead27b3ddac9df310dfcb6d46146962264afd8258c860f729635d02f417d"
+      "bytes": 185247,
+      "sha256": "b0cfc3a195ad35f56ccd2fc8bc1dd531f194f971014c27785e3c6065ffb188ad"
     },
     {
       "path": "01_Investor/02_Seed_Round/EnergyWave_Seed_Round_Structure_DRAFT_2026-10-15.pdf",
-      "bytes": 167337,
-      "sha256": "02550a06a0e8c50f2a246a900e86f7bf87a6d3eea7332178811770e0951efbdb"
+      "bytes": 167338,
+      "sha256": "4a092209874804a0f591d979a57ebc8e64608f7890632f0d43f7d9eb43200c3c"
     },
     {
       "path": "01_Investor/02_Seed_Round/README.md",
@@ -102,8 +102,8 @@
     },
     {
       "path": "01_Investor/03_Series_A/EnergyWave_Raise_Model_Note_2026-10-15.pdf",
-      "bytes": 162496,
-      "sha256": "ab562c2ce8fd7b67d249634d09034035475fcbbbeb3e3a67cded3157a3925884"
+      "bytes": 162499,
+      "sha256": "3274533d0f61e02cc53716043aad9797e3fa0c594a5beabe44612283d9fb6fc6"
     },
     {
       "path": "01_Investor/03_Series_A/EnergyWave_Raise_Model_v1.1-corrected_2026-10-15.xlsx",
@@ -112,8 +112,8 @@
     },
     {
       "path": "01_Investor/03_Series_A/EnergyWave_Series_A_Readiness_Outline_DRAFT_2026-10-15.pdf",
-      "bytes": 179295,
-      "sha256": "dbe7e48d2ca0b0412ef7fb64559d2702c117b0096116d95e56b8cef91c12890c"
+      "bytes": 179510,
+      "sha256": "ea2ab142c224d356542d1605de4e5fce34b3e21ea11ea7a8b3dc5beb16ea5374"
     },
     {
       "path": "01_Investor/03_Series_A/README.md",
@@ -123,7 +123,7 @@
     {
       "path": "02_DoW/EnergyWave_Applicant_and_Eligibility_Facts_2026-10-15.pdf",
       "bytes": 176531,
-      "sha256": "ab915f5010a8064952e21a5fc40ef4d1812632829f4d0958fad9515c36148eea"
+      "sha256": "36288569c0f7a825ea341d2b9db720f3985f0d856d3f5355b361e04123074160"
     },
     {
       "path": "02_DoW/EnergyWave_Compartmentalization_AT_Posture_v0.1_2026-09-12.pdf",
@@ -137,13 +137,13 @@
     },
     {
       "path": "02_DoW/EnergyWave_DoW_White_Paper_v2.1_DRAFT_2026-10-15.pdf",
-      "bytes": 213052,
-      "sha256": "b9a756aa805139949f807676d9cc8cc431fcd11a51fd93c1480db3025bdfaa60"
+      "bytes": 213780,
+      "sha256": "06f54d9422e5b90b42d10dba2692746a50d319aa29cabd2ce68b97f9d1d6f61c"
     },
     {
       "path": "02_DoW/EnergyWave_Safe_Release_Posture_DRAFT_2026-10-15.pdf",
-      "bytes": 236610,
-      "sha256": "b49c90bfa419eefd6f0d1cf77ab740088d130ec7c6052c8f04ed71f5659c288e"
+      "bytes": 238098,
+      "sha256": "c76376de9090cd7545e907e35a4cf45c0592a8fba9af10d4ca6ba81275577692"
     },
     {
       "path": "02_DoW/EnergyWave_xTech_Search10_Paper_APPROVED_REPLACEMENT_2026-10-09.pdf",
@@ -157,8 +157,8 @@
     },
     {
       "path": "02_DoW/EnergyWave_xTech_Search10_Submission_Record_2026-10-15.pdf",
-      "bytes": 193951,
-      "sha256": "47301875e6c5c25c7c1047fa30a156fb8680f506468f31b98153125d3e1cf3fb"
+      "bytes": 193952,
+      "sha256": "b17ffdcbfad9ca48b6e07c53f9fcaf763cb8037ba10350ad3204082f446d4b89"
     },
     {
       "path": "02_DoW/README.md",
@@ -192,13 +192,13 @@
     },
     {
       "path": "03_Technical_Documents/EnergyWave_Humanoid_Power_Budget_Specification_DRAFT_2026-10-15.pdf",
-      "bytes": 187465,
-      "sha256": "0053081e246233d2cb18efd46bb31325ec481f960fd65c53ecc5a5843e9e11cd"
+      "bytes": 191697,
+      "sha256": "5ed904a7ada674cd6d1e192051640da1a0af8d5b0aedb1d8aff7526f8eaaa540"
     },
     {
       "path": "03_Technical_Documents/EnergyWave_Measurement_Platform_Error_Budget_DRAFT_2026-10-15.pdf",
-      "bytes": 180306,
-      "sha256": "a2bc97988cae3990cce9c47c6acdcb0a38875fb9f0710881da99d6fc04cc18d1"
+      "bytes": 182092,
+      "sha256": "073bcba9fd0abd7a2f747d6f4d45abe86bdc184eadad79d69894484710453403"
     },
     {
       "path": "03_Technical_Documents/EnergyWave_Physical_Architecture_and_Baseline_Model_v1.3_2026-10-05.pdf",
@@ -207,8 +207,8 @@
     },
     {
       "path": "03_Technical_Documents/EnergyWave_Research_Program_and_Gates_2026-10-15.pdf",
-      "bytes": 192768,
-      "sha256": "2cab8fdc85b283d63b9ae774cbcec8dec0244d69670b7a9a940bcf93ace38d87"
+      "bytes": 192770,
+      "sha256": "dedf459e7932a3cc17591191b3b774f7807cfde42de22416d6609517a1cdeb76"
     },
     {
       "path": "03_Technical_Documents/EnergyWave_Technical_Prospectus_DRAFT_v1_2026-09-07.docx",
@@ -217,8 +217,8 @@
     },
     {
       "path": "03_Technical_Documents/EnergyWave_Thread_A_Characterization_Plan_DRAFT_2026-10-15.pdf",
-      "bytes": 206409,
-      "sha256": "659b4b8d23fbee7793a44f4436be0364ede5774c0e9db897bd4c6d74e6e4dc3d"
+      "bytes": 206023,
+      "sha256": "7297931ba5b9119d88add89439da8d907e1b9784b011aab20857090ea5210910"
     },
     {
       "path": "03_Technical_Documents/Key_Research_Facts_verified_2026-09-07.md",
@@ -232,8 +232,8 @@
     },
     {
       "path": "04_Legal_and_IP/EnergyWave_Entity_IP_and_Legal_Status_2026-10-15.pdf",
-      "bytes": 202141,
-      "sha256": "086cf8c12d9666ac88297633b7c80721c50b2aa62324fb4dceda4b751a5ba354"
+      "bytes": 202142,
+      "sha256": "e55ac871ec925aef828814654d79d6e4236eadcfd9a74d98589060b1912f6367"
     },
     {
       "path": "04_Legal_and_IP/README.md",
@@ -242,38 +242,38 @@
     },
     {
       "path": "05_Team/EnergyWave_Team_and_Counsel_2026-10-15.pdf",
-      "bytes": 196487,
-      "sha256": "9a12b8f9c85a69aa421ee7fb7ed0e838353fa2de272c0d5c0d5cb29030ade1eb"
+      "bytes": 197012,
+      "sha256": "4acd8e5d1d669fcffc4a97dd59b6a5ff182d80b048da91692b88d6de79f3177c"
     },
     {
       "path": "05_Team/README.md",
-      "bytes": 3068,
-      "sha256": "40f38ca31708476f933439ee8f9a4bb8d9705185b0058b73aa85da7eb6105b12"
+      "bytes": 3140,
+      "sha256": "6c49c0ec2f58939ba9607d254ed407c4234d4df3c28948cc8fbaf434f689fbbd"
     },
     {
       "path": "90_Internal_Ops_NOT_FOR_CIRCULATION/2026-10-15_consent-request_alan-crunkleton_DRAFT.md",
-      "bytes": 1700,
-      "sha256": "2c696492ec6cad73dcf664579477a309512a06507b6edf30adc0c1be5c3c9ac0"
+      "bytes": 2257,
+      "sha256": "f6adb79a534768e9aeb94d3e3f19946d24c4f870173e30b9a07cb615c9cb23a2"
     },
     {
       "path": "90_Internal_Ops_NOT_FOR_CIRCULATION/2026-10-15_consent-request_chip-story_DRAFT.md",
-      "bytes": 3349,
-      "sha256": "6515ca491d4663611651cdd5d4c76eaefe6c62d08f778ce63b8eced2b6edab71"
+      "bytes": 4064,
+      "sha256": "9cf3058e3aad8c52cb5f159636d5306cc99a30d326b391f4ff9b3d3f7eb09e5f"
     },
     {
       "path": "90_Internal_Ops_NOT_FOR_CIRCULATION/2026-10-15_consent-request_jack-sarfatti_DRAFT.md",
-      "bytes": 1754,
-      "sha256": "9e8d67086562513997a2cd8727555efdf1738c58ef44ffda6887788fb607eda8"
+      "bytes": 2241,
+      "sha256": "dc384a37eaf72ff5e26f32d3fbee5f0bba45cc18656617caeac9566eb5d10cc8"
     },
     {
       "path": "90_Internal_Ops_NOT_FOR_CIRCULATION/2026-10-15_counsel-questions_kl-gates_DRAFT.md",
-      "bytes": 3861,
-      "sha256": "9791b6e42164cabec1cea2c1f62e81108baea0dd9fb3d8bb3c6b05b03742d10d"
+      "bytes": 4743,
+      "sha256": "2c6fa7f2406bafe03edfba7c6a7d10562f09107255a007ba0d8e821d74439822"
     },
     {
       "path": "90_Internal_Ops_NOT_FOR_CIRCULATION/2026-10-15_mirror-instructions.md",
       "bytes": 2653,
-      "sha256": "c650037cbf771474a3bc85b9905a991803d42f8276adba50a36be1a6b75f1dfa"
+      "sha256": "967f53f713003fc8f96eaa91225474d558596990297013a7b158b878d9ef6371"
     },
     {
       "path": "90_Internal_Ops_NOT_FOR_CIRCULATION/2026-10-15_xtech-attachment-verification_checklist.md",
@@ -282,8 +282,8 @@
     },
     {
       "path": "90_Internal_Ops_NOT_FOR_CIRCULATION/README.md",
-      "bytes": 1889,
-      "sha256": "22b38bf2f2ff50ad82879a95349b2ff2d8dfd274a1713c0d6a75bb021e78f764"
+      "bytes": 2686,
+      "sha256": "a6d456ad331d21ac0deb64c592667ba3c5348ec30b3cdd6f432381ef19e9a8eb"
     },
     {
       "path": "99_Source_Archive/README.md",
@@ -307,103 +307,103 @@
     },
     {
       "path": "src/pages/00_Reading_Guide.html",
-      "bytes": 10561,
-      "sha256": "ed00c657a02e21a9b4dbb6dcfaeb73f214e08f32aac202d76c77dcb2feb24f21"
+      "bytes": 10629,
+      "sha256": "bc996a4fe0a5b3d85deaa9cc99a2c30a9d797489cf2c1b81056d8dbdd7f57c13"
     },
     {
       "path": "src/pages/01_Capital_Readiness_Terms.html",
       "bytes": 6958,
-      "sha256": "68ae936191df7876dd3e4f6967de0802754c045506da28622802a8afbcfb2d90"
+      "sha256": "83657a963cac3c29187cc0fcc5f81cae8b08f93f0085705df9e54971eb6c1809"
     },
     {
       "path": "src/pages/02_Claims_Discipline.html",
       "bytes": 5119,
-      "sha256": "f2e77d4b6ec7e245da34c05237ab685f95159fec2f078c353ca0ab731bed1113"
+      "sha256": "5a799418fc328d893bf9dcede94a5844f5b48a8326651478c7c632444e172b06"
     },
     {
       "path": "src/pages/03_Research_Program_and_Gates.html",
       "bytes": 9580,
-      "sha256": "ccc24d262045c9894e3cd3bf8fba279f81d7b109ada82eec4c71a92a9fb465f3"
+      "sha256": "beffa98013e824805e5b4d7767b2d311bf5e23bcbf8cbf402b0741ed62b055da"
     },
     {
       "path": "src/pages/04_Team_and_Counsel.html",
-      "bytes": 9558,
-      "sha256": "fed946a658d14a4d411824ea69e51cb6b1f3a948d1f2548acb52f5c987cd82f3"
+      "bytes": 9775,
+      "sha256": "7d0037ab52b1ad117a9c5c13203c95861ed975b7331b35fe77720c94d9eb92c1"
     },
     {
       "path": "src/pages/05_Entity_IP_Legal_Status.html",
       "bytes": 11076,
-      "sha256": "da010c6da6c6bb0465495cde28f46486e3784149350e99fac72ec9cae235829b"
+      "sha256": "4f3a5739ced8fb32f53949636ad10a8c8d48f95b1a94f264c0c25a87363d8932"
     },
     {
       "path": "src/pages/06_Seed_Round_Structure.html",
       "bytes": 6064,
-      "sha256": "a7a6cda18e83a5173c35eb8921d2745aac2eb1c6645feb70e466a08e4285a150"
+      "sha256": "4777b16da68318e5b632179a332b9e315a4cd2afab870e9e54714dd0a7b626ee"
     },
     {
       "path": "src/pages/07_xTech_Submission_Record.html",
       "bytes": 10254,
-      "sha256": "9ff9a90d21852532032d778ae272cdd6d86c492666854fe079048e63d391609e"
+      "sha256": "109ebc2ec6cfc516849b5ba8bbf54972d68d51c00fc887595bcab9728ce98791"
     },
     {
       "path": "src/pages/08_Applicant_and_Eligibility.html",
       "bytes": 7319,
-      "sha256": "399a47381b460b0ebf9c959c1241c29143c343a70dc73781c04d4867b6dc8859"
+      "sha256": "6292a4a7af09931ffa199a5d340b5b70a3acd797f635d7e1b7ea2d5bfb853dee"
     },
     {
       "path": "src/pages/09_Raise_Model_Note.html",
       "bytes": 5996,
-      "sha256": "964d632dbd2e1f91f6e6dc39187229d3b039fcc3dc68d7ee6ddf3aa835248ba6"
+      "sha256": "ea2da5fcaae4d6a8cea9b9e6068a1d29b5eadd442eeb54657e08c2a71f98d92b"
     },
     {
       "path": "src/pages/10_SAFE_Term_Summary.html",
-      "bytes": 7100,
-      "sha256": "8954e845c432071d7445bfcf6c7af2293fdda2caefc30429e77bd6467a546dd6"
+      "bytes": 7167,
+      "sha256": "9e96d165d5dd7e7fcb7178b32b9a40049986f055bbfd720c7461657c491506a8"
     },
     {
       "path": "src/pages/11_Seed_OnePager.html",
-      "bytes": 6734,
-      "sha256": "c56f5d6a6f581124a05cb44ef69cdcc437fb85180e3e669db2b9cacff8da8641"
+      "bytes": 7013,
+      "sha256": "4169cd7fed1a2684da63ce6504c7cb3e97964637b4b8c64fa7b4e5f6e344b535"
     },
     {
       "path": "src/pages/12_Seed_Deck.html",
-      "bytes": 27172,
-      "sha256": "29f379ae154307e802ee3b8caaf0c8a05cab88f60955729fb85c15f28fed86c5"
+      "bytes": 27971,
+      "sha256": "c6b24de8f489d9fe893fe9805498d020bba82abd21105515b7e57cd20cd63a3d"
     },
     {
       "path": "src/pages/13_Series_A_Readiness.html",
-      "bytes": 6446,
-      "sha256": "e22a2663a1a3fbedebfd42132e96ccc4e4846e8bdb0f966ae6a7da1e1007d3fe"
+      "bytes": 6539,
+      "sha256": "e75e49a65b7cbbcf300ecd7736b84f26dfb28141d68bd286c0356abd2bf763fd"
     },
     {
       "path": "src/pages/14_Thread_A_Characterization_Plan.html",
-      "bytes": 14724,
-      "sha256": "3740e5214acaf6f7c83339b9f7c5cc2cc75b816eeec77cf560279a45e22301d5"
+      "bytes": 14792,
+      "sha256": "b1401f0ad9f229457e5062fdc71dc230c27d121d2adafe383dab4d86741beee7"
     },
     {
       "path": "src/pages/15_Humanoid_Power_Budget.html",
-      "bytes": 10571,
-      "sha256": "27cff88507a80fa924930c4ab8eb504149a89cab3081c1e4914d30288e1f214e"
+      "bytes": 11353,
+      "sha256": "13ae93d2b888665b932b55d475f271cf36cfa6e9af2927b1b40b735e4d466fb9"
     },
     {
       "path": "src/pages/16_Platform_Error_Budget.html",
-      "bytes": 8161,
-      "sha256": "040a0e009ba653aaee9e85656dad5f9d68c7543cd0620f27310b76bb88f83024"
+      "bytes": 9242,
+      "sha256": "a624ca2715cd9576d461edbf7e54a6ce0b83516b3222d30c3e38f7e60b5b2d87"
     },
     {
       "path": "src/pages/17_DoW_White_Paper_v2.1.html",
-      "bytes": 20608,
-      "sha256": "b6987c0f77a17552870e2c7385fd512632089562735a4426f586d1b3d27a6d73"
+      "bytes": 21204,
+      "sha256": "d58b8c7015a0ff7a05fa46fc8231fa86fdc3e1b3bcb362b2c076acd558ab3685"
     },
     {
       "path": "src/pages/18_Needs_Input_Register.html",
-      "bytes": 20079,
-      "sha256": "ce68b6b761f4fa4629b55d1ee10dd9d688c016d30b287d7363c0862946993407"
+      "bytes": 20595,
+      "sha256": "e2477e8938b1fb8a8b6befe9b8e22c77afd5f83d157b8a5f21eb573e17be43a0"
     },
     {
       "path": "src/pages/19_Safe_Release_Posture.html",
-      "bytes": 14605,
-      "sha256": "3f95b0850ad35c7b8bdafad00bd68b3ccf40727956ca60f682ab76119d0ff703"
+      "bytes": 15169,
+      "sha256": "44f8928b2ca1b6336c7857da85bd6911f7aa815e0f69a2774e068786bacfd1f1"
     },
     {
       "path": "src/pages/_slides.css",
@@ -430,7 +430,7 @@
     {
       "path": "tools/build_manifest.py",
       "bytes": 4571,
-      "sha256": "ec3dc4d7d773b148e967b06c47a357fea27384d0fce12dcabcc7a186fb63a5c3"
+      "sha256": "01059f676e2e4cd1863477752ff0b7e8959b7d23e1b6393e9e3a2a18993c44db"
     },
     {
       "path": "tools/verify_manifest.py",
