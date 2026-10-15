@@ -7,7 +7,9 @@ Never writes. Exit 0 only when:
   - no payload file is missing and no unexpected payload file is present —
     "payload" is every file under the root except the recognized control
     files at exactly <root>/tools/ (nested directories named "tools" are
-    payload; unlisted files inside <root>/tools/ are reported as EXTRA);
+    payload; unlisted files inside <root>/tools/ are reported as EXTRA),
+    the two manifest files at the root, and Finder metadata (.DS_Store) at
+    any depth — the same exclusions build_manifest.py and lint.py apply;
   - every control file pinned in the manifest is present and matches,
     unless --payload-only is given (then controls are not required, but any
     that are present must still match).
@@ -85,7 +87,7 @@ def main(argv=None):
         for fn in sorted(filenames):
             p = os.path.join(dirpath, fn)
             rel = os.path.relpath(p, root)
-            if fn in EXCLUDED_NAMES and dirpath == root:
+            if fn == ".DS_Store" or (fn in EXCLUDED_NAMES and dirpath == root):
                 continue
             if p in control_abs:
                 continue

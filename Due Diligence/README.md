@@ -1,7 +1,7 @@
 # EnergyWave — Due Diligence (canonical source)
 
-**Status:** Third iteration — the first audience draft. Ten pages rendered in the approved Oct-13 visual system; six originals placed byte-for-byte; five Oct-5 technical notes placed from exact Drive bytes; the Raise Model placed as a corrected copy with its ancestry recorded. The r2 control residuals (F-GPT-R2C1–R2C3) are fixed and probed. Nothing here is released; every substantive item in `DECISIONS.md` stays open until Ian answers it — silence is not approval.
-**Package version:** `DD-2026-10-15-r3-draft`
+**Status:** Fourth iteration — the first audience draft, reconciled to GPT/Lyra's r3 audit (0 blockers; every finding dispositioned in `MANIFEST.md`). Ten pages rendered in the approved Oct-13 visual system; eight originals placed byte-for-byte, including the xTech paper as submitted and its approved replacement; five Oct-5 technical notes placed from exact Drive bytes; the Raise Model placed as a corrected copy with its saved results intact and its ancestry recorded. Nothing here is released; every substantive item in `DECISIONS.md` stays open until Ian answers it — silence is not approval.
+**Package version:** `DD-2026-10-15-r4-draft`
 **Point lead:** Claude · **Cross-check:** GPT (Lyra / Aura), Antigravity, Grok (Architect, Compliance) · **Authorizations:** Ian McLean
 
 ## What this is
@@ -19,13 +19,13 @@ The September data rooms diverged: same-named ZIPs with 22 vs 24 files; standalo
 | `01_Investor/01_Capital_Readiness/` | Investors — now | The Oct-13 deck and one-pager, unedited; the Terms and Objectives page. $60,000 SAFE, 3 months, **"not a seed round"** — preserved as written (D1). |
 | `01_Investor/02_Seed_Round/` | Investors — next | Seed Round Structure (DRAFT: gates and tranches; amount and terms open); the September Investor Overview as its historical ancestor. Separate folder permitted by Ian (D1). |
 | `01_Investor/03_Series_A/` | Investors — later | Raise Model v1.1-corrected (one cell changed; every other part byte-identical to v1) and its reading note. Cap table and Series A deck not located. |
-| `02_DoW/` | Department of War / defense | xTech Search 10 submission record as observed 9 Oct (D7, time-critical); Applicant and Eligibility Facts; Compartmentalization & Anti-Tamper Posture v0.1; the August DoD white paper v2.0. |
+| `02_DoW/` | Department of War / defense | xTech Search 10 submission record (9 Oct record; 14 Oct read-only portal observation; D7 partially closed, still time-critical); the paper as submitted and the approved replacement; Applicant and Eligibility Facts; Compartmentalization & Anti-Tamper Posture v0.1; the August DoD white paper v2.0. |
 | `03_Technical_Documents/` | Technical reviewers | Research Program and Gates (threads A / B / C under one protocol; no dependency asserted); Physical Architecture & Baseline Model v1.3; Technical Prospectus v1; five Oct-5 review and source notes; Key Research Facts (Sept). |
 | `04_Legal_and_IP/` | Shared | Entity, IP and Legal Status — recorded facts; counsel's dated statements quoted from the original messages; agreements bearing on ownership; open items. |
 | `05_Team/` | Shared | Team and Counsel — bios exactly as on the Oct-13 deck, with the verification status of every credential and every consent. |
 | `99_Source_Archive/` | Internal | Pointers (not copies) to untouched originals and their hashes. |
 | `src/` | Internal — build source | `pages/*.html`, `pages/_style.css`, `assets/wordmark_blue.png`, `render.js`: the exact source of every rendered page. Payload, hash-recorded. |
-| `tools/` | Internal — controls | `lint.py` (forbidden-label scan, fail-closed) · `build_manifest.py` (author only) · `verify_manifest.py` (reviewers and mirrors) · `tests/run_probes.py` (29 probes) · `lint.sh`. The only five files excluded from the payload; anything else inside `tools/` is scanned, and the builder refuses it. |
+| `tools/` | Internal — controls | `lint.py` (forbidden-label scan, fail-closed) · `build_manifest.py` (author only) · `verify_manifest.py` (reviewers and mirrors) · `tests/run_probes.py` (31 probes) · `lint.sh`. The only five files excluded from the payload; anything else inside `tools/` is scanned, and the builder refuses it. All three tools also ignore the two manifest files at the root and Finder metadata (`.DS_Store`) at any depth. |
 
 Shared material (team, legal, technical) lives once and is pulled into the Investor and DoW packages at build time. No hand-copied duplicates.
 
@@ -40,7 +40,7 @@ Shared material (team, legal, technical) lives once and is pulled into the Inves
 7. **Dates and versions.** `EnergyWave_<Name>_YYYY-MM-DD.ext` for deliverables; `YYYY-MM-DD_<topic>_<author>_vN.md` for working notes (Council convention). Corrected copies carry their ancestry in `SOURCE_LEDGER.md` and never take a version number that a missing historical file already holds.
 8. **Originals are never edited.** A correction produces a new dated file; the original stays, hash-recorded, in its source location.
 9. **Rendered pages are never edited as PDFs.** Every `EnergyWave_<Name>_2026-10-15.pdf` is generated from `src/pages/<nn>_<Name>.html` by `src/render.js`. A wording fix is made in the HTML and the page re-rendered; the PDF and its source are both in the manifest.
-10. **One visual system.** New pages use the Oct-13 one-pager's system — Liberation Sans, blue rules and table heads, letter-spaced section labels, the wordmark, a footer disclaimer with page numbers — so they sit beside the approved originals without a seam. Each page carries a status line (Confidential — Draft — For Discussion), a version string, status tags (Verified · Open · Historical · Draft) and a "Sources:" line citing ledger rows.
+10. **One visual system.** New pages use the Oct-13 one-pager's system — Liberation Sans, blue rules and table heads, letter-spaced section labels, the wordmark on white — so they sit beside the approved originals without a seam. Every page carries a running header (document title · Confidential — Draft — For Discussion · version) and a footer (disclaimer · source pointer · page numbers); each document carries the masthead and status line on page 1, status tags (Original · Verified · Open · Historical · Draft) wherever a file or fact is characterized, and a "Sources:" block at the end citing ledger rows.
 
 ## Release locations (proposed — pending Ian's approval of D9)
 
@@ -57,7 +57,7 @@ The repository is the only verified release location today. A mirror becomes ver
 
 ```bash
 cd "Due Diligence"
-python3 tools/tests/run_probes.py                   # 29 regression probes: scanner, verifier, builder, shared control policy
+python3 tools/tests/run_probes.py                   # 31 regression probes: scanner, verifier, builder, shared control policy
 python3 tools/lint.py --root .                      # exit 0 OK · 1 match · 2 unscanned surface
 node src/render.js                                  # AUTHOR ONLY — re-renders src/pages/*.html to the paths in their dd-output meta
 python3 tools/build_manifest.py                     # AUTHOR ONLY — regenerates manifest.json / MANIFEST.md
@@ -72,7 +72,7 @@ python3 tools/lint.py --root /path/to/any/collection --json report.json   # e.g.
 
 ## Read next
 
-- `DECISIONS.md` — D1 resolved; D2, D3, D4, D8, D9, D10 open; **D7 time-critical** (xTech corrections approved 9 Oct, not known to be executed; competition closes 19 Oct 21:00 UTC).
+- `DECISIONS.md` — D1 resolved; D2, D3, D4, D8, D9, D10 open; **D7 partially closed and still time-critical** (corrections 1–4 and 7 observed in the live profile on 14 Oct; the attachment's bytes and cover value unverified; competition closes 19 Oct 21:00 UTC).
 - `SOURCE_LEDGER.md` — every source, where it is, its hash and status; §C maps the Mac inventory; §E maps each package file to its source bytes.
 - `REVIEW_PROTOCOL.md` — how GPT, Antigravity and Grok return findings.
 - `MANIFEST.md` — what is in this release, byte for byte, and the control code in force.

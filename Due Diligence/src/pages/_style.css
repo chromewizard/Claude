@@ -13,14 +13,14 @@ h1 .sub { color: #5B9BE0; font-weight: normal; }
 .label { color: #5B9BE0; letter-spacing: 0.28em; font-size: 7.8pt; font-weight: bold; text-transform: uppercase; margin: 13pt 0 4pt; }
 p { margin: 0 0 6pt; }
 ul { margin: 0 0 6pt 14pt; padding: 0; } li { margin: 0 0 3pt; }
-table { border-collapse: collapse; width: 100%; font-size: 9.1pt; margin: 2pt 0 6pt; page-break-inside: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 9.1pt; margin: 2pt 0 6pt; page-break-inside: auto; break-inside: auto; }
 th { background: #5B9BE0; color: #fff; text-align: left; padding: 3.5pt 6pt; font-weight: bold; }
 td { border-bottom: 1px solid #D8E0E8; padding: 3.5pt 6pt; vertical-align: top; }
-tr:nth-child(even) td { background: #F2F6FB; }
-tr { page-break-inside: avoid; }
+tbody tr:nth-child(odd) td { background: #F2F6FB; }
+tr { page-break-inside: avoid; break-inside: avoid; }
 td.r, th.r { text-align: right; white-space: nowrap; }
 .tag { display: inline-block; font-size: 7.2pt; letter-spacing: 0.08em; padding: 1pt 5pt; border-radius: 3px; font-weight: bold; text-transform: uppercase; white-space: nowrap; }
-.ok { background: #E3F1E8; color: #1E6B3A; } .open { background: #FFF1DC; color: #9A4D00; } .hist { background: #ECEFF3; color: #4B5563; } .draft { background: #E6F0FB; color: #1D4ED8; }
+.ok { background: #E3F1E8; color: #1E6B3A; } .open { background: #FFF1DC; color: #9A4D00; } .hist { background: #ECEFF3; color: #4B5563; } .draft { background: #E6F0FB; color: #1D4ED8; } .orig { background: #E6F2F0; color: #0F5C4A; }
 .box { border: 1px solid #D8E0E8; border-left: 4px solid #5B9BE0; background: #F2F6FB; padding: 7pt 9pt; margin: 6pt 0 8pt; }
 .box.warn { border-left-color: #B45309; background: #FFF8EE; }
 .quote { border-left: 3px solid #C9DCF2; padding-left: 9pt; color: #334155; font-style: italic; margin: 4pt 0 8pt; }
@@ -30,3 +30,22 @@ td.r, th.r { text-align: right; white-space: nowrap; }
 .pb { page-break-before: always; }
 h2 { font-size: 12pt; margin: 12pt 0 4pt; }
 .num { font-size: 20pt; color: #0066FF; font-weight: bold; }
+
+/* Pagination (print). A continued table repeats its column headings (thead); a section label, a table's
+   heading row and a quote stay with the first substantive row; boxes and quotes do not split; the Sources
+   block never opens a page of its own. */
+thead { display: table-header-group; }
+thead tr { break-inside: avoid; break-after: avoid; page-break-after: avoid; }
+tbody tr:first-child { break-before: avoid; page-break-before: avoid; }
+.label, h1, h2, .lead, .quote { break-after: avoid; page-break-after: avoid; }
+.label { break-inside: avoid; }
+.box, .quote { break-inside: avoid; page-break-inside: avoid; }
+.sources { break-before: avoid; page-break-before: avoid; break-inside: avoid; }
+.two { break-inside: avoid; page-break-inside: avoid; }
+/* Per-document density: a page whose content runs a few lines past a page boundary may opt into this instead of
+   stranding its Sources block on a page of its own. */
+body.compact { font-size: 9.9pt; }
+body.compact .quote { font-size: 9.5pt; margin: 3pt 0 6pt; }
+body.compact table { font-size: 8.9pt; margin-bottom: 4pt; }
+body.compact .label { margin-top: 10pt; }
+body.compact .lead { margin-bottom: 4pt; }

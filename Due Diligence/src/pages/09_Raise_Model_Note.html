@@ -1,9 +1,10 @@
 <!doctype html><html><head><meta charset="utf-8">
 <meta name="dd-output" content="01_Investor/03_Series_A/EnergyWave_Raise_Model_Note_2026-10-15.pdf">
-<meta name="dd-version" content="DD-2026-10-15-r3-draft">
+<meta name="dd-title" content="Raise Model Note">
+<meta name="dd-version" content="DD-2026-10-15-r4-draft">
 <link rel="stylesheet" href="_style.css"></head><body>
 <div class="masthead"><img src="../assets/wordmark_blue.png" alt="Energy Wave">
-<div class="meta"><b>energywave.ai</b> • Raise Model — what the workbook is, what it says, what is open<br>15 October 2026 · DD-2026-10-15-r3-draft</div></div>
+<div class="meta"><b>energywave.ai</b> • Raise Model — what the workbook is, what it says, what is open<br>15 October 2026 · DD-2026-10-15-r4-draft</div></div>
 <div class="status">Confidential — Draft — For Discussion</div>
 
 <h1>Dollars tied to milestones, not an open-ended ask. <span class="sub">A reading note for the workbook.</span></h1>
@@ -11,34 +12,37 @@
 
 <div class="label">The file</div>
 <table>
-<tr><th style="width:34%">Item</th><th>Value</th></tr>
+<thead><tr><th style="width:34%">Item</th><th>Value</th></tr></thead>
+<tbody>
 <tr><td>Workbook in this folder</td><td><b>EnergyWave_Raise_Model_v1.1-corrected_2026-10-15.xlsx</b></td></tr>
 <tr><td>Ancestry</td><td>EnergyWave_Raise_Model_v1.xlsx, 7 Sept 2026, 149,053 bytes, SHA-256 a91260689894fda26906a9f763a230b3504ffe3549b6e8cbc94a17028f5831ab (unchanged on the founder’s Mac).</td></tr>
 <tr><td>The one change</td><td>Roster!A4 — a nickname in parentheses after the founder’s name was removed; the cell now reads “Ian F. McLean”. The edit was made to the workbook’s shared-strings part only; no formula was touched or recalculated and every other byte of every other part is identical to v1. The corrected file passes the package’s forbidden-label scan.</td></tr>
 <tr><td>Why not “v2”</td><td>A different historical v2 (11 Sept 2026) is referenced by the September manifest and has not been located; this corrected copy keeps v1’s lineage in its name.</td></tr>
 <tr><td>Sheets</td><td>README · Assumptions · Headcount · CostLines · Monthly · UseOfFunds · Pivot_Data · Entities · Roster · DD_Checklist</td></tr>
 <tr><td>Conventions</td><td>Blue = input; black = formula; green = cross-sheet link; yellow = key lever. Every dollar input carries a status: From Ian / Placeholder / Formula. Scenario lever Assumptions!B4 (1 Lean · 2 Base · 3 Full).</td></tr>
-</table>
+</tbody></table>
 
 <div class="label">Headline outputs — model outputs on placeholder inputs, not a raise figure</div>
 <table>
-<tr><th style="width:22%">Scenario</th><th class="r">36-month plan</th><th class="r">Raise incl. 20% reserve</th><th>Origin</th></tr>
+<thead><tr><th style="width:22%">Scenario</th><th class="r">36-month plan</th><th class="r">Raise incl. 20% reserve</th><th>Origin</th></tr></thead>
+<tbody>
 <tr><td>Lean</td><td class="r">$14.44M</td><td class="r">$17.33M</td><td rowspan="3">Financial status note of 18 Sept 2026, derived from workbook v1. Placeholder inputs throughout; the two theoretical-physicist consulting agreements are modelled at $500k/yr <i>each</i> and may be $500k total.</td></tr>
 <tr><td>Base</td><td class="r">$17.07M</td><td class="r">$20.49M</td></tr>
 <tr><td>Full</td><td class="r">$20.92M</td><td class="r">$25.11M</td></tr>
 <tr><td>v2 (11 Sept 2026, not located)</td><td class="r">—</td><td class="r">$19.68M base · $23.40M with full engineering band</td><td>Same note; the v2 file is not in the package.</td></tr>
-</table>
-<p class="muted">Cached cell values are not carried in the package extraction; a reader opening the workbook in Excel sees the recalculated figures. Model checks (Pivot_Data vs plan; monthly detail vs category totals; CostLines + Headcount vs plan) must read 0.</p>
+</tbody></table>
+<p class="muted">The workbook retains v1’s stored calculation results (saved scenario: Base). The name-only correction did not recalculate the model and no recalculation was performed for this package; the saved Base results in UseOfFunds!C4 and C6 agree with the Base row above. Validate the assumptions and recalculate in the intended spreadsheet application before relying on any output. The saved Base-scenario checks in UseOfFunds!C38:C40 read 0 — a stored state, not a fresh calculation test.</p>
 
 <div class="label">Structure a diligence reader will look for</div>
 <table>
-<tr><th style="width:24%">Sheet</th><th>What it establishes</th></tr>
+<thead><tr><th style="width:24%">Sheet</th><th>What it establishes</th></tr></thead>
+<tbody>
 <tr><td>Headcount</td><td>Eighteen roles with base, load, relocation, equity note and start month by scenario — five applied physicists, two theoretical-physicist consulting agreements, EHS officer first, test and instrumentation engineers, additive-manufacturing and software engineers, operations. The PI-equivalent hires precede any bench work.</td></tr>
 <tr><td>UseOfFunds</td><td>Raise sizing; category × year table; cumulative need at each gate month (the tranche table); one-time vs recurring split; people on plan.</td></tr>
 <tr><td>Entities</td><td>Funds-flow map for EnergyWave, Inc., GovThink Institute, a second proposed nonprofit, a Wyoming pooling vehicle, McLean Companies LLC and the escrow counterparty — with the control that must exist for each.</td></tr>
 <tr><td>Roster</td><td>Team, advisors, counsel and proposed vendors, each with the bio claim that must be verified before it enters any packet.</td></tr>
 <tr><td>DD_Checklist</td><td>A 37-item data-room index with owner and status — Have / In progress / Need / Blocked.</td></tr>
-</table>
+</tbody></table>
 
 <div class="label">Series A — what exists and what does not</div>
 <p>The September materials contemplate a Series A after Gate 3, with a cap table (v1.1 DRAFT, 11 Sept 2026) showing the founder at roughly 29.5% fully diluted after that round on placeholder inputs. Neither the cap table nor the 13-slide deck of the same date has been located in the inventory; both are referenced by the September manifest. This folder holds the corrected workbook and this note until they are found or rebuilt. <span class="tag open">Open</span></p>

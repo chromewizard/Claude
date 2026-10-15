@@ -26,7 +26,7 @@ Ian permitted a **separate Seed Round folder** while **preserving the Capital Re
 | **EnergyWave, Inc.** (Delaware C-corp) | Named on the deck in the present tense. Counsel (Trinh Truong) had four open confirmations on Oct 5 with an Oct-14 target; **no primary evidence of formation is in the package**. |
 | **McLean Capital Development LLC** (Wyoming, Filing ID 2025-001612265) | The xTech applicant of record. Filed 12 Feb 2025; Active, good standing (reinstated 12 Jun 2026); Ian 100% member, President, Sole Member (certificate 23 Jun 2026). Ian approved it as applicant. |
 | **McLean Companies LLC** (California) | Ian's existing company; letterhead on the August white paper; `ian@mcleancompanies.com`. |
-| **GovThink Institute** (501(c)(3), proposed) | Counsel package Aug 2026 (client-prepared); EIN not obtained; determination not applied for; domain .org in the package vs .com per Ian. |
+| **GovThink Institute** (501(c)(3), proposed) | Counsel package Aug 2026 (client-prepared) records that an EIN had not yet been obtained; current incorporation, EIN, exemption-application and determination status are not established in the reviewed evidence; domain .org in the package vs .com per Ian. |
 | 1988 Delaware "EnergyWave Inc." #2149394 | Ian asked counsel to investigate; ownership not asserted. |
 
 **Needed from Ian:** (a) Was EnergyWave, Inc. formed — date and Delaware file number? (b) Confirm the entity mapping above for the package. (c) Answers to counsel's four questions (sole shareholder; CEO/Secretary/CFO; shares authorized/issued/reserved; C-corp rationale). (d) Does a pre-seed SAFE already exist? The September DD checklist lists "Pre-seed SAFE(s) and terms — Have". Until answered, every package states entity status as *unverified as of the release date* and quotes the applicant exactly as the submitted record does.
@@ -49,11 +49,13 @@ Ian permitted a **separate Seed Round folder** while **preserving the Capital Re
 
 The Shared AI Workspace is owned by a personal Gmail whose handle contains the forbidden label; the handle never appears inside documents. Workable now. **Recommendation:** move the mirror to an energywave.ai Google Workspace when it exists.
 
-## D7 — xTech Search 10: corrections approved but not known to be executed → OPEN and TIME-CRITICAL (closes 2026-10-19 21:00 UTC)
+## D7 — xTech Search 10: approved corrections → PARTIALLY CLOSED by observation (14 Oct); still TIME-CRITICAL (closes 2026-10-19 21:00 UTC)
 
-The entry is submitted (receipt 2026-10-09 07:33:46Z, ref `3b2a54ce-…`). **On 9 October (~16:37 UTC) Ian approved seven corrections** — company name McLean Capital Development LLC; Previous DoD business → No; "Chip]" → "Chip"; six tags; replace the paper with the corrected PDF (SHA-256 `90823d62…fea1`, banner and TBDs removed); Capital Raised Total ≈ $10,000 incl. founder; portal capitalization 0 preserved. **At 16:42 UTC they were not executed** (no browser control available to the assistant). Whether they were applied since is not known to this package.
+The entry is submitted (receipt 2026-10-09 07:33:46Z, ref `3b2a54ce-…`). **On 9 October (~16:37 UTC) Ian approved seven corrections** — company name McLean Capital Development LLC; Previous DoD business → No; "Chip]" → "Chip"; six tags; replace the paper with the corrected PDF (SHA-256 `90823d62…fea1`, banner and TBDs removed); Capital Raised Total ≈ $10,000 incl. founder; portal capitalization 0 preserved. At 16:42 UTC they were not executed.
 
-**Needed from Ian:** was the portal updated after 9 Oct? If not, does Ian want the approved corrections applied before the 19 Oct close (by Ian in the browser, or by an assistant with browser control and Ian's authorization)? The DoW submission-record page describes the entry exactly as last observed either way.
+**Observed 14 Oct 18:12–18:20 PT by the GPT reviewer, read-only (M-20):** items 1–4 are present in the live profile; item 7 is preserved at 0; the paper link now shows the replacement filename at artifact 262231, but a download attempt timed out, so **the attachment's bytes (item 5) and the cover's ≈ $10,000 (item 6) are not verified**. Who applied the changes, and when, is not established. The paper as submitted and the approved replacement are placed in `02_DoW/` from the Mac record.
+
+**Needed from Ian:** (a) who updated the portal, and when; (b) confirm that the current attachment is the approved replacement (`90823d62…fea1`) and that its cover reads ≈ $10,000 — or re-upload before the close; (c) whether the evaluators' frozen version is known. Nothing on the portal is changed by this package.
 
 ## D8 — Ancestry of the September data room and the workbook
 

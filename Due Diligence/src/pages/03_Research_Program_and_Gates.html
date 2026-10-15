@@ -1,9 +1,10 @@
 <!doctype html><html><head><meta charset="utf-8">
 <meta name="dd-output" content="03_Technical_Documents/EnergyWave_Research_Program_and_Gates_2026-10-15.pdf">
-<meta name="dd-version" content="DD-2026-10-15-r3-draft">
+<meta name="dd-title" content="Research Program and Gates">
+<meta name="dd-version" content="DD-2026-10-15-r4-draft">
 <link rel="stylesheet" href="_style.css"></head><body>
 <div class="masthead"><img src="../assets/wordmark_blue.png" alt="Energy Wave">
-<div class="meta"><b>energywave.ai</b> • Research Program and Gates — the protocol, the threads, the commitments<br>15 October 2026 · DD-2026-10-15-r3-draft</div></div>
+<div class="meta"><b>energywave.ai</b> • Research Program and Gates — the protocol, the threads, the commitments<br>15 October 2026 · DD-2026-10-15-r4-draft</div></div>
 <div class="status">Confidential — Draft — For Discussion</div>
 
 <h1>Research first, claims last. <span class="sub">One protocol, three gates, every thread under it.</span></h1>
@@ -11,11 +12,12 @@
 
 <div class="label">The gate protocol</div>
 <table>
-<tr><th style="width:11%">Gate</th><th style="width:30%">Question</th><th>Pass</th><th>Kill</th></tr>
+<thead><tr><th style="width:11%">Gate</th><th style="width:30%">Question</th><th>Pass</th><th>Kill</th></tr></thead>
+<tbody>
 <tr><td><b>Gate 1</b><br><span class="muted">Characterize</span></td><td>Can the reported effects be reproduced, and are they artifacts?</td><td>Repeatable output above the fully characterized noise and artifact floor at ≥5σ in blinded runs, surviving every control.</td><td>Nothing above the floor, or output explained by a known source. Result published with data.</td></tr>
 <tr><td><b>Gate 2</b><br><span class="muted">Conservation test</span></td><td>If something is there, where does the energy come from?</td><td>Net output whose closed-system energy balance cannot be closed by known sources, replicated by a second laboratory contracted in advance.</td><td>The balance closes, or replication fails. Effect retired publicly.</td></tr>
 <tr><td><b>Gate 3</b><br><span class="muted">Extract or retire</span></td><td>Can it be engineered?</td><td>Independently validated, repeatable performance under third-party observation — the first point at which EnergyWave would ever state a number. The anti-tamper “paperweight test” is a Gate-3 deliverable.</td><td>Scaling, lifetime or stability fails.</td></tr>
-</table>
+</tbody></table>
 <p class="muted">Gate names follow the August 2026 white paper (Characterize / Conservation-test / Extract or retire); the September program documents number them Gate 1–3; the October deck shows them as Phases 0–3 with Phase 0 = this round. They are the same three decisions.</p>
 
 <div class="label">Energy accounting — the standard every thread is held to</div>
@@ -23,11 +25,12 @@
 
 <div class="label">The research threads — kept separate, held to the same protocol</div>
 <table>
-<tr><th style="width:17%">Thread</th><th style="width:27%">What it is</th><th>Evidence to date</th><th style="width:22%">Next step</th></tr>
+<thead><tr><th style="width:17%">Thread</th><th style="width:27%">What it is</th><th>Evidence to date</th><th style="width:22%">Next step</th></tr></thead>
+<tbody>
 <tr><td><b>A · Founder’s solid-state module</b><br><span class="muted">Sweet-lineage conditioned ferrite core</span></td><td>Floyd Sweet’s vacuum triode amplifier as the named first module (Oct-13 deck). The physical nature of magnet “conditioning” is unestablished; three hypotheses are set out for test: finite stored-energy depletion, open-system environmental transduction, metrology phase skew.</td><td>No specimen selected, no hardware ordered, no measured result. Baseline model v1.3 proposes an unconditioned four-step characterization before any conditioning experiment. Specimen, magnetization, winding axis and conditioning procedure are inventor-defined and not yet on record. <span class="tag open">Open</span></td><td>Founder defines the specimen and conditioning; characterization plan with pass / kill criteria written with Chip Story.</td></tr>
 <tr><td><b>B · Independent replication</b><br><span class="muted">MIM diode under a Casimir cavity</span></td><td>Pre-registered replication of Moddel et al. 2021 with cavity / no-cavity twins from the same wafer, sign and magnitude vs. cavity thickness, blinded measurement.</td><td>Published claim: 1.4 pW maximum, one lab, &gt;1,000 devices, unreplicated — <i>Claimed, not replicated</i>; Maclay 2024 predicts the opposite sign — <i>Disputed</i>. Proposed to the Army as an independent evaluation platform (xTech Search 10, submitted 9 Oct 2026).</td><td>Qualified independent lead; fabrication access; matched test articles; the artifact-exclusion bench commissioned on known-null samples.</td></tr>
 <tr><td><b>C · The measurement platform</b><br><span class="muted">Workstream 1B</span></td><td>Shielded isothermal enclosure; calorimetric accounting; lock-in electrical measurement to the picowatt level; blinded sample handling; open data pipeline. Published as a methods paper before any result is claimed.</td><td>Design only. Residual value if every thread fails: a credible nanoscale-measurement capability and its publications — stated once, not oversold.</td><td>Error budget for external review.</td></tr>
-</table>
+</tbody></table>
 <div class="box warn"><b>Which thread is first is the founder’s decision (D2).</b> The September program places the founder’s own structure as workstream 1C under the same protocol as the replication; the October deck leads with it. Nothing on this page asserts a physical dependency between threads — none has been established — and no thread is described as feeding another.</div>
 
 <div class="label">Eight commitments, written in from day one</div>
@@ -41,12 +44,13 @@
 
 <div class="label">Technical documents in this folder</div>
 <table>
-<tr><th>File</th><th style="width:14%">Status</th><th>Note</th></tr>
-<tr><td>EnergyWave_Physical_Architecture_and_Baseline_Model_v1.3_2026-10-05.pdf</td><td><span class="tag ok">Verified</span></td><td>AI-reviewed working briefing (Antigravity &amp; GPT/Codex; reviewed by Claude). §6 is a historical legal/corporate status table and is superseded by 04_Legal_and_IP.</td></tr>
-<tr><td>2026-10-05_energywave-physics-review_claude_v2.md and three source notes</td><td><span class="tag ok">Verified</span></td><td>Reservoir inventory; boundary language; Puthoff &amp; Little assessed; Pais / Exodus / regauging checked; GR-coupling evaluation and its review.</td></tr>
+<thead><tr><th>File</th><th style="width:14%">Status</th><th>Note</th></tr></thead>
+<tbody>
+<tr><td>EnergyWave_Physical_Architecture_and_Baseline_Model_v1.3_2026-10-05.pdf</td><td><span class="tag orig">Original</span></td><td>AI-reviewed working briefing (Antigravity &amp; GPT/Codex; reviewed by Claude). §6 is a historical legal/corporate status table and is superseded by 04_Legal_and_IP.</td></tr>
+<tr><td>2026-10-05_energywave-physics-review_claude_v2.md and four companion notes</td><td><span class="tag orig">Original</span></td><td>Reservoir inventory; boundary language; Puthoff &amp; Little assessed; Pais / Exodus / regauging checked; GR-coupling evaluation and its review.</td></tr>
 <tr><td>EnergyWave_Technical_Prospectus_DRAFT_v1_2026-09-07.docx</td><td><span class="tag hist">Historical</span></td><td>The September program in full: §4 physics with labels, §6 Gate 1 design and artifact catalogue, §6.5 workstream 1C placeholder, §6.6 decision rule.</td></tr>
 <tr><td>Key_Research_Facts_verified_2026-09-07.md</td><td><span class="tag hist">Historical</span></td><td>One-page corrections to common belief; energy figures used in the narrative.</td></tr>
-</table>
+</tbody></table>
 
 <div class="sources">Sources: Oct-13 deck slides 5–7, 9 (S-01); Technical Prospectus v1 §§4, 6–7 (M-05); Program_Summary_and_Gates.md and Key_Research_Facts (M-03b); DoD white paper v2.0 §3 (M-07); Physical Architecture &amp; Baseline Model v1.3 (S-11/M-14); Claude physics review v2 and source notes (S-13, S-15–S-18); xTech white paper (M-10).</div>
 </body></html>

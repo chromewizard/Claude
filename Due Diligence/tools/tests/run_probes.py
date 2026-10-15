@@ -276,6 +276,18 @@ def control_policy_probes():
         rc_po, o2 = verify(manifest, m, ("--payload-only",))
         out.append(expect("V06 payload-only mirror: strict FAIL, --payload-only OK", rc_strict == 1 and rc_po == 0, o1 + o2))
 
+        m = mirror_of(pkg, td, "m_ds_store")
+        write(os.path.join(m, ".DS_Store"), b"\x00\x00\x00\x01Bud1")
+        write(os.path.join(m, "01_Investor", ".DS_Store"), b"\x00\x00\x00\x01Bud1")
+        rc, o = verify(manifest, m)
+        out.append(expect("V07 Finder metadata at any depth is ignored by the verifier (R3C1)", rc == 0 and ".DS_Store" not in o, o))
+        p = subprocess.run([sys.executable, os.path.join(m, "tools", "build_manifest.py")], capture_output=True, text=True)
+        with open(os.path.join(m, "manifest.json")) as f:
+            built = f.read()
+        rc2, o2 = verify(os.path.join(m, "manifest.json"), m)
+        out.append(expect("B02 build/verify round-trip with nested Finder metadata (R3C1)",
+                          p.returncode == 0 and ".DS_Store" not in built and rc2 == 0, p.stdout + o2))
+
         m = mirror_of(pkg, td, "m_external_lint")
         rc, r = external_lint(m)
         out.append(expect("L20 trusted external scanner passes an identical mirror (R2C3)",
