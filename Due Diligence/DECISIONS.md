@@ -17,6 +17,8 @@ Ian permitted a **separate Seed Round folder** while **preserving the Capital Re
 
 **What the sources already establish:** the September program design placed the founder's own structure as workstream 1C *under the same protocol* as the replication (Prospectus §6.5; Overview slide 12). That is a program structure, not a physical dependency. The r3 Research Program page presents the threads as A (founder's module), B (replication), C (platform) under one gate protocol and asserts no dependency between them.
 
+The Seed Round Technical Docs page (r4.3) presents the threads in the same order as the Research Program page and marks the lead thread open; it is re-rendered when D2 is answered.
+
 **Needed from Ian:** (a) which thread leads for investors and which for DoW; (b) whether the Sweet module on the deck and the "mid-1980s solid-state design" on the website are the same thing, and whether it is Forward's charged foliated conductor (a one-shot store by its author's description) or something else; (c) the specimen, magnetization, winding axis and conditioning procedure for thread A — inventor-defined items the reviewers will not supply.
 
 ## D3 — Applicant / entity identity → OPEN; facts now known
@@ -67,7 +69,7 @@ The entry is submitted (receipt 2026-10-09 07:33:46Z, ref `3b2a54ce-…`). **On 
 
 ## D9 — Mac release location → OPEN
 
-Ian asked for the Due Diligence folder on the **Desktop**. Proposed: `/Users/ian/Desktop/Due Diligence/`, with the source collection untouched at `/Users/ian/Documents/Projects/EnergyWave/`. **Confirm or give the path.**
+Ian asked for the Due Diligence folder on the **Desktop**. Proposed: `/Users/ian/Desktop/Due Diligence/`, with the source collection untouched at `/Users/ian/Documents/Projects/EnergyWave/`. Lyra's collection note of 15 Oct (S-36) records a later instruction that the location is now `Documents/EnergyWave Final` with OneDrive and Drive mirrors; that is a relayed instruction, so **Ian to confirm the path to Claude directly** — then the README's release table is updated.
 
 ## D10 — Which claims rules govern: the September charter or the October deck → OPEN
 
