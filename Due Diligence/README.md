@@ -1,7 +1,7 @@
 # EnergyWave — Due Diligence (canonical source)
 
-**Status:** Fifth iteration — every remaining deliverable drafted and the open facts marked in place. r5 adds ten rendered documents: the SAFE term summary; the Seed deck (16 slides, 16:9, in the Oct-13 deck's own system) and Seed one-pager; the Series A readiness outline; the Thread A characterization plan, the humanoid power-budget specification and the measurement-platform error budget; the DoW white paper v2.1 pass; the Safe Release Posture paper that supersedes the August 2025 "QVED" paper on EnergyWave letterhead; and the consolidated register of everything still waiting on an answer. Every open fact or decision is tagged in the document itself with the literal text `[Needs Input from Ian or Chip: …]` and listed once in `NEEDS_INPUT.md`. The ledger gains §F, the legacy QVE-era sources read from the Drive copy of the Mac collection (nothing from them is placed), and `90_Internal_Ops_NOT_FOR_CIRCULATION/` holds the consent requests, the counsel question set, the xTech verification checklist and the mirror instructions — drafts only; nothing is sent. r4–r4.2 history is in `MANIFEST.md`. Nothing here is released; every substantive item stays open until Ian answers it — silence is not approval.
-**Package version:** `DD-2026-10-15-r5-draft`
+**Status:** r5.1 — the r5 deliverables plus the founder's 14 Oct answers applied (EnergyWave, Inc. not formed; GovThink not filed, no formal tie; ian@energywave.ai confirmed as the contact; the founder's belief about who submitted the xTech entry; his “no patents have been filed” read against the 2025 provisional record — ledger S-38), the release location resolved to the EnergyWave Final collection (D9, D6; S-36), the literature-review qualifications recorded (S-37), the error-budget floor labelled a proposed target, and `DELIVERY_MAP.md` mapping every file to Ian's nine audience folders with its readiness. Fifth iteration — every remaining deliverable drafted and the open facts marked in place. r5 adds ten rendered documents: the SAFE term summary; the Seed deck (16 slides, 16:9, in the Oct-13 deck's own system) and Seed one-pager; the Series A readiness outline; the Thread A characterization plan, the humanoid power-budget specification and the measurement-platform error budget; the DoW white paper v2.1 pass; the Safe Release Posture paper that supersedes the August 2025 "QVED" paper on EnergyWave letterhead; and the consolidated register of everything still waiting on an answer. Every open fact or decision is tagged in the document itself with the literal text `[Needs Input from Ian or Chip: …]` and listed once in `NEEDS_INPUT.md`. The ledger gains §F, the legacy QVE-era sources read from the Drive copy of the Mac collection (nothing from them is placed), and `90_Internal_Ops_NOT_FOR_CIRCULATION/` holds the consent requests, the counsel question set, the xTech verification checklist and the mirror instructions — drafts only; nothing is sent. r4–r4.2 history is in `MANIFEST.md`. Nothing here is released; every substantive item stays open until Ian answers it — silence is not approval.
+**Package version:** `DD-2026-10-15-r5.1-draft`
 **Point lead:** Claude · **Cross-check:** GPT (Lyra / Aura), Antigravity, Grok (Architect, Compliance) · **Authorizations:** Ian McLean
 
 ## What this is
@@ -16,6 +16,7 @@ The September data rooms diverged: same-named ZIPs with 22 vs 24 files; standalo
 |---|---|---|
 | `EnergyWave_DD_Reading_Guide_2026-10-15.pdf` | Everyone — read first | How the package is organized, what is verified, what is open, and how to read the status tags. |
 | `EnergyWave_Needs_Input_from_Ian_or_Chip_2026-10-15.pdf` · `NEEDS_INPUT.md` | Ian, Chip, counsel, reviewers | The consolidated register: every open fact and decision, who answers it, where the answer lands. Generated from the `[Needs Input from Ian or Chip: …]` tags. |
+| `DELIVERY_MAP.md` | GPT/Lyra (assembly), Ian | Every package file mapped to the nine audience folders of the EnergyWave Final collection (three rounds × Government / Investor / Technical), with READY / DRAFT / INTERNAL status and what blocks placement. |
 | `EnergyWave_Claims_Discipline_2026-10-15.pdf` | Everyone | The rules every document obeys — two-question filter, evidence labels, no device figures, publish both ways — and the recorded difference between the September charter and the Oct-13 deck (D10). |
 | `01_Investor/01_Capital_Readiness/` | Investors — now | The Oct-13 deck and one-pager, unedited; the Terms and Objectives page; the SAFE Term Summary (every unset term tagged). $60,000 SAFE, 3 months, **"not a seed round"** — preserved as written (D1). |
 | `01_Investor/02_Seed_Round/` | Investors — next | Seed Round Structure; the Seed Deck (16 slides) and Seed One-Pager — amount, tranche sizes and terms tagged, the model's stored figures labelled as placeholder outputs; the September Investor Overview as the historical ancestor. Separate folder permitted by Ian (D1). |
@@ -45,16 +46,17 @@ Shared material (team, legal, technical) lives once and is pulled into the Inves
 10. **One visual system.** New pages use the Oct-13 one-pager's system — Liberation Sans, blue rules and table heads, letter-spaced section labels, the wordmark on white — so they sit beside the approved originals without a seam. Every page carries a running header (document title · Confidential — Draft — For Discussion · version) and a footer (disclaimer · source pointer · page numbers); each document carries the masthead and status line on page 1, status tags (Original · Verified · Open · Historical · Draft) wherever a file or fact is characterized, and a "Sources:" block at the end citing ledger rows. Slide decks use the Oct-13 deck's own system (`_slides.css`: 16:9, near-black ground, navy cards, blue letter-spaced labels) with a footer line on every slide in place of the running header.
 11. **Open items are tagged in place.** A fact or decision the package cannot settle is written into the document as the literal text `[Needs Input from Ian or Chip: …]` (or `[Needs Input from counsel via Ian: …]`), never as a blank or a guess, and appears once in `NEEDS_INPUT.md`. A tag that is not in the register is a finding.
 
-## Release locations (proposed — pending Ian's approval of D9)
+## Release locations (D9 resolved 14 Oct 2026)
 
-| Mirror | Location | Created by |
+| Location | Exact path | Role |
 |---|---|---|
-| Canonical | `chromewizard/Claude` · branch `claude/happy-knuth-yqtd41` · `Due Diligence/` | Claude |
-| Mac | `/Users/ian/Desktop/Due Diligence/` (D9); the source collection at `/Users/ian/Documents/Projects/EnergyWave/` is untouched | Claude via Desktop Commander once the Mac is connected; otherwise Antigravity from the release ZIP + manifest |
-| Google Drive | `Ian + Aura — Shared AI Workspace / Due Diligence /` (same sub-tree) | Claude creates the text-only skeleton through the Drive connector; binaries by Mac sync (mirror instructions), verified against the manifest |
-| Claude Project | *EnergyWave Ops* — release ZIP + manifest uploaded; this repo linked | Ian (project-knowledge upload) |
+| Canonical | `chromewizard/Claude` · branch `claude/happy-knuth-yqtd41` · `Due Diligence/` | The only verified release location; every mirror verifies against its pinned manifest. |
+| Mac — the EnergyWave Final collection | `/Users/ian/Documents/EnergyWave Final/Due Diligence/DD-2026-10-15-r5.1-draft/` (beside the preserved `DD-2026-10-15-r4.1-draft/` snapshot) | Placed from the pinned commit by the mirror instructions; verified with `tools/verify_manifest.py`. The nine audience folders (`Capital Readiness` / `Seed Round` / `Series A` × `Government DoW:DoE:DARPA Package` / `Investor Due Dilligence Packet` / `Technical Package`) receive hash-verified copies assembled by GPT/Lyra from `DELIVERY_MAP.md` after review. |
+| OneDrive | `/Users/ian/Library/CloudStorage/OneDrive-mcleancompanies.com/EnergyWave Final/…` (same sub-tree) | Matching copy of the collection (point-in-time; verified by the same verifier). |
+| Google Drive | `/Users/ian/My Drive/EnergyWave Final/…` — Drive folder `1NuJiWhYbq9xrqkOoCF_bZ-Hz2ZWAt5VG` (same sub-tree) | Matching copy of the collection. The Shared AI Workspace is no longer a mirror (D6). |
+| Claude Project | *EnergyWave Ops* — release ZIP + manifest uploaded; this repo linked | Ian (project-knowledge upload). |
 
-The repository is the only verified release location today. A mirror becomes verified only when `tools/verify_manifest.py` passes against the pinned manifest hash from the handoff.
+The repository is the only verified release location today. A mirror becomes verified only when `tools/verify_manifest.py` passes against the pinned manifest hash from the handoff; the collection's own `FILE_MANIFEST.json` is rebuilt by GPT/Lyra after each addition. One writer at a time: no concurrent mirror writes, no duplicate masters.
 
 ## Build (author) and verify (everyone else)
 
@@ -75,8 +77,9 @@ python3 tools/lint.py --root /path/to/any/collection --json report.json   # e.g.
 
 ## Read next
 
-- `NEEDS_INPUT.md` — the register: 33 items by owner, with T-1 (the xTech attachment, closes 19 Oct 21:00 UTC) first.
-- `DECISIONS.md` — D1 resolved; D2, D3, D4, D8, D9, D10, D11 open; **D7 partially closed and still time-critical** (corrections 1–4 and 7 observed in the live profile on 14 Oct; the attachment's bytes and cover value unverified; competition closes 19 Oct 21:00 UTC).
+- `NEEDS_INPUT.md` — the register: 33 items by owner, with T-1 (the xTech attachment, closes 19 Oct 21:00 UTC) first; the founder's 14 Oct answers are applied, so it asks only what is still open.
+- `DELIVERY_MAP.md` — which file goes in which of the nine audience folders, and what is READY today versus DRAFT or INTERNAL.
+- `DECISIONS.md` — D1, D6, D9 resolved; D5 contact resolved; D2, D3 (in part), D4, D8, D10, D11 open; **D7 partially closed and still time-critical** (corrections 1–4 and 7 observed in the live profile on 14 Oct; the attachment's bytes and cover value unverified; competition closes 19 Oct 21:00 UTC).
 - `SOURCE_LEDGER.md` — every source, where it is, its hash and status; §C maps the Mac inventory; §E maps each package file to its source bytes; §F records the legacy QVE-era sources (read, never placed).
 - `REVIEW_PROTOCOL.md` — how GPT, Antigravity and Grok return findings.
 - `MANIFEST.md` — what is in this release, byte for byte, and the control code in force.

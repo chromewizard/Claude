@@ -33,6 +33,7 @@ The three correction / review text files behind the submission-record page (Priv
 - SAM.gov / UEI / CAGE status of the applicant LLC — unverified; fields blank on the portal.
 - AT memo §8 answers from counsel → v0.2.
 - **D11** — whether the August 2025 paper was sent to anyone (a supersession note follows); the Rossi relationship; see `NEEDS_INPUT.md`.
+- **Founder-reported 14 Oct 2026 (S-38):** EnergyWave, Inc. not formed; GovThink not filed and no formal tie; the founder believes his Beacon assistant submitted the xTech entry. Statements, not documents.
 
 ## Naming
 

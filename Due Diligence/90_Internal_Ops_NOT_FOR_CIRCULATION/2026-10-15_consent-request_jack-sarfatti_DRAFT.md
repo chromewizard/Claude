@@ -1,6 +1,6 @@
 # DRAFT — consent request to Jack Sarfatti — NOT SENT
 
-**From:** Ian McLean [Needs Input from Ian or Chip: sending address — decision D5]
+**From:** Ian McLean, ian@energywave.ai (forwards to ian@mcleancompanies.com — founder, 14 Oct 2026)
 **To:** Jack Sarfatti [Needs Input from Ian or Chip: address on file]
 **Subject:** EnergyWave — your title and bio line, for written consent
 

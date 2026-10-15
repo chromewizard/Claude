@@ -1,6 +1,6 @@
 # DRAFT — consent and inputs request to Chip Story — NOT SENT
 
-**From:** Ian McLean [Needs Input from Ian or Chip: sending address — decision D5]
+**From:** Ian McLean, ian@energywave.ai (forwards to ian@mcleancompanies.com — founder, 14 Oct 2026)
 **To:** Chip Story — crstory@sbcglobal.net (the address on the xTech record; confirm before sending)
 **Subject:** EnergyWave — three things only you can settle before the diligence package goes out
 

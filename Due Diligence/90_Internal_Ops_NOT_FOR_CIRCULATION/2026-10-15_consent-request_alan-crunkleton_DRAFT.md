@@ -1,6 +1,6 @@
 # DRAFT — consent and verification request to Alan Crunkleton — NOT SENT
 
-**From:** Ian McLean [Needs Input from Ian or Chip: sending address — decision D5]
+**From:** Ian McLean, ian@energywave.ai (forwards to ian@mcleancompanies.com — founder, 14 Oct 2026)
 **To:** Alan Crunkleton [Needs Input from Ian or Chip: address on file]
 **Subject:** EnergyWave — your bio line: three items to confirm, and consent to be named
 
