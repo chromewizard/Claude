@@ -1,7 +1,7 @@
 {
   "package": "EnergyWave Due Diligence",
   "version": "DD-2026-10-15-r3-draft",
-  "generated_utc": "2026-10-15T00:40:30Z",
+  "generated_utc": "2026-10-15T00:44:39Z",
   "lint": "OK",
   "file_count": 49,
   "files": [
@@ -17,8 +17,8 @@
     },
     {
       "path": "EnergyWave_DD_Reading_Guide_2026-10-15.pdf",
-      "bytes": 198084,
-      "sha256": "1f931e23f7fc9092592f8cef323c20a8ae1da921168704c12f77960361045e99"
+      "bytes": 197973,
+      "sha256": "4b4116a87bae98471b0f843ebc7ea1a80043398dbf1f620ea57a07f79411cd75"
     },
     {
       "path": "README.md",
@@ -87,8 +87,8 @@
     },
     {
       "path": "02_DoW/EnergyWave_Applicant_and_Eligibility_Facts_2026-10-15.pdf",
-      "bytes": 176905,
-      "sha256": "33bac4a0fd006dac7070ac5845f2ad983163de77623d4614c72783745db79312"
+      "bytes": 177146,
+      "sha256": "404fe7a33e435c216a2e9aab08f52e4fb27b5700f41cbc2891558df311f989e3"
     },
     {
       "path": "02_DoW/EnergyWave_Compartmentalization_AT_Posture_v0.1_2026-09-12.pdf",
@@ -187,8 +187,8 @@
     },
     {
       "path": "src/render.js",
-      "bytes": 2153,
-      "sha256": "b75216a965a3a85250944f57aa63654b95effe6951e28c609c02793d5d634268"
+      "bytes": 2668,
+      "sha256": "21d67e3d53be23a3223441cce8f4d0f28d230bf7a18ecdcc9d20efa22ecfa16a"
     },
     {
       "path": "src/assets/wordmark_blue.png",
@@ -197,8 +197,8 @@
     },
     {
       "path": "src/pages/00_Reading_Guide.html",
-      "bytes": 7562,
-      "sha256": "0865663714011fe16c9bb2b0668b3f0a6cf17409fdadf770eb0175bb9f703a7e"
+      "bytes": 7616,
+      "sha256": "552205df561d340e6469ca68168372db97929d023ae8a6b901742728975d2f35"
     },
     {
       "path": "src/pages/01_Capital_Readiness_Terms.html",
@@ -237,8 +237,8 @@
     },
     {
       "path": "src/pages/08_Applicant_and_Eligibility.html",
-      "bytes": 6399,
-      "sha256": "f0c99ef036ff941001759102b0368419904c4e6875ec86984db50eb5684d9311"
+      "bytes": 6551,
+      "sha256": "2f6cfec3d5c71e7f0927dc1f21195e5cdeae8cd64da018e0319f1abf6713cc22"
     },
     {
       "path": "src/pages/09_Raise_Model_Note.html",
