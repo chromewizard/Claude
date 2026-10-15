@@ -16,7 +16,7 @@
 
 | Item | Note |
 |---|---|
-| Raise Model v2 (11 Sept 2026) | Headline figures known from the Financial Status note ($19.68M base / $23.40M with the full engineering band); the file is not in the inventory — TBD; not asked again. |
+| Raise Model v2 (11 Sept 2026) | Headline figures known from the Financial Status note ($19.68M base / $23.40M with the full engineering band); the file is not in the inventory — [TBD]; not asked again. |
 | Cap table v1.1 DRAFT (11 Sept 2026) | Founder ≈ 29.5% fully diluted after Series A on placeholder inputs (Financial Status note); file not located. |
 | Series A deck (13 slides, 11 Sept 2026) | Not located. |
 

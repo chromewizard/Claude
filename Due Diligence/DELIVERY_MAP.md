@@ -1,10 +1,10 @@
 # Delivery map — every package file to the nine audience folders (the current pinned release; version and hashes in MANIFEST.md)
 
-**Layout (Ian, 14 Oct 2026, 22:00 PT):** `/Users/ian/Documents/EnergyWave Final/Due Diligence/` holds three round folders — `Capital Readiness`, `Seed Round`, `Series A` — and each holds three audience folders: `Government DoW:DoE:DARPA Package`, `Investor Due Dilligence Packet`, `Technical Package` (names exactly as they exist on disk, including the spelling of “Dilligence”). The canonical package stays whole at `Due Diligence/DD-2026-10-15-r5.6-draft/` beside the preserved r4.1 snapshot. The audience folders receive **copies**, assembled by GPT/Lyra from this map after review and checked against the SHA-256 in `MANIFEST.md`; no file is edited on copy; one writer at a time; nothing here is circulation clearance.
+**Layout (Ian, 14 Oct 2026, 22:00 PT):** `/Users/ian/Documents/EnergyWave Final/Due Diligence/` holds three round folders — `Capital Readiness`, `Seed Round`, `Series A` — and each holds three audience folders: `Government DoW:DoE:DARPA Package`, `Investor Due Dilligence Packet`, `Technical Package` (names exactly as they exist on disk, including the spelling of “Dilligence”). The canonical package stays whole at `Due Diligence/DD-2026-10-15-r5.7-draft/` beside the preserved r4.1 snapshot. The audience folders receive **copies**, assembled by GPT/Lyra from this map after review and checked against the SHA-256 in `MANIFEST.md`; no file is edited on copy; one writer at a time; nothing here is circulation clearance.
 
 ## Readiness today — stated first
 
-No folder is “final submission ready” as a whole on 15 October 2026. GPT/Lyra's r5 audit (S-39) and r5.2 delta check (S-40) are dispositioned finding by finding in MANIFEST.md. Placement in an audience folder is not the same as outward readiness: a file may be safe to place as labelled background and still not be a submission document. One file is READY as an outward record; the two Oct-13 originals are APPROVED but gated; twelve originals are REFERENCE; every page written for this package is DRAFT because it carries `[TBD] — …` (orange ink) or `[Pending: …]` markers or depends on an open decision; the governance files are INTERNAL. The rows name what moves each item. The model's seed and Series A figures are placeholder outputs and are never labelled approved targets. The founder's decisions of 15 Oct 2026 (S-44) are applied: no SAFE executed, no funding raised, amounts and terms TBD; Sweet solid-state the lead path; the roster by stage (Jack a team member, Alan an advisor — the founder's role confirmation, S-46); Alan/Jack outreach on hold. The audience targets the founder named — Capital Readiness for close friends, family and angel groups (may combine with Seed); Seed with Conviction as the example; Series A with groups such as Sequoia as the example; government and national security — IQT, DOE, DoW, DARPA — are targets only, never relationships, and nothing here is addressed to any of them; the three round folders and their audience distinctions are retained.
+No folder is “final submission ready” as a whole on 15 October 2026. GPT/Lyra's r5 audit (S-39), r5.2 delta check (S-40) and r5.6 audit (S-48) are dispositioned finding by finding in MANIFEST.md. Placement in an audience folder is not the same as outward readiness: a file may be safe to place as labelled background and still not be a submission document. One file is READY as an outward record; the two Oct-13 originals are APPROVED but gated; twelve originals are REFERENCE; every page written for this package is DRAFT because it carries `[TBD] — …` (orange ink) or `[Pending: …]` markers or depends on an open decision; the governance files are INTERNAL. The rows name what moves each item. The model's seed and Series A figures are placeholder outputs and are never labelled approved targets. The founder's decisions of 15 Oct 2026 (S-44) are applied: no SAFE executed, no funding raised, amounts and terms [TBD]; Sweet solid-state the lead path; the roster by stage (Jack a team member, Alan an advisor — the founder's role confirmation, S-46); Alan/Jack outreach on hold. The audience targets the founder named — Capital Readiness for close friends, family and angel groups (may combine with Seed); Seed with Conviction as the example; Series A with groups such as Sequoia as the example; government and national security — IQT, DOE, DoW, DARPA — are targets only, never relationships, and nothing here is addressed to any of them; the three round folders and their audience distinctions are retained.
 
 | Status | Meaning |
 |---|---|
@@ -21,7 +21,7 @@ No folder is “final submission ready” as a whole on 15 October 2026. GPT/Lyr
 |---|---|---|
 | `EnergyWave_DD_Reading_Guide_2026-10-15.pdf` | DRAFT | Reads correctly only with the package's open items; place when the round's folder is otherwise complete. |
 | `EnergyWave_Claims_Discipline_2026-10-15.pdf` | DRAFT | D10 — which claims rule set governs. |
-| `05_Team/EnergyWave_Team_and_Counsel_2026-10-15.pdf` | DRAFT | D4 — consents (Chip asked; Jack's and Alan's roles founder-confirmed, no signed instrument, no outreach), degree wording and Crunkleton items TBD; its own status line says not for circulation. |
+| `05_Team/EnergyWave_Team_and_Counsel_2026-10-15.pdf` | DRAFT | D4 — consents (Chip asked; Jack's and Alan's roles founder-confirmed, no signed instrument, no outreach), degree wording and Crunkleton items [TBD]; its own status line says not for circulation. |
 | `04_Legal_and_IP/EnergyWave_Entity_IP_and_Legal_Status_2026-10-15.pdf` | DRAFT | D3 (formation pending with K&L Gates; docket), counsel's review of the ALG agreement. |
 
 ### Set G — government core (every `Government DoW:DoE:DARPA Package`)
@@ -32,8 +32,8 @@ No folder is “final submission ready” as a whole on 15 October 2026. GPT/Lyr
 | `02_DoW/EnergyWave_Compartmentalization_AT_Posture_v0.1_2026-09-12.pdf` | REFERENCE | Original v0.1 working memo; its §8 counsel questions are open and say so inside it (D8 confirms the canonical build). Background, not a submission document. |
 | `02_DoW/EnergyWave_xTech_Search10_Submission_Record_2026-10-15.pdf` | DRAFT | T-1 / D7 — the attachment's bytes and cover, and who submitted. |
 | `02_DoW/EnergyWave_Applicant_and_Eligibility_Facts_2026-10-15.pdf` | DRAFT | D3 entity mapping; SAM / UEI / CAGE status. |
-| `02_DoW/EnergyWave_DoW_White_Paper_v2.1_DRAFT_2026-10-15.pdf` | DRAFT | B-7 (issuing entity TBD, actuator-figure source TBD, consents pending; the D2 lead applied). Replaces v2.0 for government use when its markers close. |
-| `02_DoW/EnergyWave_Safe_Release_Posture_DRAFT_2026-10-15.pdf` | DRAFT | D11 TBD (was the 2025 paper sent), D4 consents, letterhead address TBD. |
+| `02_DoW/EnergyWave_DoW_White_Paper_v2.1_DRAFT_2026-10-15.pdf` | DRAFT | B-7 (issuing entity [TBD], actuator-figure source [TBD], consents pending; the D2 lead applied). Replaces v2.0 for government use when its markers close. |
+| `02_DoW/EnergyWave_Safe_Release_Posture_DRAFT_2026-10-15.pdf` | DRAFT | D11 [TBD] (was the 2025 paper sent), D4 consents, letterhead address [TBD]. |
 | `02_DoW/EnergyWave_DoD_White_Paper_v2.0_2026-08.pdf` | REFERENCE | Historical August 2026 paper; the September register bars further government-facing use without the v2.1 pass. Labelled history only, never an attachment. |
 
 ### Set T — technical core (every `Technical Package`)
@@ -47,10 +47,10 @@ No folder is “final submission ready” as a whole on 15 October 2026. GPT/Lyr
 | `03_Technical_Documents/2026-10-05_zpe-gr-physics-evaluation-review_claude_v1.md` | REFERENCE | AI-authored review of the above; background only. |
 | `03_Technical_Documents/Key_Research_Facts_verified_2026-09-07.md` | REFERENCE | Historical September member; labelled by date. |
 | `03_Technical_Documents/EnergyWave_Technical_Prospectus_DRAFT_v1_2026-09-07.docx` | REFERENCE | The September program in full; carries DRAFT v1 in its own title and bracketed placeholders; historical reference only, never a submission document. |
-| `03_Technical_Documents/EnergyWave_Research_Program_and_Gates_2026-10-15.pdf` | DRAFT | D2 lead answered (Sweet, 15 Oct); specimen, bench order and lead TBD (B-4, B-16). |
-| `03_Technical_Documents/EnergyWave_Thread_A_Characterization_Plan_DRAFT_2026-10-15.pdf` | DRAFT | B-4 — inventor-defined inputs TBD. |
-| `03_Technical_Documents/EnergyWave_Humanoid_Power_Budget_Specification_DRAFT_2026-10-15.pdf` | DRAFT | B-5 — platform inputs TBD. |
-| `03_Technical_Documents/EnergyWave_Measurement_Platform_Error_Budget_DRAFT_2026-10-15.pdf` | DRAFT | B-6 — effect size, resolution, leads TBD; the 0.14 pW floor is a proposed target. |
+| `03_Technical_Documents/EnergyWave_Research_Program_and_Gates_2026-10-15.pdf` | DRAFT | D2 lead answered (Sweet, 15 Oct); specimen, bench order and lead [TBD] (B-4, B-16). |
+| `03_Technical_Documents/EnergyWave_Thread_A_Characterization_Plan_DRAFT_2026-10-15.pdf` | DRAFT | B-4 — inventor-defined inputs [TBD]. |
+| `03_Technical_Documents/EnergyWave_Humanoid_Power_Budget_Specification_DRAFT_2026-10-15.pdf` | DRAFT | B-5 — platform inputs [TBD]. |
+| `03_Technical_Documents/EnergyWave_Measurement_Platform_Error_Budget_DRAFT_2026-10-15.pdf` | DRAFT | B-6 — effect size, resolution, leads [TBD]; the 0.14 pW floor is a proposed target. |
 
 ## The nine folders
 
@@ -59,8 +59,8 @@ No folder is “final submission ready” as a whole on 15 October 2026. GPT/Lyr
 |---|---|---|
 | `01_Investor/01_Capital_Readiness/EnergyWave_Deck_2026-10-13.pdf` | APPROVED (gated) | Approved original (`3446357c…`), placed as it stands. Outward use is gated: slide 12 by D4 consents, the tagline and module name by D10. |
 | `01_Investor/01_Capital_Readiness/EnergyWave_OnePager_2026-10-13.pdf` | APPROVED (gated) | Approved original (`dda97ba0…`); the same D4 / D10 gates. |
-| `01_Investor/01_Capital_Readiness/EnergyWave_Capital_Readiness_Terms_and_Objectives_2026-10-15.pdf` | DRAFT | D3 issuer status (not formed; K&L Gates handling); current amount, instrument and allocation TBD (B-13); counsel quotes verbatim and dated. |
-| `01_Investor/01_Capital_Readiness/EnergyWave_SAFE_Term_Summary_DRAFT_2026-10-15.pdf` | DRAFT | B-1 — a prospective template, every unset term TBD, no SAFE executed; C-1 — 506(b)/(c). |
+| `01_Investor/01_Capital_Readiness/EnergyWave_Capital_Readiness_Terms_and_Objectives_2026-10-15.pdf` | DRAFT | D3 issuer status (not formed; K&L Gates handling); current amount, instrument and allocation [TBD] (B-13); counsel quotes verbatim and dated. |
+| `01_Investor/01_Capital_Readiness/EnergyWave_SAFE_Term_Summary_DRAFT_2026-10-15.pdf` | DRAFT | B-1 — a prospective template, every unset term [TBD], no SAFE executed; C-1 — 506(b)/(c). |
 | Set I | — | as above |
 
 ### Capital Readiness / Government DoW:DoE:DARPA Package
@@ -72,9 +72,9 @@ Set T. No round-specific technical document exists.
 ### Seed Round / Investor Due Dilligence Packet
 | File | Status | What blocks placement |
 |---|---|---|
-| `01_Investor/02_Seed_Round/EnergyWave_Seed_Deck_DRAFT_2026-10-15.pdf` | DRAFT | B-2 — amount, tranche amounts, instrument, validated inputs TBD; D4 consents; the September model's figures stay labelled a historical scenario; the D2 lead applied. |
+| `01_Investor/02_Seed_Round/EnergyWave_Seed_Deck_DRAFT_2026-10-15.pdf` | DRAFT | B-2 — amount, tranche amounts, instrument, validated inputs [TBD]; D4 consents; the September model's figures stay labelled a historical scenario; the D2 lead applied. |
 | `01_Investor/02_Seed_Round/EnergyWave_Seed_OnePager_DRAFT_2026-10-15.pdf` | DRAFT | B-2; D4. |
-| `01_Investor/02_Seed_Round/EnergyWave_Seed_Round_Structure_DRAFT_2026-10-15.pdf` | DRAFT | B-2 — amounts and terms TBD; escrow (C-1). |
+| `01_Investor/02_Seed_Round/EnergyWave_Seed_Round_Structure_DRAFT_2026-10-15.pdf` | DRAFT | B-2 — amounts and terms [TBD]; escrow (C-1). |
 | `01_Investor/02_Seed_Round/EnergyWave_Investor_Overview_DRAFT_2026-09-07.pptx` | REFERENCE | September ancestor with bracketed placeholders; not for circulation; history only. |
 | Set I | — | as above |
 
@@ -84,13 +84,13 @@ Set G (identical copy).
 ### Seed Round / Technical Package
 | File | Status | What blocks placement |
 |---|---|---|
-| `01_Investor/02_Seed_Round/EnergyWave_Seed_Round_Technical_Docs_DRAFT_2026-10-15.pdf` | DRAFT | D2 lead applied; B-12 — site, footprint and first hires TBD until GPT/Codex's operating-requirements register is received; its evidence table rests on the literature cross-check (S-37, S-42) and is re-rendered when the register or a reviewer finding arrives. The only round-specific technical document. |
+| `01_Investor/02_Seed_Round/EnergyWave_Seed_Round_Technical_Docs_DRAFT_2026-10-15.pdf` | DRAFT | D2 lead applied; B-12 — site, footprint and first hires [TBD] until GPT/Codex's operating-requirements register is received; its evidence table rests on the literature cross-check (S-37, S-42) and is re-rendered when the register or a reviewer finding arrives. The only round-specific technical document. |
 | Set T | — | as above |
 
 ### Series A / Investor Due Dilligence Packet
 | File | Status | What blocks placement |
 |---|---|---|
-| `01_Investor/03_Series_A/EnergyWave_Series_A_Readiness_Outline_DRAFT_2026-10-15.pdf` | DRAFT | B-3 — cap table and deck files or rebuild, which entity's books, validated inputs — all TBD. |
+| `01_Investor/03_Series_A/EnergyWave_Series_A_Readiness_Outline_DRAFT_2026-10-15.pdf` | DRAFT | B-3 — cap table and deck files or rebuild, which entity's books, validated inputs — all [TBD]. |
 | `01_Investor/03_Series_A/EnergyWave_Raise_Model_v1.1-corrected_2026-10-15.xlsx` | DRAFT | Placeholder inputs and stored v1 results; not validated; proposed targets are not approved. One cell changed from v1 (ancestry in the ledger). |
 | `01_Investor/03_Series_A/EnergyWave_Raise_Model_Note_2026-10-15.pdf` | DRAFT | Same as the model. |
 | Set I | — | as above |
@@ -105,4 +105,4 @@ Set T (identical copy).
 `README.md`, `MANIFEST.md`, `manifest.json`, `SOURCE_LEDGER.md`, `DECISIONS.md`, `NEEDS_INPUT.md` and `EnergyWave_Open_Items_Register_2026-10-15.pdf`, `REVIEW_PROTOCOL.md`, this map, every folder `README.md`, `90_Internal_Ops_NOT_FOR_CIRCULATION/`, `99_Source_Archive/`, `src/`, `tools/`.
 
 ## How a file moves from DRAFT to READY
-The named item closes (a TBD field filled by the founder in his own time, a consent on file, counsel's evidence, a decision in `DECISIONS.md`); the lead fills the tag in the page source, re-renders, re-pins the release and updates this map in the same commit; GPT/Lyra's delta check of that release confirms the correction before any copy moves. GPT/Lyra then copies the file into the folders that list it and rebuilds the collection's `FILE_MANIFEST.json`. A file is never edited in an audience folder. Placement of a release subtree and of audience copies is a later reviewed installation decision; it does not change the frozen review collection.
+The named item closes (a [TBD] field filled by the founder in his own time, a consent on file, counsel's evidence, a decision in `DECISIONS.md`); the lead fills the tag in the page source, re-renders, re-pins the release and updates this map in the same commit; GPT/Lyra's delta check of that release confirms the correction before any copy moves. GPT/Lyra then copies the file into the folders that list it and rebuilds the collection's `FILE_MANIFEST.json`. A file is never edited in an audience folder. Placement of a release subtree and of audience copies is a later reviewed installation decision; it does not change the frozen review collection.

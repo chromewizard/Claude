@@ -30,5 +30,5 @@ Counsel emails live in Outlook (locators in `SOURCE_LEDGER.md` M-19); the ALG ag
 | 1988 Delaware "EnergyWave Inc." #2149394 — connection investigated; ownership not asserted | counsel |
 | GovThink 501(c)(3) — not filed, no formal tie (founder, 14 Oct, S-38); formation vs exemption application; EIN | Ian |
 | AT memo §8 answers | counsel |
-| The October 2024 Rossi scope-of-work proposal (ledger L-09) and the August 2025 paper that named him business partner (L-14): any agreement, payment or IP claim; the founder's resignation from the ALG team is dated 13 Nov 2025 (L-13, personal, not placed) | TBD; counsel (D11) |
+| The October 2024 Rossi scope-of-work proposal (ledger L-09) and the August 2025 paper that named him business partner (L-14): any agreement, payment or IP claim; the founder's resignation from the ALG team is dated 13 Nov 2025 (L-13, personal, not placed) | [TBD]; counsel (D11) |
 | Freedom-to-operate note on the Haisch–Moddel / Jovion patents, given the 2024 positioning text (L-04) and thread B | counsel |
