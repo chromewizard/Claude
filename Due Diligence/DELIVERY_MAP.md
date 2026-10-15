@@ -1,6 +1,6 @@
 # Delivery map — every package file to the nine audience folders (the current pinned release; version and hashes in MANIFEST.md)
 
-**Layout (Ian, 14 Oct 2026, 22:00 PT):** `/Users/ian/Documents/EnergyWave Final/Due Diligence/` holds three round folders — `Capital Readiness`, `Seed Round`, `Series A` — and each holds three audience folders: `Government DoW:DoE:DARPA Package`, `Investor Due Dilligence Packet`, `Technical Package` (names exactly as they exist on disk, including the spelling of “Dilligence”). The canonical package stays whole at `Due Diligence/DD-2026-10-15-r5.4-draft/` beside the preserved r4.1 snapshot. The audience folders receive **copies**, assembled by GPT/Lyra from this map after review and checked against the SHA-256 in `MANIFEST.md`; no file is edited on copy; one writer at a time; nothing here is circulation clearance.
+**Layout (Ian, 14 Oct 2026, 22:00 PT):** `/Users/ian/Documents/EnergyWave Final/Due Diligence/` holds three round folders — `Capital Readiness`, `Seed Round`, `Series A` — and each holds three audience folders: `Government DoW:DoE:DARPA Package`, `Investor Due Dilligence Packet`, `Technical Package` (names exactly as they exist on disk, including the spelling of “Dilligence”). The canonical package stays whole at `Due Diligence/DD-2026-10-15-r5.5-draft/` beside the preserved r4.1 snapshot. The audience folders receive **copies**, assembled by GPT/Lyra from this map after review and checked against the SHA-256 in `MANIFEST.md`; no file is edited on copy; one writer at a time; nothing here is circulation clearance.
 
 ## Readiness today — stated first
 
@@ -82,7 +82,10 @@ Set T. No round-specific technical document exists.
 Set G (identical copy).
 
 ### Seed Round / Technical Package
-Set T (identical copy).
+| File | Status | What blocks placement |
+|---|---|---|
+| `01_Investor/02_Seed_Round/EnergyWave_Seed_Round_Technical_Docs_DRAFT_2026-10-15.pdf` | DRAFT | D2 — which thread leads; B-12 — site, footprint and first hires once GPT/Codex's operating-requirements register is received; its evidence table rests on the literature cross-check (S-37, S-42) and is re-rendered when the register or a reviewer finding arrives. The only round-specific technical document. |
+| Set T | — | as above |
 
 ### Series A / Investor Due Dilligence Packet
 | File | Status | What blocks placement |

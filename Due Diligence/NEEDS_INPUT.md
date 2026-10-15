@@ -1,6 +1,6 @@
 # Needs Input from Ian or Chip — the consolidated register
 
-**Package version:** `DD-2026-10-15-r5.4-draft` · **Items:** 33 · Silence never closes a substantive item.
+**Package version:** `DD-2026-10-15-r5.5-draft` · **Items:** 34 · Silence never closes a substantive item.
 
 Every document in this package is complete except for the facts and decisions that belong to the founder, the co-founder, counsel or a named person — and the reviewer corrections still being applied, which are dispositioned finding by finding in MANIFEST.md, separately from this list. Each is marked in the document itself with the literal, searchable text `[Needs Input from Ian or Chip: …]` (or *from counsel via Ian*), and listed here once. The founder's answers of 14 October 2026 (ledger S-38 — not formed; GovThink not filed; ian@energywave.ai; Beacon submitted, as a belief; “no patents have been filed”, read with the 2025 provisional record) are already applied, so this list asks only what is still open. Reply with the item number and the answer; the lead fills the tag, re-renders the page and re-pins the release. The rendered twin of this file is `EnergyWave_Needs_Input_from_Ian_or_Chip_2026-10-15.pdf`.
 
@@ -47,6 +47,7 @@ Each line is the text that appears in the document, so it can be found by search
 | **B-9** | Legacy sources — the `QVE Engine` folder on the Mac: drag it into the Drive `My Mac` folder beside `EnergyWave`, or connect the Mac through Desktop Commander, so it can be inventoried; the Rossi relationship and the 2024 GPT-content text (D11); SHA-256 of each §F file from the Mac (`shasum -a 256`), since the Drive connector returns text, not bytes. | `SOURCE_LEDGER.md` §D and §F | Ian; Antigravity for the hashes |
 | **B-10** | Internal-ops drafts — recipients’ addresses on file for Sarfatti and Crunkleton; proposed co-founder terms for Chip Story, or “counsel to propose”; for the counsel question set: sole shareholder / cap table at formation, officer names and titles, shares authorized / issued / reserved, the invention-record return date, and the three ALG documents to attach. Every draft goes to Grok for its per-email review before you send it from the mailbox you use (reply-to ian@energywave.ai). | `90_Internal_Ops_NOT_FOR_CIRCULATION/` | Ian or Chip; Grok (review) |
 | **B-11** | Mirrors and project — GPT/Lyra places and verifies reviewed releases in the three copies; upload `manifest.json`, `MANIFEST.md` and the twenty rendered documents to the *EnergyWave Ops* Claude Project, or give the assistant project-knowledge access. | `2026-10-15_mirror-instructions.md`; README release table; ledger S-33, S-34 | Ian; Antigravity or Lyra |
+| **B-12** | Seed Round Technical Docs — once GPT/Codex's operating-requirements and quote register arrives: confirm the target site near UC Irvine, the laboratory footprint and the first two hires (PI at Tranche A; technician); the register itself supplies dated quotes and listings, and no facility, bench, headcount or cost figure is stated until it does. | `01_Investor/02_Seed_Round/EnergyWave_Seed_Round_Technical_Docs_DRAFT_2026-10-15.pdf`; ledger S-43 | Ian or Chip; GPT/Codex (register) |
 
 ## C · For counsel, through Ian (K&L Gates)
 
@@ -81,4 +82,4 @@ Held by the lead; listed so the sequence is visible.
 | **E-2** | Draft the supersession note for any recipient of the August 2025 paper (D11); draft the Series A files when the cap table and deck are located or rebuilt (B-3); place the QVE Engine inventory in the ledger (B-9). | — | Claude |
 | **E-3** | Fold Beacon’s D2 answer, once the founder confirms it, into the Research Program page, the Seed deck and the DoW white paper, and update DELIVERY_MAP.md as items move from DRAFT to READY. | — | Claude |
 
-Generated from the tags in `src/pages/10–19`, `DECISIONS.md`, `SOURCE_LEDGER.md` §D/§F/S-36–S-41, `90_Internal_Ops_NOT_FOR_CIRCULATION/` and `DELIVERY_MAP.md`. A tag that is not here is a finding.
+Generated from the tags in `src/pages/10–20`, `DECISIONS.md`, `SOURCE_LEDGER.md` §D/§F/S-36–S-41, `90_Internal_Ops_NOT_FOR_CIRCULATION/` and `DELIVERY_MAP.md`. A tag that is not here is a finding.

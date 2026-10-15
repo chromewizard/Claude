@@ -19,6 +19,8 @@ Ian permitted a **separate Seed Round folder** while **preserving the Capital Re
 
 **14 Oct 2026, 19:00 PT (ledger S-38):** asked about D1/D2 the founder answered “I don't know what that means ask beacon.” D2 stays open and is restated in plain words in `NEEDS_INPUT.md`; an answer from his Beacon assistant is relayed, not adopted, until the founder confirms it.
 
+The Seed Round Technical Docs page (r5.5) presents the threads in the same order as the Research Program page and marks the lead thread open; it is re-rendered when D2 is answered.
+
 **Needed from Ian:** (a) which thread leads for investors and which for DoW; (b) whether the Sweet module on the deck and the "mid-1980s solid-state design" on the website are the same thing, and whether it is Forward's charged foliated conductor (a one-shot store by its author's description) or something else; (c) the specimen, magnetization, winding axis and conditioning procedure for thread A — inventor-defined items the reviewers will not supply.
 
 ## D3 — Applicant / entity identity → OPEN; facts now known
@@ -70,7 +72,7 @@ The entry is submitted (receipt 2026-10-09 07:33:46Z, ref `3b2a54ce-…`). **On 
 
 ## D9 — Release location → RESOLVED (Ian, 14 Oct 21:35 PT; Finder screenshot 15 Oct; Lyra's collection notes, S-36)
 
-The release location is **`/Users/ian/Documents/EnergyWave Final/`**, with matching copies at `/Users/ian/Library/CloudStorage/OneDrive-mcleancompanies.com/EnergyWave Final` and `/Users/ian/My Drive/EnergyWave Final` (Google Drive folder `1NuJiWhYbq9xrqkOoCF_bZ-Hz2ZWAt5VG`). The earlier Desktop proposal is withdrawn. Inside it, `Due Diligence/` holds the preserved r4.1 snapshot (`DD-2026-10-15-r4.1-draft/`, 58 files, pin `5cc6e191…`) and receives each later release as its own folder — `DD-2026-10-15-r5.4-draft/` for this one — never overwriting a snapshot. Ian's audience layout (22:00 PT): three round folders `Capital Readiness`, `Seed Round`, `Series A`, each holding `Government DoW:DoE:DARPA Package`, `Investor Due Dilligence Packet` and `Technical Package` (names as on disk). `DELIVERY_MAP.md` maps every package file to those nine folders with its readiness; GPT/Lyra assembles the copies after review and rebuilds the collection's `FILE_MANIFEST.json`; no concurrent mirror writes.
+The release location is **`/Users/ian/Documents/EnergyWave Final/`**, with matching copies at `/Users/ian/Library/CloudStorage/OneDrive-mcleancompanies.com/EnergyWave Final` and `/Users/ian/My Drive/EnergyWave Final` (Google Drive folder `1NuJiWhYbq9xrqkOoCF_bZ-Hz2ZWAt5VG`). The earlier Desktop proposal is withdrawn. Inside it, `Due Diligence/` holds the preserved r4.1 snapshot (`DD-2026-10-15-r4.1-draft/`, 58 files, pin `5cc6e191…`) and receives each later release as its own folder — `DD-2026-10-15-r5.5-draft/` for this one — never overwriting a snapshot. Ian's audience layout (22:00 PT): three round folders `Capital Readiness`, `Seed Round`, `Series A`, each holding `Government DoW:DoE:DARPA Package`, `Investor Due Dilligence Packet` and `Technical Package` (names as on disk). `DELIVERY_MAP.md` maps every package file to those nine folders with its readiness; GPT/Lyra assembles the copies after review and rebuilds the collection's `FILE_MANIFEST.json`; no concurrent mirror writes.
 
 ## D10 — Which claims rules govern: the September charter or the October deck → OPEN
 
