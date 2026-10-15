@@ -15,7 +15,7 @@
 | Person | Role (deck) | Verified | Open |
 |---|---|---|---|
 | Ian McLean | Founder & CEO | LLC ownership (M-18); white-paper authorship (M-07) | degree wording; Statpedia, FDIC, Wolfram, Avnet, NDA consulting — dated records |
-| Chip Story (printed Kenneth "Chip" Story on the deck and on zpepg.org) | Co-Founder | ZPEPG Director, B.S. geological engineering (South Dakota School of Mines), M.S. geophysics (Colorado School of Mines), 50+ years — as published on ZPEPG's leaders page (direct capture, S-33); the LinkedIn profile could not be retrieved (S-34); not registrar-checked | consent and terms; "R&T Team Leader", "80 technical minds, five project subsets", "Physicist" wording; IP boundary |
+| Chip Story (printed Kenneth "Chip" Story on the deck and on zpepg.org) | Co-Founder | ZPEPG Director, B.S. geological engineering (South Dakota School of Mines), M.S. geophysics (Colorado School of Mines), 50+ years — as published on ZPEPG's leaders page (direct capture, S-33); the LinkedIn profile could not be retrieved (S-34); not registrar-checked | his written consent and the wording he wants printed (asked of him, not the founder); the deck's "R&T Team Leader", "80 technical minds, five project subsets" and "Physicist" stand as the founder's statements; co-founder terms and the IP boundary are counsel's lane |
 | Jack Sarfatti | Physics advisor | bio line (ledger E2, 11 Sept) | consent to the current title |
 | Alan Crunkleton | Technical & financial advisor | MIT Ph.D. 1987; Boreas; R&D 100 (MIT primary sources) | M.D. UMass; Hardesty partnership; "CEO eight years, through acquisition" |
 | K&L Gates — Novak, Majewski | Patent counsel | correspondence (M-19) | engagement letter; Novak's title and Ph.D.; consent to be named |
