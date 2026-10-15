@@ -14,7 +14,7 @@ git checkout <COMMIT FROM THE HANDOFF>
 ## 2. Place the release in the collection (Mac copy)
 
 ```
-REL=DD-2026-10-15-r5.2-draft
+REL=DD-2026-10-15-r5.3-draft
 rsync -a --exclude .git "EnergyWave-DD-src/Due Diligence/" "$HOME/Documents/EnergyWave Final/Due Diligence/$REL/"
 ```
 

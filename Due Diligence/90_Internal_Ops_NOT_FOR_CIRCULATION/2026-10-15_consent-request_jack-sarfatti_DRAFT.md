@@ -8,13 +8,13 @@ Jack,
 
 EnergyWave's diligence package names you, and I want your written yes before it goes to anyone outside the team.
 
-**Title.** Earlier documents called you a co-founder; the 13 October deck prints **Physics advisor**. Ian's direction is that we need not call you an advisor at all — you are a physicist who takes part in the discussion. Tell me the wording you want printed, if any, and I will use exactly that.
+**Title.** Earlier documents called you a co-founder; the 13 October deck prints **Physics advisor**. I don't need to describe you as an advisor at all — you are a physicist who takes part in the discussion. Tell me the wording you want printed, if any, and I will use exactly that.
 
 **Bio line, as printed on the deck:**
 
 > Theoretical physicist. B.A. physics, Cornell — studied under Hans Bethe, Nobel laureate and head of theory for the Manhattan Project; Ph.D. physics, UC Riverside. Research fellow at Birkbeck College London with David Bohm, and ICTP Trieste with Abdus Salam. Leading member of the Fundamental Fysiks Group, credited in the lineage of quantum information science.
 
-The package's wording rule for your line, set in September, is "trained under Hans Bethe at Cornell; Ph.D. UC Riverside" and never "Ph.D. under a Nobel laureate". Confirm the line above, or edit it.
+The package's wording rule for your line, set in September, is "trained under Hans Bethe at Cornell; Ph.D. UC Riverside" and never "Ph.D. under a Nobel laureate". Confirm the line above, or edit it. One phrase in it — “credited in the lineage of quantum information science” — would need a source if it appears in anything new; send me the one you would like cited, or I leave it out.
 
 **One more thing, on purpose.** The program is built so that the mainstream prior wins if it is right, and the planned external advisory board is to include at least one declared critic. If you are a critic of the premise and are willing to be described that way, say so and give me the words; nothing is attributed to you without your permission.
 

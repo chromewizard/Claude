@@ -17,7 +17,7 @@ import sys
 
 TOOLS = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(TOOLS)
-PACKAGE_VERSION = "DD-2026-10-15-r5.2-draft"
+PACKAGE_VERSION = "DD-2026-10-15-r5.3-draft"
 SKIP_FILES = {"manifest.json", "MANIFEST.md", ".DS_Store"}
 # Shared control-file policy. Keep identical in lint.py and verify_manifest.py:
 # only these files at exactly <root>/tools/ are controls; everything else is payload.

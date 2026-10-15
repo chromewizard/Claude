@@ -17,7 +17,7 @@ Also: the 1988 Delaware "EnergyWave Inc." (file #2149394) — please confirm whe
 
 **B. Patent (Dennis)**
 5. Please pull the current Patent Center docket for provisional 63/763,998 (filed 27 Feb 2025) and confirm there is no later filing in my name or the company's.
-6. Coversheet provisional at the $2,000 scope you quoted: the invention record form will come back [Needs Input from Ian or Chip: date]; please confirm the filing would be in the inventors' names with later assignment, and what "some app and claim prep" covers.
+6. If we proceed with the coversheet provisional at the $2,000 scope you quoted, the invention record form will come back [Needs Input from Ian or Chip: date]; please confirm the filing would be in the inventors' names with later assignment, and what "some app and claim prep" covers.
 7. The 16 September 2025 IP Assignment Agreement with Aedan Looking Glass Inc.: its Exhibit A names "Quantum Vacuum Energy Harnessing Device, Antigravity and Exotic Propulsion" with no application number, and my signature line is blank on the copy I hold. Please let me know the scope and cost of reviewing it, the NDA of July 2025 and the Integrated Protective Rider against the EnergyWave work; my copy's blank signature line means I do not know whether it was executed, so its effect is a question for you, not something I am asserting. [Needs Input from Ian or Chip: attach the three documents]
 8. Assignment of energywave.ai and existing work product from me and McLean Companies LLC to EnergyWave, Inc. on formation — please give me the scope and cost of preparing it, as offered on 29 September.
 
@@ -36,7 +36,7 @@ Also: the 1988 Delaware "EnergyWave Inc." (file #2149394) — please confirm whe
 **F. Security posture (from the Anti-Tamper memo §8)**
 15. Trade-secret program; patent versus trade secret by compartment and Invention Secrecy Act exposure; export classification and deemed exports; CPI / AT obligations under federal funding; NDAs and departure procedures by compartment.
 
-This message asks for scope and cost. It does not authorize work beyond the estimates you have already given, and it does not change anything already agreed in our engagement.
+This message requests quotes only and authorizes no new work; it does not amend any existing engagement. Two further questions rather than assumptions: which of the items above needs attention first, and does the sequence of formation and the SAFE matter in your view?
 
 Ian
 

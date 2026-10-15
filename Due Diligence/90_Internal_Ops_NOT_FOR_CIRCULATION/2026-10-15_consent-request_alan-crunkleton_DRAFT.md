@@ -15,7 +15,7 @@ The diligence package lists you as **Technical & financial advisor** and reprodu
 2. Partner, Hardesty, LLC — current, and the firm's exact name.
 3. "CEO eight years, through acquisition" — the company, the years, and the acquirer, so the line can be checked.
 
-Until you answer, the package describes you by the verified line only, which is what the draft NSF pitch already does.
+Until you answer, the package describes you by the publicly supported line only, which is what the draft NSF pitch already does.
 
 **Consent.** A reply saying "yes, name me as Technical & financial advisor to EnergyWave in investor and government materials, with the line as corrected above" is the written consent the package records.
 
