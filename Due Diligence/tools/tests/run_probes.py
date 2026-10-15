@@ -188,9 +188,116 @@ def main():
     results.append(probe("P19 corrupt xlsx → UNSCANNED", {"bad.xlsx": b"PK\x03\x04 this is not a zip"},
                          lambda rc, r: rc == 2 and r["unscanned"]))
 
+    # ---- control-policy probes (F-GPT-R2C1 / R2C2 / R2C3) ----
+    results.extend(control_policy_probes())
+
     passed = sum(1 for r in results if r)
     print(f"{passed}/{len(results)} probes passed")
     return 0 if passed == len(results) else 1
+
+
+# ---------- control-policy probes ----------
+
+TOOLS_DIR = os.path.dirname(HERE)
+CONTROL_REL = ["lint.py", "lint.sh", "build_manifest.py", "verify_manifest.py", os.path.join("tests", "run_probes.py")]
+
+
+def make_package(td):
+    """A small canonical package with real control code and a built manifest."""
+    pkg = os.path.join(td, "pkg")
+    write(os.path.join(pkg, "README.md"), "clean\n")
+    write(os.path.join(pkg, "01_Investor", "note.md"), "clean\n")
+    write(os.path.join(pkg, "MANIFEST.md"), "# m\n<!-- BEGIN GENERATED -->\n<!-- END GENERATED -->\n")
+    for rel in CONTROL_REL:
+        src = os.path.join(TOOLS_DIR, rel)
+        dst = os.path.join(pkg, "tools", rel)
+        os.makedirs(os.path.dirname(dst), exist_ok=True)
+        shutil.copyfile(src, dst)
+    p = subprocess.run([sys.executable, os.path.join(pkg, "tools", "build_manifest.py")], capture_output=True, text=True)
+    if p.returncode != 0:
+        raise RuntimeError("package build failed: " + p.stdout + p.stderr)
+    return pkg
+
+
+def mirror_of(pkg, td, name):
+    m = os.path.join(td, name)
+    shutil.copytree(pkg, m)
+    return m
+
+
+def verify(trusted_manifest, root, extra_args=()):
+    p = subprocess.run([sys.executable, os.path.join(TOOLS_DIR, "verify_manifest.py"), "--manifest", trusted_manifest,
+                        "--root", root, *extra_args], capture_output=True, text=True)
+    return p.returncode, p.stdout
+
+
+def external_lint(root):
+    rep = os.path.join(root, "..", "ext-report.json")
+    p = subprocess.run([sys.executable, LINT, "--root", root, "--json", rep, "--quiet"], capture_output=True, text=True)
+    with open(rep) as f:
+        return p.returncode, json.load(f)
+
+
+def control_policy_probes():
+    out = []
+    td = tempfile.mkdtemp(prefix="ddctl_")
+    try:
+        pkg = make_package(td)
+        manifest = os.path.join(pkg, "manifest.json")
+
+        m = mirror_of(pkg, td, "m_clean")
+        rc, o = verify(manifest, m)
+        out.append(expect("V01 identical mirror verifies", rc == 0, o))
+
+        m = mirror_of(pkg, td, "m_nested_tools")
+        write(os.path.join(m, "01_Investor", "tools", "unlisted.txt"), "x\n")
+        rc, o = verify(manifest, m)
+        out.append(expect("V02 unlisted file under nested tools/ → EXTRA, FAIL (R2C1)", rc == 1 and "EXTRA    01_Investor/tools/unlisted.txt" in o, o))
+
+        m = mirror_of(pkg, td, "m_root_tools_extra")
+        write(os.path.join(m, "tools", "stray.pdf"), b"%PDF-1.4 not really")
+        rc, o = verify(manifest, m)
+        out.append(expect("V03 unlisted file inside root tools/ → EXTRA, FAIL", rc == 1 and "EXTRA    tools/stray.pdf" in o, o))
+
+        m = mirror_of(pkg, td, "m_missing_control")
+        os.remove(os.path.join(m, "tools", "lint.py"))
+        rc, o = verify(manifest, m)
+        out.append(expect("V04 one control file absent → FAIL (R2C2)", rc == 1 and "tools/lint.py: ABSENT" in o, o))
+
+        m = mirror_of(pkg, td, "m_tampered_control")
+        with open(os.path.join(m, "tools", "verify_manifest.py"), "a") as f:
+            f.write("\n# tampered\n")
+        rc, o = verify(manifest, m)
+        out.append(expect("V05 control file altered → MISMATCH, FAIL", rc == 1 and "verify_manifest.py: MISMATCH" in o, o))
+
+        m = mirror_of(pkg, td, "m_payload_only")
+        shutil.rmtree(os.path.join(m, "tools"))
+        rc_strict, o1 = verify(manifest, m)
+        rc_po, o2 = verify(manifest, m, ("--payload-only",))
+        out.append(expect("V06 payload-only mirror: strict FAIL, --payload-only OK", rc_strict == 1 and rc_po == 0, o1 + o2))
+
+        m = mirror_of(pkg, td, "m_external_lint")
+        rc, r = external_lint(m)
+        out.append(expect("L20 trusted external scanner passes an identical mirror (R2C3)",
+                          rc == 0 and len(r["controls_skipped"]) == len(CONTROL_REL), f"rc={rc} skipped={r['controls_skipped']} matches={r['matches']}"))
+
+        m = mirror_of(pkg, td, "m_nested_tools_label")
+        write(os.path.join(m, "02_DoW", "tools", "hidden.md"), f"{LABEL}\n")
+        rc, r = external_lint(m)
+        out.append(expect("L21 label in a nested tools/ directory is still scanned → FAIL", rc == 1 and any("02_DoW/tools/hidden.md" in x["file"] for x in r["matches"]), f"rc={rc}"))
+
+        m = mirror_of(pkg, td, "m_root_tools_label")
+        write(os.path.join(m, "tools", "notes.txt"), f"{LABEL}\n")
+        rc, r = external_lint(m)
+        out.append(expect("L22 unrecognized file inside root tools/ is scanned → FAIL", rc == 1 and any(x["file"] == "tools/notes.txt" for x in r["matches"]), f"rc={rc}"))
+
+        m = mirror_of(pkg, td, "m_build_refuses")
+        write(os.path.join(m, "tools", "stray.txt"), "x\n")
+        p = subprocess.run([sys.executable, os.path.join(m, "tools", "build_manifest.py")], capture_output=True, text=True)
+        out.append(expect("B01 builder refuses unrecognized files inside tools/", p.returncode == 1 and "BUILD REFUSED" in p.stdout, p.stdout))
+    finally:
+        shutil.rmtree(td, ignore_errors=True)
+    return out
 
 
 if __name__ == "__main__":

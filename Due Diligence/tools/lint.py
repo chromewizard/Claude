@@ -12,10 +12,20 @@ Usage:
   python3 tools/lint.py [--root DIR] [--json OUT.json] [--quiet]
 
 --root defaults to the package directory that contains this tools/ folder.
-The resolved root and the file count are always printed so a run can never
-silently certify the wrong directory. The pattern lives only in this file.
-Python 3.8+ standard library; pdftotext/pdfinfo (poppler) are required for
-PDFs and their absence is reported as UNSCANNED, never as a pass.
+The resolved root, the file count and the number of recognized control files
+skipped are always printed, so a run can never silently certify the wrong
+directory.
+
+Control-file policy (target-aware, shared with build_manifest.py and
+verify_manifest.py): the only files not scanned are the recognized control
+files at exactly <root>/tools/{lint.py, lint.sh, build_manifest.py,
+verify_manifest.py, tests/run_probes.py}. Every other file under
+<root>/tools/ and every nested directory named "tools" is scanned. The policy
+depends on the selected root, not on where this script lives, so a trusted
+external copy of the scanner gives the same result as the mirror's own copy.
+The pattern lives only in this file. Python 3.8+ standard library;
+pdftotext/pdfinfo/pdfdetach (poppler) are required for PDFs and their absence
+is reported as UNSCANNED, never as a pass.
 """
 import argparse
 import io
@@ -32,19 +42,29 @@ from xml.etree import ElementTree as ET
 PATTERN = re.compile(r"pharaoh", re.IGNORECASE)
 PATTERN_BYTES = re.compile(rb"pharaoh", re.IGNORECASE)
 
+# Shared control-file policy. Keep identical in build_manifest.py and verify_manifest.py.
+CONTROL_DIR = "tools"
+CONTROL_FILES = ("lint.py", "lint.sh", "build_manifest.py", "verify_manifest.py",
+                 os.path.join("tests", "run_probes.py"))
+
 OOXML_EXT = {".docx", ".xlsx", ".pptx", ".dotx", ".xltx", ".potx", ".docm", ".xlsm", ".pptm"}
 ZIP_EXT = {".zip"}
 PDF_EXT = {".pdf"}
 IMAGE_EXT = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".tif", ".tiff", ".bmp", ".heic", ".svg", ".ico"}
 
-SELF_TOOLS_DIR = os.path.dirname(os.path.abspath(__file__))
 MIN_TEXT_CHARS_PER_PAGE = 20  # below this a PDF is treated as image-only → visual review
+
+
+def control_paths(root):
+    """Absolute paths of the recognized control files for the package at root."""
+    return {os.path.join(root, CONTROL_DIR, rel) for rel in CONTROL_FILES}
 
 
 class Report:
     def __init__(self, root):
         self.root = root
         self.files = 0
+        self.controls_skipped = []
         self.matches = []        # {"file", "surface", "evidence"}
         self.unscanned = []      # {"file", "surface", "reason"}
         self.visual_review = []  # {"file", "surface", "note"}
@@ -117,7 +137,6 @@ def scan_xml_part(rep, label, surface, data):
             if joined and scan_text(rep, label, surface, joined):
                 found = True
     if not found:
-        # any stray text node not under a known container
         for el in root.iter():
             if el.text and PATTERN.search(el.text):
                 rep.match(label, surface, excerpt(el.text, PATTERN.search(el.text)))
@@ -188,7 +207,6 @@ def run(cmd, stdin_bytes=None):
 
 
 def scan_pdf_bytes(rep, label, data):
-    # 1. raw bytes always (catches uncompressed Info/XMP strings and plain objects)
     scan_bytes(rep, label, "pdf raw bytes", data)
     with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as tf:
         tf.write(data)
@@ -200,7 +218,6 @@ def scan_pdf_bytes(rep, label, data):
 
 
 def scan_pdf_path(rep, label, path):
-    # 2. text layer
     if not rep.tools["pdftotext"]:
         rep.unscan(label, "pdf text layer", "pdftotext not installed")
     else:
@@ -213,7 +230,6 @@ def scan_pdf_path(rep, label, path):
             pages = pdf_page_count(rep, path)
             if pages and len(text.strip()) < MIN_TEXT_CHARS_PER_PAGE * pages:
                 rep.visual(label, "pdf pages", f"little or no text layer ({len(text.strip())} chars / {pages} pages) — image-only content requires visual review")
-    # 3. metadata: Info dictionary and XMP
     if not rep.tools["pdfinfo"]:
         rep.unscan(label, "pdf metadata", "pdfinfo not installed")
     else:
@@ -227,7 +243,6 @@ def scan_pdf_path(rep, label, path):
             rep.unscan(label, "pdf XMP metadata", f"pdfinfo -meta exit {rc}")
         else:
             scan_text(rep, label, "pdf XMP metadata", out.decode("utf-8", errors="replace"))
-    # 4. embedded files
     if rep.tools["pdfdetach"]:
         rc, out, err = run(["pdfdetach", "-list", path])
         if rc == 0:
@@ -307,19 +322,25 @@ def scan_path(rep, root, path):
         scan_file_bytes(rep, rel, path, data, depth=0)
 
 
-def walk(root):
+def walk(root, rep):
+    """Every file under root except the recognized control files at exactly <root>/tools/."""
+    skip = control_paths(root)
     for dirpath, dirnames, filenames in os.walk(root):
-        dirnames[:] = sorted(d for d in dirnames
-                             if d != ".git" and os.path.join(dirpath, d) != SELF_TOOLS_DIR)
+        dirnames[:] = sorted(d for d in dirnames if d != ".git")
         for fn in sorted(filenames):
             if fn == ".DS_Store":
                 continue
-            yield os.path.join(dirpath, fn)
+            p = os.path.join(dirpath, fn)
+            if p in skip:
+                rep.controls_skipped.append(os.path.relpath(p, root))
+                continue
+            yield p
 
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--root", default=os.path.dirname(SELF_TOOLS_DIR), help="directory to scan")
+    default_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    ap.add_argument("--root", default=default_root, help="directory to scan")
     ap.add_argument("--json", help="write a machine-readable report here")
     ap.add_argument("--quiet", action="store_true")
     args = ap.parse_args(argv)
@@ -329,11 +350,12 @@ def main(argv=None):
         print(f"LINT ERROR — root is not a directory: {root}")
         return 2
     rep = Report(root)
-    for p in walk(root):
+    for p in walk(root, rep):
         scan_path(rep, root, p)
 
-    out = {"root": root, "files_scanned": rep.files, "status": rep.status, "tools": rep.tools,
-           "matches": rep.matches, "unscanned": rep.unscanned, "visual_review": rep.visual_review}
+    out = {"root": root, "files_scanned": rep.files, "controls_skipped": rep.controls_skipped,
+           "status": rep.status, "tools": rep.tools, "matches": rep.matches,
+           "unscanned": rep.unscanned, "visual_review": rep.visual_review}
     if args.json:
         with open(args.json, "w") as f:
             json.dump(out, f, indent=2)
@@ -341,7 +363,7 @@ def main(argv=None):
 
     if not args.quiet:
         print(f"root: {root}")
-        print(f"files scanned: {rep.files}")
+        print(f"files scanned: {rep.files}; recognized control files skipped: {len(rep.controls_skipped)}")
         for m in rep.matches:
             print(f"  MATCH    {m['file']} [{m['surface']}]: {m['evidence']}")
         for u in rep.unscanned:

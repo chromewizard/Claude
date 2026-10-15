@@ -1,17 +1,22 @@
 #!/usr/bin/env python3
 """Read-only verification of a mirror against a TRUSTED manifest.
 
-Never writes. Exit 0 only when every manifest entry exists with the recorded
-size and SHA-256, no payload file is missing, and no unexpected payload file is
-present. Control-code digests recorded in the manifest are checked when the
-mirror carries a tools/ directory.
+Never writes. Exit 0 only when:
+  - the manifest's own hash matches --expect-manifest-sha256 (when given);
+  - every payload entry exists with the recorded size and SHA-256;
+  - no payload file is missing and no unexpected payload file is present —
+    "payload" is every file under the root except the recognized control
+    files at exactly <root>/tools/ (nested directories named "tools" are
+    payload; unlisted files inside <root>/tools/ are reported as EXTRA);
+  - every control file pinned in the manifest is present and matches,
+    unless --payload-only is given (then controls are not required, but any
+    that are present must still match).
 
 Usage:
   python3 tools/verify_manifest.py --manifest /trusted/manifest.json --root /path/to/mirror
-         [--expect-manifest-sha256 HEX] [--json OUT.json]
+         [--expect-manifest-sha256 HEX] [--payload-only] [--json OUT.json]
 
-Pass --expect-manifest-sha256 with the hash pinned in the handoff so a tampered
-or regenerated manifest is rejected before any file is compared.
+The control-file policy is identical to build_manifest.py and lint.py.
 """
 import argparse
 import hashlib
@@ -19,7 +24,10 @@ import json
 import os
 import sys
 
-EXCLUDED = {"manifest.json", "MANIFEST.md", ".DS_Store"}
+CONTROL_DIR = "tools"
+CONTROL_FILES = ("lint.py", "lint.sh", "build_manifest.py", "verify_manifest.py",
+                 os.path.join("tests", "run_probes.py"))
+EXCLUDED_NAMES = {"manifest.json", "MANIFEST.md", ".DS_Store"}
 
 
 def sha256(path):
@@ -35,13 +43,16 @@ def main(argv=None):
     ap.add_argument("--manifest", required=True)
     ap.add_argument("--root", required=True)
     ap.add_argument("--expect-manifest-sha256")
+    ap.add_argument("--payload-only", action="store_true",
+                    help="do not require the pinned control files to be present")
     ap.add_argument("--json")
     args = ap.parse_args(argv)
 
     root = os.path.abspath(args.root)
     mpath = os.path.abspath(args.manifest)
-    result = {"root": root, "manifest": mpath, "ok": False, "manifest_sha256": None,
-              "verified": [], "mismatched": [], "missing": [], "extra": [], "controls": []}
+    result = {"root": root, "manifest": mpath, "mode": "payload-only" if args.payload_only else "full",
+              "ok": False, "manifest_sha256": None, "verified": [], "mismatched": [], "missing": [],
+              "extra": [], "controls": []}
 
     if not os.path.isfile(mpath):
         print(f"VERIFY ERROR — manifest not found: {mpath}")
@@ -53,6 +64,7 @@ def main(argv=None):
     with open(mpath) as f:
         manifest = json.load(f)
 
+    # payload entries
     expected = {e["path"]: e for e in manifest.get("files", [])}
     for rel, e in sorted(expected.items()):
         p = os.path.join(root, rel)
@@ -66,32 +78,41 @@ def main(argv=None):
         else:
             result["verified"].append(rel)
 
+    # unexpected payload files: everything except the recognized control files at <root>/tools/
+    control_abs = {os.path.join(root, CONTROL_DIR, c) for c in CONTROL_FILES}
     for dirpath, dirnames, filenames in os.walk(root):
-        dirnames[:] = sorted(d for d in dirnames if d not in (".git", "tools"))
+        dirnames[:] = sorted(d for d in dirnames if d != ".git")
         for fn in sorted(filenames):
-            if fn in EXCLUDED:
+            p = os.path.join(dirpath, fn)
+            rel = os.path.relpath(p, root)
+            if fn in EXCLUDED_NAMES and dirpath == root:
                 continue
-            rel = os.path.relpath(os.path.join(dirpath, fn), root)
+            if p in control_abs:
+                continue
             if rel not in expected:
                 result["extra"].append(rel)
 
-    for c in manifest.get("controls", []):
+    # pinned control files
+    pinned = manifest.get("controls", [])
+    for c in pinned:
         p = os.path.join(root, c["path"])
         if os.path.isfile(p):
             actual = sha256(p)
-            result["controls"].append({"path": c["path"], "ok": actual == c["sha256"], "actual": actual})
+            result["controls"].append({"path": c["path"], "state": "ok" if actual == c["sha256"] else "MISMATCH",
+                                       "actual": actual})
         else:
-            result["controls"].append({"path": c["path"], "ok": None, "actual": None})
+            result["controls"].append({"path": c["path"], "state": "ABSENT", "actual": None})
+    control_fail = any(c["state"] == "MISMATCH" for c in result["controls"]) or \
+        (not args.payload_only and any(c["state"] == "ABSENT" for c in result["controls"]))
 
-    bad_controls = [c for c in result["controls"] if c["ok"] is False]
-    result["ok"] = not (result["missing"] or result["mismatched"] or result["extra"] or bad_controls)
+    result["ok"] = not (result["missing"] or result["mismatched"] or result["extra"] or control_fail)
 
     if args.json:
         with open(args.json, "w") as f:
             json.dump(result, f, indent=2)
             f.write("\n")
 
-    print(f"root: {root}")
+    print(f"root: {root}  mode: {result['mode']}")
     print(f"manifest: {mpath}  sha256 {result['manifest_sha256']}  version {manifest.get('version')}")
     print(f"verified {len(result['verified'])} / {len(expected)} payload files")
     for m in result["mismatched"]:
@@ -101,8 +122,7 @@ def main(argv=None):
     for x in result["extra"]:
         print(f"  EXTRA    {x}")
     for c in result["controls"]:
-        state = "ok" if c["ok"] else ("MISMATCH" if c["ok"] is False else "absent")
-        print(f"  control  {c['path']}: {state}")
+        print(f"  control  {c['path']}: {c['state']}")
     print("VERIFY OK — mirror matches the trusted manifest" if result["ok"] else "VERIFY FAIL — mirror does not match the trusted manifest")
     return 0 if result["ok"] else 1
 

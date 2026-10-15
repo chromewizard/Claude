@@ -1,70 +1,75 @@
 # Gating decisions — for Ian
 
-Each item blocks something specific. Where a *default* is stated it is a folder-structure or wording default only; **silence never settles a substantive technical, legal or factual claim** — those stay open until answered. Reply "D2 default" etc. to confirm, or give the alternative.
+Each item blocks something specific. Where a *default* is stated it is a folder-structure or wording default only; **silence never settles a substantive technical, legal or factual claim** — those stay open until answered. Reply "D2 …" etc. with the answer.
 
 ## D1 — "Seed Round" vs "Capital Readiness" → RESOLVED (Ian, relayed by Lyra 14 Oct)
 
-Ian permitted a **separate Seed Round folder** while **preserving the Capital Readiness originals**. The ladder stands: Capital Readiness ($60K SAFE, 3 months, "not a seed round", unchanged) → Seed Round (next raise; amounts and terms **unsettled**) → Series A. Routine folder work under this decision needs no further approval; Seed amounts, terms and release readiness do.
+Ian permitted a **separate Seed Round folder** while **preserving the Capital Readiness originals**. The ladder stands: Capital Readiness ($60K SAFE, 3 months, "not a seed round", unchanged) → Seed Round (next raise; amounts and terms **unsettled**) → Series A. Routine folder work needs no further approval; Seed amounts, terms and release readiness do.
 
-## D2 — How the three research threads are presented → OPEN (proposed organizing hypothesis, not a default)
-
-Three current documents name three different first modules:
+## D2 — How the research threads are presented → OPEN (proposed organizing hypothesis, now with its evidence)
 
 | Document | First module named |
 |---|---|
 | Oct-13 deck / one-pager | Floyd "Sparky" Sweet's solid-state design (vacuum triode amplifier) |
-| Physical Architecture & Baseline Model v1.3 (Oct 5); energywave.ai | A conditioned ferrite specimen |
+| Physical Architecture & Baseline Model v1.3 (Oct 5); energywave.ai | A conditioned strontium-ferrite specimen in the Sweet lineage |
 | xTech Search 10 white paper (submitted Oct 9) | MIM-diode / Casimir-cavity metrology (Moddel et al.; Maclay) |
-| Technical Prospectus v1 §6.5 (packet version) | conditional: if the "mid-1980s solid-state design" is Forward's charged foliated conductor, it is a one-shot store — test charge–discharge accounting, not continuous output |
+| Technical Prospectus v1 §6 (Sept 7, DataRoom) | Gate 1 = **1A** replicate Moddel et al. · **1B** commission the platform · **1C** "EnergyWave's own structures — internal device concept, to be specified from the founder's notes" under exactly the same protocol |
 
-**Proposed hypothesis (for reconciliation, not adoption by silence):** present a research *portfolio* under one pre-registered gate protocol (net source? colder sink?), with each thread kept separate and labelled by its actual status — mechanism, inputs/outputs, evidence to date, milestone, dependencies. No dependency between threads is asserted until the lead has reconciled the source mechanisms; the r1 wording that the ferrite work "feeds both" is withdrawn as unsupported. **Alternative:** pick one thread and retire the others from all materials, including the website.
+**What the sources already establish:** the September program design placed the founder's own structure as workstream 1C *under the same protocol* as the replication (Prospectus §6.5; Overview slide 12). That is a program structure, not a physical dependency. The r3 Research Program page presents the threads as A (founder's module), B (replication), C (platform) under one gate protocol and asserts no dependency between them.
 
-**Needed from Ian:** which thread is first for investors, which for DoW, and whether the Sweet module and the "mid-1980s solid-state design" on the website are the same thing.
+**Needed from Ian:** (a) which thread leads for investors and which for DoW; (b) whether the Sweet module on the deck and the "mid-1980s solid-state design" on the website are the same thing, and whether it is Forward's charged foliated conductor (a one-shot store by its author's description) or something else; (c) the specimen, magnetization, winding axis and conditioning procedure for thread A — inventor-defined items the reviewers will not supply.
 
 ## D3 — Applicant / entity identity → OPEN; facts now known
 
 | Entity | What the evidence says |
 |---|---|
-| **EnergyWave, Inc.** (Delaware C-corp) | Named as the operating company on the deck in the present tense. Formation: counsel had four open confirmations on Oct 5–8 with an Oct-14 target; **no primary evidence of formation exists in the inventory**. |
-| **McLean Capital Development LLC** (Wyoming, Filing ID 2025-001612265) | The xTech applicant of record. Active, good standing (reinstated 2026-06-12); Ian is 100% member, President and Sole Member per the signed 2026-06-23 certificate. Ian approved this applicant ("Yes, it is correct"). |
-| **McLean Companies LLC** (California) | Named on the deck as Ian's company ("founder, McLean Companies LLC"). Distinct from the Wyoming LLC. |
-| **GovThink** (501(c)(3), "in formation") | Counsel package dated Aug 2026 exists; filing status unknown. |
-| 1988 Delaware "EnergyWave Inc." #2149394 | Ian asked counsel to investigate whether it is connected to him; ownership not asserted. |
+| **EnergyWave, Inc.** (Delaware C-corp) | Named on the deck in the present tense. Counsel (Trinh Truong) had four open confirmations on Oct 5 with an Oct-14 target; **no primary evidence of formation is in the package**. |
+| **McLean Capital Development LLC** (Wyoming, Filing ID 2025-001612265) | The xTech applicant of record. Filed 12 Feb 2025; Active, good standing (reinstated 12 Jun 2026); Ian 100% member, President, Sole Member (certificate 23 Jun 2026). Ian approved it as applicant. |
+| **McLean Companies LLC** (California) | Ian's existing company; letterhead on the August white paper; `ian@mcleancompanies.com`. |
+| **GovThink Institute** (501(c)(3), proposed) | Counsel package Aug 2026 (client-prepared); EIN not obtained; determination not applied for; domain .org in the package vs .com per Ian. |
+| 1988 Delaware "EnergyWave Inc." #2149394 | Ian asked counsel to investigate; ownership not asserted. |
 
-**Needed from Ian:** (a) Is EnergyWave, Inc. formed — date and Delaware file number? (b) Confirm the applicant mapping above and the intended relationship between the three McLean/EnergyWave entities for the package. (c) Answers to counsel's four questions. Until answered, every package states the entity status as *unverified as of the release date* and quotes the applicant exactly as the submitted record does (McLean Capital Development LLC; project name EnergyWave).
+**Needed from Ian:** (a) Was EnergyWave, Inc. formed — date and Delaware file number? (b) Confirm the entity mapping above for the package. (c) Answers to counsel's four questions (sole shareholder; CEO/Secretary/CFO; shares authorized/issued/reserved; C-corp rationale). (d) Does a pre-seed SAFE already exist? The September DD checklist lists "Pre-seed SAFE(s) and terms — Have". Until answered, every package states entity status as *unverified as of the release date* and quotes the applicant exactly as the submitted record does.
 
 ## D4 — Credentials, exactly as they will be checked → OPEN
 
-Evidence on file:
-- The September ledger (E2, Run 2) verified from MIT primary sources: Crunkleton — Ph.D. Mechanical Engineering, MIT, 1987; co-inventor of the Boreas cycle; co-founded Boreas, Inc. 1988 and served as president; B100 cryocooler R&D 100 award 1994. **Not verified:** his M.D. (UMass), the Hardesty LLC partnership, the acquisition/exit. The Oct-13 deck states all three.
-- Roster G6 (Raise Model): Sarfatti bio wording must be "trained under Hans Bethe at Cornell; Ph.D. UC Riverside" — **not** "Ph.D. under a Nobel laureate". The Oct-13 deck's wording ("B.A. physics, Cornell — studied under Hans Bethe, Nobel laureate…") is consistent with that rule; keep it.
-- Ian: the Oct-8 review flagged the website's earned-degree claim as unsupported. The deck says *"M.S. CS, UC Irvine (quantum coursework)"*; the packet-version Overview slide 16 says *"M.S. in Computer Science with quantum-computing coursework"*; the standalone Overview omits it. **Needed:** the exact verifiable wording (conferred vs. coursework; year).
-- The ledger (A6, 2026-09-18) records permission to name advisors publicly as **BLOCKED**; Roster H5–H7 say "Confirm terms / Rewrite bio / Confirm". **Needed:** written consent from Story, Sarfatti, Crunkleton, Novak and Majewski to be named in the stated roles.
+- **Crunkleton:** MIT Ph.D. 1987, Boreas founding, R&D 100 award verified from MIT primary sources (Sept); **M.D. (UMass), Hardesty partnership, "CEO eight years, through acquisition"** not verified — all three are on the deck.
+- **Sarfatti:** bio line verified 11 Sept; wording rule "trained under Hans Bethe at Cornell; Ph.D. UC Riverside" — the deck complies. Title changed from co-founder (earlier documents) to Physics advisor (deck): consent to the current title not on file.
+- **Ian:** the Oct-8 review flagged the website's earned-degree claim as unsupported; the deck says "M.S. CS, UC Irvine (quantum coursework)". **Needed:** exact wording from a diploma or transcript (conferred vs. coursework; year).
+- **Consents:** none on file for Story, Sarfatti, Crunkleton, Novak, Majewski; the September ledger recorded permission to name advisors as BLOCKED.
 
-**Default until answered:** `05_Team/` reproduces slide 12 verbatim, marked "verification pending", and nothing is released.
+**Default until answered:** `05_Team/` carries the verification-status page and nothing is circulated.
 
 ## D5 — Spelling, names, contact addresses
 
-- Folder: **"Due Diligence"** (one *l*).
-- **DoW** in new documents; DoD only in historical titles (the DoD white paper) and regulatory citations.
-- **Contact addresses are not normalized.** New outward-facing documents use the contact Ian designates for that document (expected: `ian@energywave.ai`). Historical and submitted records are quoted exactly as they stand — the xTech application uses `ian@mcleancompanies.com` and that stays in any description of the application. No deliverability of any address is assumed. The founder's name is **Ian McLean** (Ian Franklin McLean on legal records); the forbidden label appears nowhere.
+- Folder: **"Due Diligence"** (one *l*). **DoW** in narrative; a government form's own agency name where a field must match it.
+- **Contact addresses are not normalized.** New outward-facing documents use the contact Ian designates (expected `ian@energywave.ai`); historical and submitted records are quoted exactly as they stand (`ian@mcleancompanies.com` on the xTech record). No deliverability is assumed. The founder is **Ian McLean** (Ian Franklin McLean on legal records).
 
 ## D6 — Where the Drive mirror lives
 
-The Shared AI Workspace is owned by a personal Gmail whose handle contains the forbidden label; the handle never appears inside documents and share links do not expose it. Workable now. **Recommendation:** move the mirror to an energywave.ai Google Workspace when it exists.
+The Shared AI Workspace is owned by a personal Gmail whose handle contains the forbidden label; the handle never appears inside documents. Workable now. **Recommendation:** move the mirror to an energywave.ai Google Workspace when it exists.
 
-## D7 — xTech Search 10: post-submission correction → OPEN and TIME-CRITICAL (deadline 2026-10-19 21:00 UTC)
+## D7 — xTech Search 10: corrections approved but not known to be executed → OPEN and TIME-CRITICAL (closes 2026-10-19 21:00 UTC)
 
-The entry is submitted (receipt 2026-10-09 07:33:46Z, ref `3b2a54ce-…`). The submitted paper carries "PRIVATE REVIEW - NOT FOR SUBMISSION" on its cover and six TBD cover fields; the portal company name "EnergyWave.ai" conflicts with the legal applicant; 16 tags are selected against a displayed limit of six; "Previous DoD business: Yes" is supported only by aedan.io / Instagram links; Work Ownership is unanswered; the secondary contact reads "Chip] Story". The profile remained editable on Oct 9. A proposed replacement paper exists (not approved, not uploaded).
+The entry is submitted (receipt 2026-10-09 07:33:46Z, ref `3b2a54ce-…`). **On 9 October (~16:37 UTC) Ian approved seven corrections** — company name McLean Capital Development LLC; Previous DoD business → No; "Chip]" → "Chip"; six tags; replace the paper with the corrected PDF (SHA-256 `90823d62…fea1`, banner and TBDs removed); Capital Raised Total ≈ $10,000 incl. founder; portal capitalization 0 preserved. **At 16:42 UTC they were not executed** (no browser control available to the assistant). Whether they were applied since is not known to this package.
 
-**Needed from Ian, before Oct 19:** whether to replace the attachment and correct the fields (and with which values — founder-inclusive capital total; physical location; the DoD-business answer and its evidence; Chip Story's consent and corrected name), or leave the record as submitted. Either way the DoW package describes the submission exactly as it stands on the release date, with its hash.
+**Needed from Ian:** was the portal updated after 9 Oct? If not, does Ian want the approved corrections applied before the 19 Oct close (by Ian in the browser, or by an assistant with browser control and Ian's authorization)? The DoW submission-record page describes the entry exactly as last observed either way.
 
 ## D8 — Ancestry of the September data room and the workbook
 
-- **Ancestor packet:** the 24-file September ZIP (Run 2), chosen by member-level comparison — it is the 22-file packet plus two members and two updated status files. Both ZIPs stay in the archive with their hashes.
-- **Workbook naming:** a corrected copy of Raise Model v1 is named `EnergyWave_Raise_Model_v1.1-corrected_YYYY-MM-DD.xlsx` with its ancestry (v1 hash) in the ledger. It is **not** called v2 while a historical v2 referenced by the September manifest remains unlocated.
-- **AT posture memo:** three variants exist (M-13); the canonical v0.1 is chosen by content diff, not date.
+- **Ancestor packet:** the 24-file September assembly ZIP (Run 2) — by member-level comparison. **The Investor Overview PPTX and Technical Prospectus DOCX come from the separate `EnergyWave_DataRoom_v1_DRAFT.zip`** (SHA-256 `aab1defd…e50d`), not from the assembly ZIPs (F-LYRA-R2P1).
+- **Workbook naming:** the corrected copy is `EnergyWave_Raise_Model_v1.1-corrected_2026-10-15.xlsx` (v1 ancestry recorded); not "v2" while the historical v2 remains unlocated.
+- **AT posture memo:** three variants with nine sections each; r3 places AT-PDF-1 (`2b08379a…`), the PDF in the main collection's `05 Data Room Drafts`, as the working canonical — **Ian to confirm**.
+- **Physics briefing:** two PDF builds; r3 places PB-2 (`b65ddf5a…`), the file in the main collection's `02 Technical` and on Drive. Its §6 legal/corporate table is historical and superseded by `04_Legal_and_IP`. **Ian to confirm** the canonical build.
 
-## D9 — Mac release location
+## D9 — Mac release location → OPEN
 
-Ian asked for the Due Diligence folder to be available on the **Desktop**. Proposed: `/Users/ian/Desktop/Due Diligence/` as the release mirror, with the source collection untouched at `/Users/ian/Documents/Projects/EnergyWave/`. **Confirm or give the path.**
+Ian asked for the Due Diligence folder on the **Desktop**. Proposed: `/Users/ian/Desktop/Due Diligence/`, with the source collection untouched at `/Users/ian/Documents/Projects/EnergyWave/`. **Confirm or give the path.**
+
+## D10 — Which claims rules govern: the September charter or the October deck → OPEN
+
+The September 2026 charter (adopted 16 Sept; summarized in the packet's Claims_Discipline_Summary) barred three things that the Oct-13 deck and one-pager do: the phrase **"the power supply for [anything]"** (the deck's tagline), **naming the first research module** (Floyd Sweet's design, slide 5), and **naming advisors before written consent** (slide 12). The 8-Oct independent review flagged the live website for the same reasons.
+
+The Oct-13 materials are the team's latest edited positioning and are preserved as approved. The r3 Claims Discipline page keeps the rules that do not conflict (two-question filter; six evidence labels; no device figures; publish both ways) and records the difference rather than hiding it.
+
+**Needed from Ian:** which rule set governs going forward. If the deck's positioning stands, the charter's hard-line list is amended and the website is brought into line with the deck; if the charter stands, a new dated deck and one-pager are produced without the tagline, the module name and the advisor names, and the Oct-13 originals are retained unedited. Consent to name advisors is required under either answer.

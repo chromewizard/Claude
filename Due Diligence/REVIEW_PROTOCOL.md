@@ -8,6 +8,7 @@ The point lead integrates; reviewers find. No reviewer edits a canonical file. R
    `python3 tools/verify_manifest.py --manifest <trusted manifest.json> --root <mirror> --expect-manifest-sha256 <pinned>`
    A mismatch is finding #1 — stop and report it.
 2. Run the forbidden-label scan: `python3 tools/lint.py --root <mirror> --json report.json`. Exit 0 is the only pass; exit 2 (unscanned surface) is reported, not ignored. Note the `visual_review` list — images and image-only PDF pages need a human look.
+3. Read the rendered PDFs as the audience will. Use `src/pages/*.html` only to cite the line of a proposed wording fix; the PDF and its HTML are both in the manifest, and a difference between them is a finding.
 
 ## What to check, in order
 
@@ -16,6 +17,7 @@ The point lead integrates; reviewers find. No reviewer edits a canonical file. R
 3. **Source fidelity** — each fact traces to a row in `SOURCE_LEDGER.md`, and the row's status supports the use (a REPORTED or secondary-summary row cannot support an outward-facing statement of fact). Unsourced is a finding.
 4. **Audience fit** — the Investor package answers *why now, why this team, what does the money buy, what are the gates*. The DoW package answers *who is the applicant, what is the capability, how is it protected (CPI / AT), what are the eligibility facts, what exactly was submitted and when*.
 5. **Freshness** — nothing superseded survives: the expired provisional described as live; "operating company" before formation; DoE assumptions in Army material; advisors in roles they have not confirmed; a reviewer's summary cited as counsel's words.
+6. **Rendering fidelity** — nothing truncated at a page break; tables intact; the footer disclaimer and page numbers on every page; the status line, version string, status tags (Verified · Open · Historical · Draft) and "Sources:" line present and accurate on every rendered page.
 
 ## Finding format — one line each
 

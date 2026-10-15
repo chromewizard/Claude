@@ -1,7 +1,7 @@
 # EnergyWave — Due Diligence (canonical source)
 
-**Status:** Second iteration — controls corrected after GPT/Lyra's r1 audit; ledger reconciled to the 255-file Mac inventory; decisions updated. Nothing here is released.
-**Package version:** `DD-2026-10-14-r2-draft`
+**Status:** Third iteration — the first audience draft. Ten pages rendered in the approved Oct-13 visual system; six originals placed byte-for-byte; five Oct-5 technical notes placed from exact Drive bytes; the Raise Model placed as a corrected copy with its ancestry recorded. The r2 control residuals (F-GPT-R2C1–R2C3) are fixed and probed. Nothing here is released; every substantive item in `DECISIONS.md` stays open until Ian answers it — silence is not approval.
+**Package version:** `DD-2026-10-15-r3-draft`
 **Point lead:** Claude · **Cross-check:** GPT (Lyra / Aura), Antigravity, Grok (Architect, Compliance) · **Authorizations:** Ian McLean
 
 ## What this is
@@ -12,17 +12,20 @@ The September data rooms diverged: same-named ZIPs with 22 vs 24 files; standalo
 
 ## Layout
 
-| Folder | Audience | Holds |
+| Folder / file | Audience | Holds in r3 |
 |---|---|---|
-| `01_Investor/01_Capital_Readiness/` | Investors — now | The $60,000 / 3-month SAFE bridge: deck, one-pager (full and redacted), SAFE summary, use of funds, objectives. The materials say **"Not a seed round"** and stay that way (D1). |
-| `01_Investor/02_Seed_Round/` | Investors — next | The round the bridge is designed to reach. Separate folder permitted by Ian; amounts and terms unsettled. |
-| `01_Investor/03_Series_A/` | Investors — later | Raise Model (corrected copy, ancestry recorded), cap table, Series A deck. |
-| `02_DoW/` | Department of War / defense | xTech Search 10 — the submission as it stands, with its hash; Compartmentalization & Anti-Tamper posture; the DoD white paper; applicant and eligibility facts; GovThink / 501(c)(3). |
-| `03_Technical_Documents/` | Technical reviewers | Physical architecture & baseline model, reviews, source notes, the energy-conservation gate protocol, humanoid power budget. |
-| `04_Legal_and_IP/` | Shared | Recorded filing facts, counsel communications (originals, not summaries), formation evidence, IP agreements bearing on ownership. |
-| `05_Team/` | Shared | Bios exactly as on the Oct-13 deck, with the verification status of every credential and every named-role consent. |
+| `EnergyWave_DD_Reading_Guide_2026-10-15.pdf` | Everyone — read first | How the package is organized, what is verified, what is open, and how to read the status tags. |
+| `EnergyWave_Claims_Discipline_2026-10-15.pdf` | Everyone | The rules every document obeys — two-question filter, evidence labels, no device figures, publish both ways — and the recorded difference between the September charter and the Oct-13 deck (D10). |
+| `01_Investor/01_Capital_Readiness/` | Investors — now | The Oct-13 deck and one-pager, unedited; the Terms and Objectives page. $60,000 SAFE, 3 months, **"not a seed round"** — preserved as written (D1). |
+| `01_Investor/02_Seed_Round/` | Investors — next | Seed Round Structure (DRAFT: gates and tranches; amount and terms open); the September Investor Overview as its historical ancestor. Separate folder permitted by Ian (D1). |
+| `01_Investor/03_Series_A/` | Investors — later | Raise Model v1.1-corrected (one cell changed; every other part byte-identical to v1) and its reading note. Cap table and Series A deck not located. |
+| `02_DoW/` | Department of War / defense | xTech Search 10 submission record as observed 9 Oct (D7, time-critical); Applicant and Eligibility Facts; Compartmentalization & Anti-Tamper Posture v0.1; the August DoD white paper v2.0. |
+| `03_Technical_Documents/` | Technical reviewers | Research Program and Gates (threads A / B / C under one protocol; no dependency asserted); Physical Architecture & Baseline Model v1.3; Technical Prospectus v1; five Oct-5 review and source notes; Key Research Facts (Sept). |
+| `04_Legal_and_IP/` | Shared | Entity, IP and Legal Status — recorded facts; counsel's dated statements quoted from the original messages; agreements bearing on ownership; open items. |
+| `05_Team/` | Shared | Team and Counsel — bios exactly as on the Oct-13 deck, with the verification status of every credential and every consent. |
 | `99_Source_Archive/` | Internal | Pointers (not copies) to untouched originals and their hashes. |
-| `tools/` | Internal | `lint.py` (forbidden-label scan, fail-closed), `build_manifest.py` (author only), `verify_manifest.py` (reviewers and mirrors), `tests/run_probes.py`. |
+| `src/` | Internal — build source | `pages/*.html`, `pages/_style.css`, `assets/wordmark_blue.png`, `render.js`: the exact source of every rendered page. Payload, hash-recorded. |
+| `tools/` | Internal — controls | `lint.py` (forbidden-label scan, fail-closed) · `build_manifest.py` (author only) · `verify_manifest.py` (reviewers and mirrors) · `tests/run_probes.py` (29 probes) · `lint.sh`. The only five files excluded from the payload; anything else inside `tools/` is scanned, and the builder refuses it. |
 
 Shared material (team, legal, technical) lives once and is pulled into the Investor and DoW packages at build time. No hand-copied duplicates.
 
@@ -32,10 +35,12 @@ Shared material (team, legal, technical) lives once and is pulled into the Inves
 2. **Every release has a manifest.** `manifest.json` and `MANIFEST.md`, regenerated only by the author with `tools/build_manifest.py`. A file not in the manifest is not in the release. The manifest also records the digests of the control code in force.
 3. **Claims discipline is the asset.** No document says a device exists, works, or will work. The two-question filter — *what is the net energy source, and where is the colder sink?* — applies to every sentence. Every number is labelled by origin: assumption · calculation · proposed target · company measurement · attributed published result. Adjacent science stays separate from claims of continuous net extraction.
 4. **Forbidden label.** No file may contain the label defined in `tools/lint.py` — in any form: name, handle, path, email, metadata, spreadsheet cell, archive member name. The scan fails closed: a match blocks the build, and so does any surface it could not read. The founder is **Ian McLean** (Ian Franklin McLean on legal records).
-5. **Names and contacts.** Department of War → **DoW** in new documents; "DoD" only in historical titles and regulatory citations. New documents use the contact Ian designates for them; historical and submitted records are quoted exactly as they stand and are never normalized.
+5. **Names and contacts.** Department of War → **DoW** in new documents; "DoD" only in historical titles, in a portal's own field names when quoted, and in regulatory citations. New documents use the contact Ian designates for them; historical and submitted records are quoted exactly as they stand and are never normalized.
 6. **Sources before conclusions.** A reviewer's summary of counsel, a portal, or a registry is cited as a summary. Only the original communication or record supports a statement of what counsel said, what was filed, or what was submitted.
 7. **Dates and versions.** `EnergyWave_<Name>_YYYY-MM-DD.ext` for deliverables; `YYYY-MM-DD_<topic>_<author>_vN.md` for working notes (Council convention). Corrected copies carry their ancestry in `SOURCE_LEDGER.md` and never take a version number that a missing historical file already holds.
 8. **Originals are never edited.** A correction produces a new dated file; the original stays, hash-recorded, in its source location.
+9. **Rendered pages are never edited as PDFs.** Every `EnergyWave_<Name>_2026-10-15.pdf` is generated from `src/pages/<nn>_<Name>.html` by `src/render.js`. A wording fix is made in the HTML and the page re-rendered; the PDF and its source are both in the manifest.
+10. **One visual system.** New pages use the Oct-13 one-pager's system — Liberation Sans, blue rules and table heads, letter-spaced section labels, the wordmark, a footer disclaimer with page numbers — so they sit beside the approved originals without a seam. Each page carries a status line (Confidential — Draft — For Discussion), a version string, status tags (Verified · Open · Historical · Draft) and a "Sources:" line citing ledger rows.
 
 ## Release locations (proposed — pending Ian's approval of D9)
 
@@ -52,8 +57,9 @@ The repository is the only verified release location today. A mirror becomes ver
 
 ```bash
 cd "Due Diligence"
-python3 tools/tests/run_probes.py                   # regression probes for the scanner (19 cases)
+python3 tools/tests/run_probes.py                   # 29 regression probes: scanner, verifier, builder, shared control policy
 python3 tools/lint.py --root .                      # exit 0 OK · 1 match · 2 unscanned surface
+node src/render.js                                  # AUTHOR ONLY — re-renders src/pages/*.html to the paths in their dd-output meta
 python3 tools/build_manifest.py                     # AUTHOR ONLY — regenerates manifest.json / MANIFEST.md
 
 # Reviewer or mirror: never rebuild; verify against the pinned manifest
@@ -62,9 +68,11 @@ python3 tools/verify_manifest.py --manifest /trusted/manifest.json --root /path/
 python3 tools/lint.py --root /path/to/any/collection --json report.json   # e.g. the Mac collection
 ```
 
+`render.js` needs Node 18+, the `playwright` package and a Chromium build (path set in the file). Rendering is deterministic in content, not in bytes: a re-render on another Chromium build can hash differently, which is why the manifest — not a re-render — is the reference.
+
 ## Read next
 
-- `DECISIONS.md` — D1 resolved; D2–D4, D7 (time-critical), D9 open.
-- `SOURCE_LEDGER.md` — every source, where it is, its hash and status; §C maps the Mac inventory.
+- `DECISIONS.md` — D1 resolved; D2, D3, D4, D8, D9, D10 open; **D7 time-critical** (xTech corrections approved 9 Oct, not known to be executed; competition closes 19 Oct 21:00 UTC).
+- `SOURCE_LEDGER.md` — every source, where it is, its hash and status; §C maps the Mac inventory; §E maps each package file to its source bytes.
 - `REVIEW_PROTOCOL.md` — how GPT, Antigravity and Grok return findings.
 - `MANIFEST.md` — what is in this release, byte for byte, and the control code in force.

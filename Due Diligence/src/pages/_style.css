@@ -1,0 +1,32 @@
+/* EnergyWave Due Diligence — page style. Matches the Oct-13 one-pager: Liberation Sans, blue #5B9BE0 rules and table heads, letter-spaced section labels. */
+* { box-sizing: border-box; }
+body { font-family: "Liberation Sans", Arial, Helvetica, sans-serif; color: #1f2933; font-size: 10.2pt; line-height: 1.4; margin: 0; }
+.masthead { display: flex; align-items: flex-end; justify-content: space-between; border-bottom: 2.5px solid #5B9BE0; padding-bottom: 6pt; margin-bottom: 10pt; }
+.masthead img { height: 30pt; }
+.masthead .meta { text-align: right; font-size: 8pt; color: #737B82; line-height: 1.35; }
+.masthead .meta b { color: #0066FF; font-weight: bold; }
+.status { font-size: 7.2pt; letter-spacing: 0.3em; color: #737B82; text-transform: uppercase; margin: 0 0 10pt; }
+.status .flag { color: #B45309; }
+h1 { font-size: 16.5pt; margin: 0 0 4pt; letter-spacing: -0.01em; }
+h1 .sub { color: #5B9BE0; font-weight: normal; }
+.lead { font-size: 10.8pt; margin: 0 0 6pt; }
+.label { color: #5B9BE0; letter-spacing: 0.28em; font-size: 7.8pt; font-weight: bold; text-transform: uppercase; margin: 13pt 0 4pt; }
+p { margin: 0 0 6pt; }
+ul { margin: 0 0 6pt 14pt; padding: 0; } li { margin: 0 0 3pt; }
+table { border-collapse: collapse; width: 100%; font-size: 9.1pt; margin: 2pt 0 6pt; page-break-inside: auto; }
+th { background: #5B9BE0; color: #fff; text-align: left; padding: 3.5pt 6pt; font-weight: bold; }
+td { border-bottom: 1px solid #D8E0E8; padding: 3.5pt 6pt; vertical-align: top; }
+tr:nth-child(even) td { background: #F2F6FB; }
+tr { page-break-inside: avoid; }
+td.r, th.r { text-align: right; white-space: nowrap; }
+.tag { display: inline-block; font-size: 7.2pt; letter-spacing: 0.08em; padding: 1pt 5pt; border-radius: 3px; font-weight: bold; text-transform: uppercase; white-space: nowrap; }
+.ok { background: #E3F1E8; color: #1E6B3A; } .open { background: #FFF1DC; color: #9A4D00; } .hist { background: #ECEFF3; color: #4B5563; } .draft { background: #E6F0FB; color: #1D4ED8; }
+.box { border: 1px solid #D8E0E8; border-left: 4px solid #5B9BE0; background: #F2F6FB; padding: 7pt 9pt; margin: 6pt 0 8pt; }
+.box.warn { border-left-color: #B45309; background: #FFF8EE; }
+.quote { border-left: 3px solid #C9DCF2; padding-left: 9pt; color: #334155; font-style: italic; margin: 4pt 0 8pt; }
+.muted { color: #737B82; font-size: 8pt; }
+.sources { margin-top: 12pt; padding-top: 5pt; border-top: 1px solid #D8E0E8; font-size: 7.6pt; color: #737B82; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 10pt; }
+.pb { page-break-before: always; }
+h2 { font-size: 12pt; margin: 12pt 0 4pt; }
+.num { font-size: 20pt; color: #0066FF; font-weight: bold; }

@@ -17,8 +17,11 @@ import sys
 
 TOOLS = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(TOOLS)
-PACKAGE_VERSION = "DD-2026-10-14-r2-draft"
+PACKAGE_VERSION = "DD-2026-10-15-r3-draft"
 SKIP_FILES = {"manifest.json", "MANIFEST.md", ".DS_Store"}
+# Shared control-file policy. Keep identical in lint.py and verify_manifest.py:
+# only these files at exactly <root>/tools/ are controls; everything else is payload.
+CONTROL_DIR = "tools"
 CONTROL_FILES = ["tools/lint.py", "tools/lint.sh", "tools/build_manifest.py", "tools/verify_manifest.py",
                  "tools/tests/run_probes.py"]
 
@@ -32,14 +35,19 @@ def sha256(path):
 
 
 def main():
+    control_abs = {os.path.join(ROOT, c) for c in CONTROL_FILES}
     entries = []
     for dirpath, dirnames, filenames in os.walk(ROOT):
-        dirnames[:] = sorted(d for d in dirnames if d != ".git" and os.path.join(dirpath, d) != TOOLS)
+        dirnames[:] = sorted(d for d in dirnames if d != ".git")
         for fn in sorted(filenames):
-            if fn in SKIP_FILES or fn.startswith("."):
-                continue
             p = os.path.join(dirpath, fn)
+            if (fn in SKIP_FILES and dirpath == ROOT) or fn == ".DS_Store" or p in control_abs:
+                continue
             entries.append({"path": os.path.relpath(p, ROOT), "bytes": os.path.getsize(p), "sha256": sha256(p)})
+    stray = [e["path"] for e in entries if e["path"].startswith(CONTROL_DIR + os.sep)]
+    if stray:
+        print("BUILD REFUSED — unrecognized files inside the control directory would become payload: " + ", ".join(stray))
+        return 1
 
     lint = subprocess.run([sys.executable, os.path.join(TOOLS, "lint.py"), "--root", ROOT, "--quiet"],
                           capture_output=True, text=True)

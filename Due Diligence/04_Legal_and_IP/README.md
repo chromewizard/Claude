@@ -1,39 +1,32 @@
 # Legal & IP
 
-**What this is.** The IP and entity record in the order a diligence reader asks: what was filed, what the record shows, what counsel actually said, what is formed, what agreements bear on ownership. Recorded facts and reported conclusions are kept in separate tables and never merged.
+**What this is.** The IP and entity record in the order a diligence reader asks: what is formed, what was filed, what counsel actually said, what agreements bear on ownership, what is open. Recorded facts and counsel's dated statements are kept in separate tables and never merged.
 
-**Status.** Filing number and date have documentary support (M-09). Counsel's advice is so far known only through a secondary AI summary (S-19); the original communications are not yet in the inventory (M-19). Formation of EnergyWave, Inc. has no primary evidence. Two agreements that may bear on IP ownership (M-17) have not been reviewed.
+**Status (r3).** The original counsel messages (Majewski 29 Sept and 5 Oct 2026; Truong 5 Oct 2026) have been read in full from Lyra's legal-originals relay and are quoted verbatim on the page (M-19 resolved). The ALG agreements and the GovThink package have been read (M-17). Formation of EnergyWave, Inc. still has no primary evidence. Nothing here is legal advice.
 
-## A. Recorded facts — supported by located documents
+## Contents
 
-| Fact | Support |
-|---|---|
-| U.S. Provisional Application No. **63/763,998**, filing date **February 27, 2025** | Indexed provisional record, reproduced USPTO pages 5 (missing-parts notice) and 8 (updated filing receipt, mail date 06/24/2025) — M-09, SHA-256 `20552462…bc12` |
-| The record's own index states "None claiming this provisional that I know of" | M-09 p1 — a statement of personal knowledge, not a docket search |
-| A provisional is not examined and becomes abandoned no later than twelve months after filing | M-09 p8 (USPTO receipt text) |
-| McLean Capital Development LLC — Wyoming, Filing ID 2025-001612265, filed 2025-02-12, Active, Ian Franklin McLean 100% / President / Sole Member (certificate 2026-06-23) | M-18 (registry lookup 2026-10-08; signed certificate) |
-| Counsel (Trinh Truong, K&L Gates) raised four formation questions on 2026-10-05 and estimated ~$2,800 with an Oct-14 target | S-08 — a reviewer record that quotes and links the email; original in Outlook (M-19) |
-
-## B. Reported conclusions — attributed to a secondary summary until the original is matched
-
-| Statement in S-19 (Antigravity summary of a 2026-10-05 Majewski message) | Status |
-|---|---|
-| Priority to 63/763,998 cannot be claimed (no non-provisional within the pendency) | **unverified** — consistent with the twelve-month rule in A, but the original message has not been read |
-| Private emails to inventors and investors are not public disclosure under 35 U.S.C. § 102 | unverified |
-| energywave.ai disclosed only high-level marketing; the technical invention remains patentable | unverified |
-| File immediately in the inventor's name; assign to EnergyWave, Inc. on formation | unverified |
-| Coversheet provisional $2,000; non-provisional $10,000–$20,000 | unverified |
-
-None of these appears in an outward-facing document until the dated original communication is in the ledger and the wording is matched to it. Grok's suggested blanket "No patent filed" is **rejected**: a provisional was filed; what is not established is its current docket state and any later filing.
-
-## C. Open — must be obtained before the package can state IP or entity status
-
-| Item | Owner | Why it matters |
+| File | Status | What it is |
 |---|---|---|
-| Original Majewski (Oct 5) and Truong (Oct 5) communications, verbatim with locators | Ian / Lyra (Outlook) | B above; D3 |
-| Current Patent Center docket for 63/763,998 and any later applications | counsel | A is a partial photographed record |
-| EnergyWave, Inc. certificate of incorporation and Delaware file number | Ian + K&L Gates | every "Inc." statement |
-| **ALG IP Agreement – Ian McLean (2025-09-22)** and **ALG NDA (2025-07-21)**; letter of resignation (2025-11) | Ian; counsel | whether any prior agreement encumbers the IP the company intends to own |
-| 1988 Delaware "EnergyWave Inc." #2149394 — connection to Ian to be **investigated by counsel; ownership not established** | counsel | name availability and entity history |
-| GovThink 501(c)(3) — counsel package (Aug 2026) exists; filing status | Ian | the policy arm named on the deck |
-| Trade-secret / AT question list for counsel (AT memo §8: trade-secret program; patent vs. trade secret by bin; Invention Secrecy Act; export classification and deemed exports; CFIUS / FIRRMA; CPI / AT obligations; NDAs by compartment) | counsel | S-09 — place as the open-questions page |
+| `EnergyWave_Entity_IP_and_Legal_Status_2026-10-15.pdf` | DRAFT — 3 pages (r3) | §1 entities as they stand (EnergyWave, Inc. — Open; McLean Capital Development LLC — Verified; McLean Companies LLC — Partial; GovThink Institute — Open; the 1988 Delaware entity — Open). §2 the provisional filing's recorded facts (63/763,998, filed 27 Feb 2025; abandoned after twelve months). §3 patent counsel's five statements of 5 Oct 2026, verbatim, and the 29 Sept confirmation that the firm has filed nothing. §4 agreements bearing on IP (ALG IP Assignment effective 16 Sept 2025 — Exhibit A names the title with **no application number**, contractor signature line blank on the reviewed copy; ALG NDA signed by both; Integrated Protective Rider not independently reviewed). §5 questions on counsel's list. Source: `../src/pages/05_Entity_IP_Legal_Status.html`. |
+
+## What the page does not say, deliberately
+
+- It does not say the intended IP is unencumbered, and does not say it is encumbered — counsel has not reviewed the ALG agreement against the EnergyWave work.
+- It does not restate the secondary AI summary (S-19) or the briefing's §6 table (PB-2); both are superseded by the originals.
+- Grok's suggested blanket "No patent filed" is **rejected**: a provisional was filed; what is not established is any later filing and the current docket.
+
+## Originals — located, not placed
+
+Counsel emails live in Outlook (locators in `SOURCE_LEDGER.md` M-19); the ALG agreements, the rider, the GovThink package and the 63/763,998 record live on the Mac (M-09, M-17). They are quoted, not copied, until Ian approves placing personal-mailbox records and signed agreements in a data room. The DHS NDA (personal) is excluded from every data room.
+
+## Open — before the package can state IP or entity status outward
+
+| Item | Owner |
+|---|---|
+| EnergyWave, Inc. certificate of incorporation and Delaware file number; counsel's four confirmations | Ian + K&L Gates |
+| Current Patent Center docket for 63/763,998; invention record for a coversheet provisional | counsel |
+| ALG IP Assignment, Exhibit A and the rider reviewed against the EnergyWave work; whether the contractor copy was ever countersigned | Ian; counsel |
+| 1988 Delaware "EnergyWave Inc." #2149394 — connection investigated; ownership not asserted | counsel |
+| GovThink 501(c)(3) — formation vs exemption application; EIN | Ian |
+| AT memo §8 answers | counsel |
