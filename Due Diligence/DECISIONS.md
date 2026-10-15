@@ -1,6 +1,6 @@
 # Gating decisions — for Ian
 
-Each item blocks something specific. Where a *default* is stated it is a folder-structure or wording default only; **silence never settles a substantive technical, legal or factual claim** — those stay open until answered. Reply "D2 …" etc. with the answer.
+Each item blocks something specific. Where a *default* is stated it is a folder-structure or wording default only; **silence never settles a substantive technical, legal or factual claim** — those stay open until answered. Reply "D2 …" etc. with the answer. **The complete list of open inputs, including every `[Needs Input from Ian or Chip: …]` tag in the documents, is `NEEDS_INPUT.md`; this file holds the decisions behind them.**
 
 ## D1 — "Seed Round" vs "Capital Readiness" → RESOLVED (Ian, relayed by Lyra 14 Oct)
 
@@ -76,3 +76,13 @@ The September 2026 charter (adopted 16 Sept; summarized in the packet's Claims_D
 The Oct-13 materials are the team's latest edited positioning and are preserved as approved. The r3 Claims Discipline page keeps the rules that do not conflict (two-question filter; six evidence labels; no device figures; publish both ways) and records the difference rather than hiding it.
 
 **Needed from Ian:** which rule set governs going forward. If the deck's positioning stands, the charter's hard-line list is amended and the website is brought into line with the deck; if the charter stands, a new dated deck and one-pager are produced without the tagline, the module name and the advisor names, and the Oct-13 originals are retained unedited. Consent to name advisors is required under either answer.
+
+## D11 — Legacy documents and the people named in them → OPEN (ledger §F, 15 Oct)
+
+The Drive copy of the Mac collection (uploaded 15 Oct) holds the QVE-era material. Three items need an answer before the package can state the company's position on them:
+
+- **The August 2025 paper** "(old copy) Safely Powering Ai Robots with QVED.pdf" (McLean Companies letterhead; L-14) states as fact a 25 kW continuous output, a 3.5 kg package, 50 MJ/kg and "prototypes achieve 99.98% uptime over 3,000 hours", and names a business partner. No reviewed source supports any of it; the August 2026 white paper states there is no prototype. r5 drafts the EnergyWave version — `02_DoW/EnergyWave_Safe_Release_Posture_DRAFT_2026-10-15.pdf` — with those figures withdrawn and the original left unedited as a legacy record (Ian, 15 Oct). **Needed:** was the 2025 paper sent to any office, investor or advisor — to whom and when — so a written supersession note can follow.
+- **The Rossi scope-of-work proposal** of 2 Oct 2024 (L-09): $80,750 across four phases; signature block blank on the copy read. **Needed:** any payment, deliverable or agreement; whether any claim on EnergyWave IP exists — for counsel.
+- **The 2024 "GPT Content" text** (L-04) describes the Haisch–Moddel / Jovion concept and ends in Jovion's product name. **Needed:** was it ever published on energywave.ai or sent to anyone; counsel to note freedom-to-operate around the Haisch–Moddel patents.
+
+**Default until answered:** none of the legacy files is placed; the Safe Release Posture paper stays Draft and does not circulate.

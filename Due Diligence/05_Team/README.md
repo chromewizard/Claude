@@ -2,7 +2,7 @@
 
 **What this is.** The people, exactly as named on slide 12 of the Oct-13 deck — with every credential in verifiable wording and every role confirmed by the person who holds it. Built once and pulled into both packages, so the two can never disagree.
 
-**Status (r4).** The Team and Counsel page is drafted with bios verbatim from the deck and a verification table per person. **Not for circulation:** no written consent to be named is on file for anyone; three items on Crunkleton's line and the exact wording of Ian's degree are unverified (D4).
+**Status (r5).** Consent-request drafts for Story, Sarfatti and Crunkleton are in `../90_Internal_Ops_NOT_FOR_CIRCULATION/` (not sent; Grok review first). The Team and Counsel page is drafted with bios verbatim from the deck and a verification table per person. **Not for circulation:** no written consent to be named is on file for anyone; three items on Crunkleton's line and the exact wording of Ian's degree are unverified (D4).
 
 ## Contents
 

@@ -1,7 +1,7 @@
 # EnergyWave — Due Diligence (canonical source)
 
-**Status:** Fourth iteration — the first audience draft, reconciled to GPT/Lyra's r3 audit (0 blockers; every finding dispositioned in `MANIFEST.md`); r4.1 adds a ledger addendum only, recording Antigravity's independent r3 review and the Mac-wide source scan (S-32, M-21) with no page content changed; r4.2 records the co-founder's name as he uses it, Chip Story, and sources his degrees and ZPEPG role to ZPEPG's public leaders page and his LinkedIn profile (S-33, S-34), on the Team page and in D4. Ten pages rendered in the approved Oct-13 visual system; eight originals placed byte-for-byte, including the xTech paper as submitted and its approved replacement; five Oct-5 technical notes placed from exact Drive bytes; the Raise Model placed as a corrected copy with its saved results intact and its ancestry recorded. Nothing here is released; every substantive item in `DECISIONS.md` stays open until Ian answers it — silence is not approval.
-**Package version:** `DD-2026-10-15-r4.2-draft`
+**Status:** Fifth iteration — every remaining deliverable drafted and the open facts marked in place. r5 adds ten rendered documents: the SAFE term summary; the Seed deck (16 slides, 16:9, in the Oct-13 deck's own system) and Seed one-pager; the Series A readiness outline; the Thread A characterization plan, the humanoid power-budget specification and the measurement-platform error budget; the DoW white paper v2.1 pass; the Safe Release Posture paper that supersedes the August 2025 "QVED" paper on EnergyWave letterhead; and the consolidated register of everything still waiting on an answer. Every open fact or decision is tagged in the document itself with the literal text `[Needs Input from Ian or Chip: …]` and listed once in `NEEDS_INPUT.md`. The ledger gains §F, the legacy QVE-era sources read from the Drive copy of the Mac collection (nothing from them is placed), and `90_Internal_Ops_NOT_FOR_CIRCULATION/` holds the consent requests, the counsel question set, the xTech verification checklist and the mirror instructions — drafts only; nothing is sent. r4–r4.2 history is in `MANIFEST.md`. Nothing here is released; every substantive item stays open until Ian answers it — silence is not approval.
+**Package version:** `DD-2026-10-15-r5-draft`
 **Point lead:** Claude · **Cross-check:** GPT (Lyra / Aura), Antigravity, Grok (Architect, Compliance) · **Authorizations:** Ian McLean
 
 ## What this is
@@ -12,19 +12,21 @@ The September data rooms diverged: same-named ZIPs with 22 vs 24 files; standalo
 
 ## Layout
 
-| Folder / file | Audience | Holds in r3 |
+| Folder / file | Audience | Holds in r5 |
 |---|---|---|
 | `EnergyWave_DD_Reading_Guide_2026-10-15.pdf` | Everyone — read first | How the package is organized, what is verified, what is open, and how to read the status tags. |
+| `EnergyWave_Needs_Input_from_Ian_or_Chip_2026-10-15.pdf` · `NEEDS_INPUT.md` | Ian, Chip, counsel, reviewers | The consolidated register: every open fact and decision, who answers it, where the answer lands. Generated from the `[Needs Input from Ian or Chip: …]` tags. |
 | `EnergyWave_Claims_Discipline_2026-10-15.pdf` | Everyone | The rules every document obeys — two-question filter, evidence labels, no device figures, publish both ways — and the recorded difference between the September charter and the Oct-13 deck (D10). |
-| `01_Investor/01_Capital_Readiness/` | Investors — now | The Oct-13 deck and one-pager, unedited; the Terms and Objectives page. $60,000 SAFE, 3 months, **"not a seed round"** — preserved as written (D1). |
-| `01_Investor/02_Seed_Round/` | Investors — next | Seed Round Structure (DRAFT: gates and tranches; amount and terms open); the September Investor Overview as its historical ancestor. Separate folder permitted by Ian (D1). |
-| `01_Investor/03_Series_A/` | Investors — later | Raise Model v1.1-corrected (one cell changed; every other part byte-identical to v1) and its reading note. Cap table and Series A deck not located. |
-| `02_DoW/` | Department of War / defense | xTech Search 10 submission record (9 Oct record; 14 Oct read-only portal observation; D7 partially closed, still time-critical); the paper as submitted and the approved replacement; Applicant and Eligibility Facts; Compartmentalization & Anti-Tamper Posture v0.1; the August DoD white paper v2.0. |
-| `03_Technical_Documents/` | Technical reviewers | Research Program and Gates (threads A / B / C under one protocol; no dependency asserted); Physical Architecture & Baseline Model v1.3; Technical Prospectus v1; five Oct-5 review and source notes; Key Research Facts (Sept). |
+| `01_Investor/01_Capital_Readiness/` | Investors — now | The Oct-13 deck and one-pager, unedited; the Terms and Objectives page; the SAFE Term Summary (every unset term tagged). $60,000 SAFE, 3 months, **"not a seed round"** — preserved as written (D1). |
+| `01_Investor/02_Seed_Round/` | Investors — next | Seed Round Structure; the Seed Deck (16 slides) and Seed One-Pager — amount, tranche sizes and terms tagged, the model's stored figures labelled as placeholder outputs; the September Investor Overview as the historical ancestor. Separate folder permitted by Ian (D1). |
+| `01_Investor/03_Series_A/` | Investors — later | Raise Model v1.1-corrected (one cell changed; every other part byte-identical to v1), its reading note, and the Series A Readiness Outline. Cap table and Series A deck not located (tagged). |
+| `02_DoW/` | Department of War / defense | xTech Search 10 submission record (D7 partially closed, still time-critical); the paper as submitted and the approved replacement; Applicant and Eligibility Facts; Compartmentalization & Anti-Tamper Posture v0.1; the August DoD white paper v2.0 (historical) and its v2.1 DoW pass (draft, inputs tagged); the Safe Release Posture paper on EnergyWave letterhead, superseding the August 2025 "QVED" paper (which stays in the archive unedited). |
+| `03_Technical_Documents/` | Technical reviewers | Research Program and Gates (threads A / B / C under one protocol; no dependency asserted); the Thread A Characterization Plan, the Humanoid Power Budget Specification and the Measurement Platform Error Budget (drafts; inventor-defined inputs tagged); Physical Architecture & Baseline Model v1.3; Technical Prospectus v1; five Oct-5 review and source notes; Key Research Facts (Sept). |
 | `04_Legal_and_IP/` | Shared | Entity, IP and Legal Status — recorded facts; counsel's dated statements quoted from the original messages; agreements bearing on ownership; open items. |
 | `05_Team/` | Shared | Team and Counsel — bios exactly as on the Oct-13 deck, with the verification status of every credential and every consent. |
+| `90_Internal_Ops_NOT_FOR_CIRCULATION/` | Internal — Ian, Grok | Consent-request drafts (Story, Sarfatti, Crunkleton), the consolidated counsel question set, the xTech attachment-verification checklist (D7), the mirror instructions. Drafts and checklists only: nothing is sent, filed or published by the package; excluded from every audience build. |
 | `99_Source_Archive/` | Internal | Pointers (not copies) to untouched originals and their hashes. |
-| `src/` | Internal — build source | `pages/*.html`, `pages/_style.css`, `assets/wordmark_blue.png`, `render.js`: the exact source of every rendered page. Payload, hash-recorded. |
+| `src/` | Internal — build source | `pages/*.html`, `pages/_style.css` (portrait) and `pages/_slides.css` (16:9 deck), `assets/wordmark_blue.png` and `assets/wordmark_white_wave.png`, `render.js`: the exact source of every rendered document. Payload, hash-recorded. |
 | `tools/` | Internal — controls | `lint.py` (forbidden-label scan, fail-closed) · `build_manifest.py` (author only) · `verify_manifest.py` (reviewers and mirrors) · `tests/run_probes.py` (31 probes) · `lint.sh`. The only five files excluded from the payload; anything else inside `tools/` is scanned, and the builder refuses it. All three tools also ignore the two manifest files at the root and Finder metadata (`.DS_Store`) at any depth. |
 
 Shared material (team, legal, technical) lives once and is pulled into the Investor and DoW packages at build time. No hand-copied duplicates.
@@ -40,7 +42,8 @@ Shared material (team, legal, technical) lives once and is pulled into the Inves
 7. **Dates and versions.** `EnergyWave_<Name>_YYYY-MM-DD.ext` for deliverables; `YYYY-MM-DD_<topic>_<author>_vN.md` for working notes (Council convention). Corrected copies carry their ancestry in `SOURCE_LEDGER.md` and never take a version number that a missing historical file already holds.
 8. **Originals are never edited.** A correction produces a new dated file; the original stays, hash-recorded, in its source location.
 9. **Rendered pages are never edited as PDFs.** Every `EnergyWave_<Name>_2026-10-15.pdf` is generated from `src/pages/<nn>_<Name>.html` by `src/render.js`. A wording fix is made in the HTML and the page re-rendered; the PDF and its source are both in the manifest.
-10. **One visual system.** New pages use the Oct-13 one-pager's system — Liberation Sans, blue rules and table heads, letter-spaced section labels, the wordmark on white — so they sit beside the approved originals without a seam. Every page carries a running header (document title · Confidential — Draft — For Discussion · version) and a footer (disclaimer · source pointer · page numbers); each document carries the masthead and status line on page 1, status tags (Original · Verified · Open · Historical · Draft) wherever a file or fact is characterized, and a "Sources:" block at the end citing ledger rows.
+10. **One visual system.** New pages use the Oct-13 one-pager's system — Liberation Sans, blue rules and table heads, letter-spaced section labels, the wordmark on white — so they sit beside the approved originals without a seam. Every page carries a running header (document title · Confidential — Draft — For Discussion · version) and a footer (disclaimer · source pointer · page numbers); each document carries the masthead and status line on page 1, status tags (Original · Verified · Open · Historical · Draft) wherever a file or fact is characterized, and a "Sources:" block at the end citing ledger rows. Slide decks use the Oct-13 deck's own system (`_slides.css`: 16:9, near-black ground, navy cards, blue letter-spaced labels) with a footer line on every slide in place of the running header.
+11. **Open items are tagged in place.** A fact or decision the package cannot settle is written into the document as the literal text `[Needs Input from Ian or Chip: …]` (or `[Needs Input from counsel via Ian: …]`), never as a blank or a guess, and appears once in `NEEDS_INPUT.md`. A tag that is not in the register is a finding.
 
 ## Release locations (proposed — pending Ian's approval of D9)
 
@@ -48,7 +51,7 @@ Shared material (team, legal, technical) lives once and is pulled into the Inves
 |---|---|---|
 | Canonical | `chromewizard/Claude` · branch `claude/happy-knuth-yqtd41` · `Due Diligence/` | Claude |
 | Mac | `/Users/ian/Desktop/Due Diligence/` (D9); the source collection at `/Users/ian/Documents/Projects/EnergyWave/` is untouched | Claude via Desktop Commander once the Mac is connected; otherwise Antigravity from the release ZIP + manifest |
-| Google Drive | `Ian + Aura — Shared AI Workspace / Due Diligence /` (same sub-tree) | Claude via the Drive connector |
+| Google Drive | `Ian + Aura — Shared AI Workspace / Due Diligence /` (same sub-tree) | Claude creates the text-only skeleton through the Drive connector; binaries by Mac sync (mirror instructions), verified against the manifest |
 | Claude Project | *EnergyWave Ops* — release ZIP + manifest uploaded; this repo linked | Ian (project-knowledge upload) |
 
 The repository is the only verified release location today. A mirror becomes verified only when `tools/verify_manifest.py` passes against the pinned manifest hash from the handoff.
@@ -72,7 +75,8 @@ python3 tools/lint.py --root /path/to/any/collection --json report.json   # e.g.
 
 ## Read next
 
-- `DECISIONS.md` — D1 resolved; D2, D3, D4, D8, D9, D10 open; **D7 partially closed and still time-critical** (corrections 1–4 and 7 observed in the live profile on 14 Oct; the attachment's bytes and cover value unverified; competition closes 19 Oct 21:00 UTC).
-- `SOURCE_LEDGER.md` — every source, where it is, its hash and status; §C maps the Mac inventory; §E maps each package file to its source bytes.
+- `NEEDS_INPUT.md` — the register: 33 items by owner, with T-1 (the xTech attachment, closes 19 Oct 21:00 UTC) first.
+- `DECISIONS.md` — D1 resolved; D2, D3, D4, D8, D9, D10, D11 open; **D7 partially closed and still time-critical** (corrections 1–4 and 7 observed in the live profile on 14 Oct; the attachment's bytes and cover value unverified; competition closes 19 Oct 21:00 UTC).
+- `SOURCE_LEDGER.md` — every source, where it is, its hash and status; §C maps the Mac inventory; §E maps each package file to its source bytes; §F records the legacy QVE-era sources (read, never placed).
 - `REVIEW_PROTOCOL.md` — how GPT, Antigravity and Grok return findings.
 - `MANIFEST.md` — what is in this release, byte for byte, and the control code in force.

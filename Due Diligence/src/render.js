@@ -5,9 +5,11 @@
 //   (Chromium writes a creation date into each PDF, so a re-render never reproduces the old bytes).
 // Each page declares <meta name="dd-output" content="relative/path/to/File.pdf">,
 // <meta name="dd-version" content="DD-…"> and <meta name="dd-title" content="Short document title">.
-// Letter, 0.8in top / 0.7in sides / 0.75in bottom. Every page carries a running header
+// Portrait documents: Letter, 0.8in top / 0.7in sides / 0.8in bottom, a running header on every page
 // (EnergyWave · document title · Confidential — Draft — For Discussion · version) and a footer
-// (disclaimer · source pointer · page numbers). Chromium via Playwright.
+// (disclaimer · source pointer · page numbers).
+// Slide decks declare <meta name="dd-format" content="slides">: 13.333in × 7.5in pages, no margins, no
+// Chromium header or footer — each slide carries its own footer line in the HTML. Chromium via Playwright.
 const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
@@ -31,19 +33,25 @@ const FONT = "font-family:'Liberation Sans',Arial,sans-serif;";
     const out = path.join(root, m[1]);
     const version = (html.match(/<meta name="dd-version" content="([^"]+)">/) || [])[1] || '';
     const title = (html.match(/<meta name="dd-title" content="([^"]+)">/) || [])[1] || path.basename(m[1], '.pdf');
+    const slides = /<meta name="dd-format" content="slides">/.test(html);
     const page = await ctx.newPage();
     await page.goto('file://' + src, { waitUntil: 'load' });
-    await page.pdf({
-      path: out, format: 'Letter', printBackground: true, preferCSSPageSize: false,
-      margin: { top: '0.8in', right: '0.7in', bottom: '0.8in', left: '0.7in' },
-      displayHeaderFooter: true,
-      headerTemplate: `<div style="width:100%;${FONT}font-size:6.6pt;color:#737B82;letter-spacing:0.14em;text-transform:uppercase;padding:0.28in 0.7in 0;display:flex;justify-content:space-between;">
-        <span>EnergyWave · ${esc(title)}</span>
-        <span style="white-space:nowrap;margin-left:12px;">Confidential — Draft — For Discussion · ${esc(version)}</span></div>`,
-      footerTemplate: `<div style="width:100%;${FONT}font-size:7pt;color:#737B82;padding:0 0.7in 0.3in;display:flex;justify-content:space-between;align-items:flex-end;">
-        <span>EnergyWave · ${esc(version)} · Early-stage research venture. Forward-looking statements are not proven capabilities or guarantees. For discussion only; not an offer to sell securities. Sources: cited at the end of this document; register in SOURCE_LEDGER.md.</span>
-        <span style="white-space:nowrap;margin-left:12px;">page <span class="pageNumber"></span> / <span class="totalPages"></span></span></div>`,
-    });
+    if (slides) {
+      await page.pdf({ path: out, width: '13.333in', height: '7.5in', printBackground: true, preferCSSPageSize: true,
+        margin: { top: '0', right: '0', bottom: '0', left: '0' }, displayHeaderFooter: false });
+    } else {
+      await page.pdf({
+        path: out, format: 'Letter', printBackground: true, preferCSSPageSize: false,
+        margin: { top: '0.8in', right: '0.7in', bottom: '0.8in', left: '0.7in' },
+        displayHeaderFooter: true,
+        headerTemplate: `<div style="width:100%;${FONT}font-size:6.6pt;color:#737B82;letter-spacing:0.14em;text-transform:uppercase;padding:0.28in 0.7in 0;display:flex;justify-content:space-between;">
+          <span>EnergyWave · ${esc(title)}</span>
+          <span style="white-space:nowrap;margin-left:12px;">Confidential — Draft — For Discussion · ${esc(version)}</span></div>`,
+        footerTemplate: `<div style="width:100%;${FONT}font-size:7pt;color:#737B82;padding:0 0.7in 0.3in;display:flex;justify-content:space-between;align-items:flex-end;">
+          <span>EnergyWave · ${esc(version)} · Early-stage research venture. Forward-looking statements are not proven capabilities or guarantees. For discussion only; not an offer to sell securities. Sources: cited at the end of this document; register in SOURCE_LEDGER.md.</span>
+          <span style="white-space:nowrap;margin-left:12px;">page <span class="pageNumber"></span> / <span class="totalPages"></span></span></div>`,
+      });
+    }
     await page.close();
     console.log('rendered', m[1]);
   }

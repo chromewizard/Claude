@@ -21,6 +21,8 @@ tr { page-break-inside: avoid; break-inside: avoid; }
 td.r, th.r { text-align: right; white-space: nowrap; }
 .tag { display: inline-block; font-size: 7.2pt; letter-spacing: 0.08em; padding: 1pt 5pt; border-radius: 3px; font-weight: bold; text-transform: uppercase; white-space: nowrap; }
 .ok { background: #E3F1E8; color: #1E6B3A; } .open { background: #FFF1DC; color: #9A4D00; } .hist { background: #ECEFF3; color: #4B5563; } .draft { background: #E6F0FB; color: #1D4ED8; } .orig { background: #E6F2F0; color: #0F5C4A; }
+/* An input the founder or co-founder must supply. Literal, searchable text: "[Needs Input from Ian or Chip: …]". */
+.need { background: #FFF1DC; color: #9A4D00; font-weight: bold; padding: 0 3pt; border-radius: 2px; }
 .box { border: 1px solid #D8E0E8; border-left: 4px solid #5B9BE0; background: #F2F6FB; padding: 7pt 9pt; margin: 6pt 0 8pt; }
 .box.warn { border-left-color: #B45309; background: #FFF8EE; }
 .quote { border-left: 3px solid #C9DCF2; padding-left: 9pt; color: #334155; font-style: italic; margin: 4pt 0 8pt; }

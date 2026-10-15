@@ -1,0 +1,94 @@
+<!doctype html><html><head><meta charset="utf-8">
+<meta name="dd-output" content="03_Technical_Documents/EnergyWave_Thread_A_Characterization_Plan_DRAFT_2026-10-15.pdf">
+<meta name="dd-title" content="Thread A Characterization Plan (draft)">
+<meta name="dd-version" content="DD-2026-10-15-r5-draft">
+<link rel="stylesheet" href="_style.css"></head><body class="compact">
+<div class="masthead"><img src="../assets/wordmark_blue.png" alt="Energy Wave">
+<div class="meta"><b>energywave.ai</b> • Thread A — characterization plan for the founder’s solid-state module<br>15 October 2026 · DD-2026-10-15-r5-draft</div></div>
+<div class="status">Confidential — Draft — For Discussion · <span class="flag">specimen and conditioning are inventor-defined and tagged</span></div>
+
+<h1>Characterize first. Condition second. Claim never, until the accounting closes. <span class="sub">The plan for the first named research module.</span></h1>
+<p class="lead">The Oct-13 deck names Floyd Sweet’s solid-state design — the vacuum triode amplifier — as the first research module, to be characterized, tested against the energy-conservation filter and then extracted or retired. This plan turns that slide into an experiment that can be pre-registered. It follows the baseline protocol in the Physical Architecture &amp; Baseline Model v1.3 and the artifact-exclusion discipline of the September prospectus. It contains no performance claim and no device. Every input only the inventor can supply is tagged.</p>
+
+<div class="label">1 · What is being tested, stated so it can be falsified</div>
+<div class="box"><b>First testable question.</b> Does a defined conditioning procedure produce a repeatable change in magnetic response or in loaded conversion performance of a core-and-coil assembly, compared with a matched control specimen that received a sham treatment? A measured change is engineering. A claim of additional energy requires full closure of the energy balance: E<sub>all inputs</sub> = E<sub>load</sub> + E<sub>other outputs</sub> + ΔU<sub>device</sub>.</div>
+<p>Three physical hypotheses are carried into the plan from the baseline model, each with the observation that would support or retire it:</p>
+<table>
+<thead><tr><th style="width:24%">Hypothesis</th><th>Physical statement</th><th style="width:34%">Discriminating observation</th></tr></thead>
+<tbody>
+<tr><td>H-A1 · Finite stored-energy depletion</td><td>Conditioning leaves the core in a non-equilibrium domain, exchange-bias or strain state; excitation triggers relaxation that releases finite stored energy.</td><td>Output declines with cumulative delivered energy; remanence and coercivity change in step; the integrated surplus is bounded by a measured change in core state. Hysteresis loss is integrated over the core volume, not scaled from a single B–H loop.</td></tr>
+<tr><td>H-A2 · Open-system transduction</td><td>The assembly harvests ambient energy — thermal gradient, RF flux or mechanical vibration.</td><td>Output tracks the ambient term when it is varied or shielded: ΔT sweeps and calorimetry; characterized RF enclosure on and off; vibration isolation on and off.</td></tr>
+<tr><td>H-A3 · Metrology phase skew</td><td>Probe timing deskew in a high-Q circuit distorts the computed real power; an apparent surplus is an instrument artifact.</td><td>Reading changes with frequency as the deskew model predicts; disappears when the whole measurement chain is calibrated and when power is computed from ∫v(t)i(t)dt rather than V<sub>RMS</sub>·I<sub>RMS</sub>·cos θ.</td></tr>
+</tbody></table>
+
+<div class="label">2 · The specimen — inventor-defined items</div>
+<table>
+<thead><tr><th style="width:22%">Item</th><th>Baseline proposal (v1.3, unvalidated)</th><th style="width:38%">Input required</th></tr></thead>
+<tbody>
+<tr><td>Core material and grade</td><td>Sintered strontium ferrite (SrFe<sub>12</sub>O<sub>19</sub>), Grade 8 permanent magnet — tests the Sweet lineage; controls matched in material, geometry and preparation; soft ferrite only as an instrumentation reference.</td><td><span class="need">[Needs Input from Ian or Chip: the actual core — material, grade, supplier, lot; or approval of the off-the-shelf baseline]</span></td></tr>
+<tr><td>Geometry and magnetization</td><td>Toroid OD 75 mm, ID 50 mm, H 20 mm; or block 150 × 100 × 25 mm. Magnetization axis and initial state recorded before anything is wound.</td><td><span class="need">[Needs Input from Ian or Chip: geometry, magnetization direction and state, winding axis relative to magnetization]</span></td></tr>
+<tr><td>Excitation winding N1</td><td>50 turns, AWG 20 enamelled copper — proposed; resistance, AC loss and thermal limit validated against measured current and duty.</td><td>Confirm or replace <span class="need">[Needs Input from Ian or Chip: winding specification if the original design differs]</span></td></tr>
+<tr><td>Pickup winding N2</td><td>200 turns, AWG 24 — proposed; the step-up gives a measurable loaded voltage across the test resistor.</td><td>Confirm or replace</td></tr>
+<tr><td>Load</td><td>50 Ω non-inductive power resistor, Kelvin-sensed; impedance and temperature dependence measured as a component.</td><td>—</td></tr>
+<tr><td>Drive</td><td>Linear RF power amplifier from a synthesized generator; sine, THD &lt; 0.1 %, 10–100 kHz, within the specimen’s characterized range.</td><td>—</td></tr>
+<tr><td>Conditioning procedure</td><td>None selected. No capacitor-discharge, saturation-soak or mechanical protocol has been chosen; the baseline is run unconditioned first.</td><td><span class="need">[Needs Input from Ian or Chip: the intended physical state change, the procedure, and the energy delivered during conditioning]</span></td></tr>
+<tr><td>Historical record</td><td>The design’s documented conversion chain — resonant LC tank, rectifier / charge pump, DC-link buffer, feedback controller — is standard conversion engineering; the mechanism supplying energy above the conventional baseline is the unestablished hypothesis.</td><td><span class="need">[Needs Input from Ian or Chip: the founder’s notes, drawings and any prior measurements on the module, for the pre-registration appendix]</span></td></tr>
+</tbody></table>
+
+<div class="label">3 · The four-step protocol</div>
+<table>
+<thead><tr><th style="width:16%">Step</th><th>What is done</th><th style="width:32%">Rule</th></tr></thead>
+<tbody>
+<tr><td><b>1 · One specimen</b></td><td>Select one concrete hardware specimen and record material, geometry, magnetic orientation and initial state. Photograph, weigh, measure. Prepare matched control specimens from the same lot.</td><td>No measurement before the specimen record is frozen.</td></tr>
+<tr><td><b>2 · Characterize before conditioning</b></td><td>Winding DC and AC resistance; impedance versus frequency; coil coupling; temperature-dependent magnetic response; remanence and coercivity proxies on the control pair.</td><td>Characterization drives can alter the core’s state: record every drive level; monitor initial and final states.</td></tr>
+<tr><td><b>3 · Externally driven, loaded</b></td><td>Excite within the characterized range; deliver power to the fixed resistive load; integrate input and output simultaneously: E<sub>exc</sub> = ∫v<sub>exc</sub>i<sub>exc</sub>dt, E<sub>load</sub> = ∫i<sub>load</sub>²R dt. Map efficiency η = P<sub>load</sub>/P<sub>input</sub> across frequency and drive.</td><td>DC input is ∫v·i, never average V × average I. The deskew check (§4) runs at every frequency used.</td></tr>
+<tr><td><b>4 · Conditioning as a separate experiment</b></td><td>Only after the unconditioned map is complete. Define the intended state change; meter total conditioning energy E<sub>cond</sub> = ∫v<sub>cond</sub>i<sub>cond</sub>dt; apply a sham treatment to the control; repeat Steps 2–3 on both, blinded.</td><td>Pre-registered before the first conditioning run; the comparison is conditioned versus sham, not before versus after.</td></tr>
+</tbody></table>
+
+<div class="label">4 · Energy accounting and the metrology check</div>
+<div class="box"><b>E<sub>all inputs</sub> = E<sub>load</sub> + E<sub>heat and other outputs</sub> + ΔU<sub>device</sub></b>, where U includes energy stored in capacitors, batteries, magnetic and strain states and internal thermal reservoirs. For steady operation (ΔU = 0) the efficiency is η = P<sub>load</sub>/P<sub>total external input</sub>; internal losses are already inside the input and are not added to the denominator. Closed-loop feedback with forward efficiency η<sub>fwd</sub> &lt; 1 and feedback fraction β ≤ 1 has loop gain T = β·η<sub>fwd</sub> &lt; 1 and decays geometrically; self-sustained operation without an independent input or stored-energy depletion does not occur.</div>
+<p><b>Deskew benchmark (v1.3 §3, hypothetical):</b> 10 VA apparent power, +50 mW true dissipation, 2 ns probe timing error — the computed real power reads +49.87 mW at 1 kHz, +37.43 mW at 100 kHz, 0 at ≈398 kHz and −75.66 mW at 1 MHz: a false “generation” reading. The plan therefore calibrates the complete measurement chain, computes power from sampled v(t)i(t), and repeats the loaded map with the probe pair swapped.</p>
+
+<div class="label">5 · Artifact catalogue for a core-and-coil system</div>
+<table>
+<thead><tr><th style="width:22%">Artifact source</th><th>Mechanism</th><th>Discriminating test</th><th style="width:24%">Signature if artifact</th></tr></thead>
+<tbody>
+<tr><td>Probe phase skew</td><td>Timing error between voltage and current probes in a reactive circuit.</td><td>Frequency sweep against the deskew model; probe swap; sampled-waveform integration.</td><td>Apparent surplus grows with frequency; vanishes under full-chain calibration.</td></tr>
+<tr><td>Stored magnetic energy</td><td>Conditioning stores energy in the core state; later excitation releases it.</td><td>Track cumulative delivered energy; remanence and coercivity before and after; volume-integrated hysteresis loss.</td><td>Output decays with delivered energy; core state changes in step.</td></tr>
+<tr><td>Thermal transduction</td><td>A temperature difference across the assembly drives a thermoelectric or thermomagnetic contribution.</td><td>Mapped ΔT; deliberate ±ΔT sweeps; calorimetric heat-flow measurement.</td><td>Output tracks ΔT and vanishes as ΔT → 0.</td></tr>
+<tr><td>Ambient electromagnetic flux</td><td>Windings and core couple to ambient RF; the rectifier converts it to DC.</td><td>Shielded enclosure with characterized attenuation; injected-RF response; spectrum monitoring.</td><td>Output correlates with ambient RF and shielding state. An illustrative 1 μW/cm² over 150 cm² is 150 μW incident — absorbed power requires measured coupling.</td></tr>
+<tr><td>Capacitive and battery storage</td><td>DC-link or buffer elements supply energy stored earlier.</td><td>Full discharge before runs; meter every storage element; account ΔU explicitly.</td><td>Output bounded by stored energy; decays with the storage time constant.</td></tr>
+<tr><td>Instrument offsets and bias</td><td>Meter offsets and bias currents read as output.</td><td>Open-circuit, shorted and dummy-load runs interleaved.</td><td>Same reading with the specimen removed.</td></tr>
+<tr><td>Selection and analysis bias</td><td>Choosing the “good” runs after the fact.</td><td>Pre-registered sequence; blinded conditioned / sham labels; fixed stopping rules; all runs reported.</td><td>Effect shrinks in the full population.</td></tr>
+</tbody></table>
+
+<div class="label">6 · Pre-registered decision rule</div>
+<table>
+<thead><tr><th style="width:16%">Outcome</th><th>Definition</th><th style="width:34%">Consequence</th></tr></thead>
+<tbody>
+<tr><td>Pass</td><td>A repeatable, conditioning-dependent change in loaded conversion or magnetic response, at ≥5σ against the empirical distribution of sham-treated controls, in blinded runs, surviving every catalogue row, in the full pre-registered population — <i>and</i> a closed energy balance that states exactly where any surplus came from.</td><td>Report and data published; the module proceeds to Gate 2 conservation testing (closed-system calorimetry, second laboratory). No performance figure is stated.</td></tr>
+<tr><td>Kill</td><td>No change above the floor; or a change fully explained by one or more catalogue rows; or a surplus accounted for by stored energy or an ambient input.</td><td>Published as a null or as a transducer result; the module is retired publicly, as the deck promises.</td></tr>
+<tr><td>Ambiguous</td><td>A change above the floor that does not survive one row cleanly, or does not reach 5σ in the full population.</td><td>Reported as such; one bounded, pre-registered extension; a second ambiguous outcome is a kill.</td></tr>
+</tbody></table>
+
+<div class="label">7 · Deliverables, in order</div>
+<ol>
+<li>Specimen record and control-pair record (Step 1), signed by the inventor and the measurement lead.</li>
+<li>Pre-characterization report (Step 2) with drive levels and initial / final states.</li>
+<li>Unconditioned loaded-conversion map (Step 3) with the deskew check at every frequency.</li>
+<li>Conditioning pre-registration: intended state change, procedure, energy metering, sham protocol, blinding plan, stopping rules.</li>
+<li>Conditioned-versus-sham report under the decision rule above, with raw data timestamped and hashed at acquisition.</li>
+</ol>
+
+<div class="label">8 · Inputs this plan cannot supply</div>
+<ul>
+<li><span class="need">[Needs Input from Ian or Chip: specimen — material, grade, geometry, magnetization, winding axis]</span></li>
+<li><span class="need">[Needs Input from Ian or Chip: the conditioning procedure and its intended physical state change]</span></li>
+<li><span class="need">[Needs Input from Ian or Chip: the founder’s notes and any prior measurements on the module]</span></li>
+<li><span class="need">[Needs Input from Ian or Chip: whether the deck’s Sweet module and the website’s “mid-1980s solid-state design” are the same device]</span></li>
+<li><span class="need">[Needs Input from Ian or Chip: the measurement lead who signs the specimen record, and the laboratory]</span></li>
+<li><span class="need">[Needs Input from Ian or Chip: whether thread A or thread B runs first on the shared platform — decision D2]</span></li>
+</ul>
+
+<div class="sources">Sources: Oct-13 deck slide 5 (S-01); Physical Architecture &amp; Baseline Model v1.3 §§1–5, 8 (M-14 / S-11); Claude physics review v2 §3 (S-13); Technical Prospectus v1 §§5, 6.4–6.6 (M-05); Research Program and Gates page; DECISIONS.md D2.</div>
+</body></html>

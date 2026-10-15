@@ -1,0 +1,42 @@
+/* EnergyWave Due Diligence — slide style. Matches the Oct-13 deck: near-black ground #0D1117, navy cards #141E2E with
+   hairline borders #1B2A40, blue #3B82F6 letter-spaced labels and highlights, white headings, Carlito. 16:9, 13.333in × 7.5in. */
+@page { size: 13.333in 7.5in; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #0D1117; }
+body { font-family: "Carlito", "Liberation Sans", Arial, sans-serif; color: #C9D1DB; }
+.slide { width: 13.333in; height: 7.5in; padding: 0.68in 0.78in 0.6in; position: relative; overflow: hidden; background: #0D1117; page-break-after: always; break-after: page; }
+.slide:last-child { page-break-after: auto; break-after: auto; }
+.label { color: #3B82F6; letter-spacing: 0.44em; font-size: 10.5pt; text-transform: uppercase; font-weight: bold; margin: 0 0 14pt; }
+h1 { color: #F3F4F6; font-size: 29pt; font-weight: bold; margin: 0 0 13pt; letter-spacing: -0.01em; line-height: 1.15; }
+h1 .b, .b { color: #3B82F6; }
+.lead { font-size: 14.5pt; line-height: 1.42; color: #C9D1DB; margin: 0 0 15pt; max-width: 11.3in; }
+.cards { display: grid; gap: 13pt; } .c2 { grid-template-columns: 1fr 1fr; } .c3 { grid-template-columns: repeat(3, 1fr); } .c4 { grid-template-columns: repeat(4, 1fr); }
+.card { background: #141E2E; border: 1px solid #1B2A40; border-radius: 8px; padding: 15pt 17pt; }
+.card h3 { color: #F3F4F6; font-size: 13.5pt; margin: 0 0 6pt; } .card h3 .b { color: #3B82F6; }
+.card p, .card li { font-size: 11.2pt; line-height: 1.4; color: #B6BFCB; margin: 0; }
+.card ul { margin: 0; padding-left: 14pt; } .card li { margin-bottom: 3pt; }
+.card .num { color: #3B82F6; font-size: 25pt; font-weight: bold; line-height: 1.1; margin-bottom: 4pt; }
+.card .k { color: #3B82F6; font-size: 9.5pt; letter-spacing: 0.3em; text-transform: uppercase; font-weight: bold; margin-bottom: 4pt; }
+.bar { background: #141E2E; border: 1px solid #1B2A40; border-radius: 8px; padding: 13pt 19pt; font-size: 13pt; line-height: 1.4; color: #C9D1DB; margin-top: 13pt; }
+.bar b, .bar .b { color: #3B82F6; }
+.big { font-size: 36pt; font-weight: bold; color: #3B82F6; line-height: 1.05; }
+.muted { color: #7F8A99; font-size: 9.8pt; line-height: 1.35; }
+.need { color: #FBBF24; font-weight: bold; }
+.foot { position: absolute; left: 0.78in; right: 0.78in; bottom: 0.3in; font-size: 8.3pt; color: #6B7482; display: flex; justify-content: space-between; letter-spacing: 0.1em; text-transform: uppercase; }
+table { border-collapse: collapse; width: 100%; font-size: 11.2pt; }
+th { text-align: left; color: #3B82F6; font-size: 9.5pt; letter-spacing: 0.18em; text-transform: uppercase; padding: 6pt 10pt; border-bottom: 1px solid #1B2A40; font-weight: bold; }
+td { padding: 6.5pt 10pt; border-bottom: 1px solid #1B2A40; color: #C9D1DB; vertical-align: top; line-height: 1.35; }
+td.r, th.r { text-align: right; white-space: nowrap; }
+.title { display: flex; flex-direction: column; justify-content: center; height: 100%; padding-bottom: 0.4in; }
+.title img { width: 6.3in; margin-bottom: 0.35in; }
+.title .tag1 { color: #C9D1DB; font-style: italic; font-size: 15pt; margin: 0 0 14pt; }
+.title .sub { color: #F3F4F6; letter-spacing: 0.4em; text-transform: uppercase; font-size: 11pt; font-weight: bold; margin: 0 0 8pt; }
+.title .url { color: #3B82F6; font-size: 11pt; letter-spacing: 0.12em; }
+.conf { position: absolute; right: 0.78in; bottom: 0.72in; text-align: right; color: #6B7482; font-size: 8.5pt; letter-spacing: 0.4em; text-transform: uppercase; line-height: 1.6; }
+.tag { display: inline-block; font-size: 8.6pt; letter-spacing: 0.1em; text-transform: uppercase; padding: 2pt 7pt; border-radius: 3px; font-weight: bold; white-space: nowrap; }
+.tag.ok { background: #153B2A; color: #6EE7B7; } .tag.open { background: #3B2A0F; color: #FBBF24; } .tag.draft { background: #172554; color: #93C5FD; } .tag.hist { background: #1F2937; color: #9CA3AF; }
+.circle { display: inline-flex; width: 0.48in; height: 0.48in; border-radius: 50%; background: #0D1117; border: 1px solid #1B2A40; color: #F3F4F6; font-size: 15pt; font-weight: bold; align-items: center; justify-content: center; margin-right: 10pt; vertical-align: middle; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 18pt; }
+.quote { color: #C9D1DB; font-style: italic; font-size: 13pt; border-left: 3px solid #1B2A40; padding-left: 14pt; margin: 0 0 12pt; }
+.closing h1 { font-size: 34pt; } .closing .c2line { color: #3B82F6; }
+.disc { position: absolute; left: 0.78in; right: 0.78in; bottom: 0.3in; color: #6B7482; font-size: 8.5pt; font-style: italic; }
