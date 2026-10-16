@@ -37,6 +37,10 @@ python3 tools/lint.py --root "$HOME/Documents/EnergyWave Final/Due Diligence/$RE
 
 `VERIFY OK` three times, and `LINT OK`, is the release record; paste the four result lines back to the lead. Finder's `.DS_Store` files are ignored by the verifier at any depth.
 
+## 4a. As actually installed
+
+GPT/Lyra's guarded installation of r5.7 (15 Oct 2026, S-54) placed the canonical bytes under `Review Records/r5.7 Review Candidate/Due Diligence/` in each root rather than under `Due Diligence/$REL/`; the r4.1 snapshot stays under `Due Diligence/`. Either layout is acceptable so long as the verifier passes against the pin and nothing is overwritten.
+
 ## 5. Audience folders
 
 GPT/Lyra assembles the nine audience folders (`Capital Readiness` / `Seed Round` / `Series A` × `Government DoW:DoE:DARPA Package` / `Investor Due Dilligence Packet` / `Technical Package`) from `DELIVERY_MAP.md` after review — copies only, each checked against the hash in `MANIFEST.md` — and rebuilds the collection's `FILE_MANIFEST.json` afterwards. Nothing marked DRAFT or INTERNAL in the map goes in an audience folder.
