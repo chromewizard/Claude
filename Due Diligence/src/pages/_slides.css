@@ -40,3 +40,7 @@ td.r, th.r { text-align: right; white-space: nowrap; }
 .quote { color: #C9D1DB; font-style: italic; font-size: 13pt; border-left: 3px solid #1B2A40; padding-left: 14pt; margin: 0 0 12pt; }
 .closing h1 { font-size: 34pt; } .closing .c2line { color: #3B82F6; }
 .disc { position: absolute; left: 0.78in; right: 0.78in; bottom: 0.3in; color: #6B7482; font-size: 8.5pt; font-style: italic; }
+
+/* Presentation build (EnergyWave Final, src/render.js --final): data-ext elements appear only there and are hidden here; data-int elements are removed there; .proj is the projected text that replaces a marker. */
+[data-ext] { display: none !important; }
+.proj { font-weight: inherit; }

@@ -51,3 +51,7 @@ body.compact .quote { font-size: 9.5pt; margin: 3pt 0 6pt; }
 body.compact table { font-size: 8.9pt; margin-bottom: 4pt; }
 body.compact .label { margin-top: 10pt; }
 body.compact .lead { margin-bottom: 4pt; }
+
+/* Presentation build (EnergyWave Final, src/render.js --final): data-ext elements appear only there and are hidden here; data-int elements are removed there; .proj is the projected text that replaces a marker. */
+[data-ext] { display: none !important; }
+.proj { font-weight: inherit; }

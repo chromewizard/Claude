@@ -1,0 +1,10 @@
+[
+  ["\\[TBD\\]", ""], ["\\[Pending", ""], ["\\bTBD\\b", ""], ["\\bledger\\b", "i"], ["\\bS-\\d{2}\\b", ""], ["\\bM-\\d{2}\\b", ""],
+  ["founder-reported", "i"], ["not verified", "i"], ["unverified", "i"], ["\\bDRAFT\\b", ""], ["Draft — For Discussion", ""],
+  ["no outreach", "i"], ["not asked again", "i"], ["\\bHOLD\\b", ""], ["interpretation flagged", "i"], ["Needs Input", "i"],
+  ["Open Items", ""], ["\\bregister\\b", "i"], ["not located", "i"], ["\\bLyra\\b", ""], ["\\bGrok\\b", ""], ["\\bAntigravity\\b", ""],
+  ["\\bGPT\\b", ""], ["\\bCodex\\b", ""], ["\\bClaude\\b", ""], ["\\(D\\d{1,2}\\)", ""], ["— D\\d{1,2}\\b", ""], ["\\bD\\d{1,2} open\\b", ""],
+  ["NEEDS_INPUT|SOURCE_LEDGER|DECISIONS\\.md|MANIFEST|DELIVERY_MAP|REVIEW_PROTOCOL|90_Internal_Ops|99_Source_Archive", ""],
+  ["DD-2026-10-1\\d", ""], ["not for circulation", "i"], ["verification pending", "i"], ["not formed\\b", "i"], ["placeholder inputs", "i"],
+  ["historical scenario", "i"], ["in orange", "i"], ["\\(founder, 1[456] Oct", ""], ["founder’s statement, ", ""]
+]
