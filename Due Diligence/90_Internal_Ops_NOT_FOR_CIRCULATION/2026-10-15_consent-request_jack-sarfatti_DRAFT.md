@@ -1,7 +1,9 @@
-# HOLD — consent request to Jack Sarfatti — NOT SENT · no outreach authorized (founder, 15 Oct 2026)
+# OVERTAKEN for role consent (founder's own outreach, 16 Oct 2026, S-56) — consent request to Jack Sarfatti — NOT SENT · not to be sent as a consent request · no new outreach
+
+> **16 Oct 2026 (ledger S-56) — overtaken for role consent.** The founder confirmed directly, through GPT/Lyra, that his own outreach to Alan and Jack has happened: “they are good with the positions as they are … Jack has stated he is willing”. Willingness and role consent in his existing team-member role are therefore confirmed by the founder and this draft's consent purpose is closed. It is preserved unsent as a record; it is not to be sent as a consent request, and no new outreach follows from it. The printed-wording question it asks remains open on the Team page, the founder's to raise in his own time. Not a signed agreement; no compensation, IP or employment terms are established.
 
 **From:** Ian McLean, ian@energywave.ai (fully configured in Outlook — founder report, 15 Oct 2026)
-**To:** Jack Sarfatti — the address on file in the ledger, only if and when Ian expressly authorizes outreach; no lookup requested
+**To:** Jack Sarfatti — the address on file in the ledger; not used — the founder has done his own outreach (16 Oct 2026); no lookup requested
 **Subject:** EnergyWave — your title and bio line, for written consent
 
 Jack,
@@ -23,4 +25,4 @@ A one-line reply — the title you want (or none), and yes or an edit to the bio
 Ian
 
 ---
-Grok per-email review: Compliance (22:12:52 PT) and Architect (completed after 22:14 PT), 14 Oct 2026 — “Needs correction”; this r5.2 revision follows the founder's direction on the title, asks permission for the wording, removes the unsourced “on-record” phrase and describes the board as planned; r5.6 follows the founder's 15 Oct confirmation that Jack consented as a team member, not advisor (S-46); not re-reviewed. Sent: [no]. **HOLD (15 Oct 2026, S-44): do not send unless Ian later expressly authorizes outreach; the Grok reviews above and the r5.3 “Ready for Ian once the inputs are in” verdict (S-41) are dated records of exact drafts, not send authority.**
+Grok per-email review: Compliance (22:12:52 PT) and Architect (completed after 22:14 PT), 14 Oct 2026 — “Needs correction”; this r5.2 revision follows the founder's direction on the title, asks permission for the wording, removes the unsourced “on-record” phrase and describes the board as planned; r5.6 follows the founder's 15 Oct confirmation that Jack consented as a team member, not advisor (S-46); not re-reviewed. Sent: [no]. **HOLD (15 Oct 2026, S-44), then OVERTAKEN (16 Oct 2026, S-56): the founder's own outreach has happened and Jack has stated he is willing in his existing team-member role; this draft's consent purpose is closed; it is preserved unsent as a record and is not to be sent as a consent request; no new outreach. The Grok reviews above and the r5.3 “Ready for Ian once the inputs are in” verdict (S-41) are dated records of exact drafts, not send authority.**

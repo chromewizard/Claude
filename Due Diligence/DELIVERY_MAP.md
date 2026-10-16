@@ -21,7 +21,7 @@ No folder is “final submission ready” as a whole on 15 October 2026. GPT/Lyr
 |---|---|---|
 | `EnergyWave_DD_Reading_Guide_2026-10-15.pdf` | DRAFT | Reads correctly only with the package's open items; place when the round's folder is otherwise complete. |
 | `EnergyWave_Claims_Discipline_2026-10-15.pdf` | DRAFT | D10 — which claims rule set governs. |
-| `05_Team/EnergyWave_Team_and_Counsel_2026-10-15.pdf` | DRAFT | D4 — consents (Chip asked; Jack's and Alan's roles founder-confirmed, no signed instrument, no outreach), degree wording and Crunkleton items [TBD]; its own status line says not for circulation. |
+| `05_Team/EnergyWave_Team_and_Counsel_2026-10-15.pdf` | DRAFT | D4 — consents (Chip asked; Jack's and Alan's roles and willingness founder-confirmed after his own outreach, no signed instrument, no new outreach), degree wording and Crunkleton items [TBD]; its own status line says not for circulation. |
 | `04_Legal_and_IP/EnergyWave_Entity_IP_and_Legal_Status_2026-10-15.pdf` | DRAFT | D3 (formation pending with K&L Gates; docket), counsel's review of the ALG agreement. |
 
 ### Set G — government core (every `Government DoW:DoE:DARPA Package`)
@@ -92,6 +92,7 @@ Set G (identical copy).
 |---|---|---|
 | `01_Investor/03_Series_A/EnergyWave_Series_A_Readiness_Outline_DRAFT_2026-10-15.pdf` | DRAFT | B-3 — cap table and deck files or rebuild, which entity's books, validated inputs — all [TBD]. |
 | `01_Investor/03_Series_A/EnergyWave_Raise_Model_v1.1-corrected_2026-10-15.xlsx` | DRAFT | Placeholder inputs and stored v1 results; not validated; proposed targets are not approved. One cell changed from v1 (ancestry in the ledger). |
+| `01_Investor/03_Series_A/EnergyWave_Raise_Model_v1.2_2026-10-16.xlsx` | DRAFT | Derivative of v1.1-corrected (16 Oct 2026): the founder's direction that Chip Story's row be $500,000 W-2 applied and recalculated; otherwise the same placeholder inputs; interpretation flagged ([TBD] — one of the two $500k agreements or additional; [TBD] — time commitment); Mike Wentz noted, not modeled. Travels with the Raise Model Note, never alone. |
 | `01_Investor/03_Series_A/EnergyWave_Raise_Model_Note_2026-10-15.pdf` | DRAFT | Same as the model. |
 | Set I | — | as above |
 
